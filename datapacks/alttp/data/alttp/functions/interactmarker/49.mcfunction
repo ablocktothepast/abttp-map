@@ -1,0 +1,1 @@
+execute if score firstbatch gameplay matches 3 if score 5 quests_2_progress matches 2 run function alttp:gameplay_impulse/bertram_sit

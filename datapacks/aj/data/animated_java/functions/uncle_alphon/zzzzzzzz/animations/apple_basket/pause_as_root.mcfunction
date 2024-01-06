@@ -1,0 +1,1 @@
+tag @s remove aj.uncle_alphon.animation.apple_basket

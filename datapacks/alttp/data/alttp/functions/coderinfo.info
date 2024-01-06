@@ -1,0 +1,27 @@
+#FIND LINKED ENTITY
+tag @s add link_a
+execute as @e[type=silverfish,tag=buzzblobsf] if score @s enemylink = @e[type=armor_stand,tag=buzzblob,limit=1,sort=nearest] enemylink run tag @s add link_b
+
+#REMOVE LINK TAG FOR NEXT ENEMY
+execute if entity @e[type=silverfish,tag=link_b] run tag @s add link_init
+tag @e remove link_b
+tag @e remove link_a
+
+#LINK THEM
+execute store result score @e[type=armor_stand,tag=armos,limit=1,sort=nearest] enemylink run scoreboard players get .global enemylink
+execute store result score @e[type=zombie,tag=armoszo,limit=1,sort=nearest] enemylink run scoreboard players get .global enemylink
+scoreboard players add .global enemylink 1
+
+#DAMAGE INDICATOR
+execute if entity @e[type=silverfish,tag=link_b,nbt={HurtTime:10s}] run particle block redstone_block ~ ~0.7 ~ 0 0 0 0.1 50 force
+
+#LINKY
+tp @s @e[type=silverfish,tag=link_b,limit=1]
+execute if entity @s[tag=link_init] unless entity @e[type=silverfish,tag=link_b] run function alttp:enemy_death
+
+tellraw @p {"score":{"name":"@s","objective":"enemydummy2"}}
+
+#DAMAGING
+execute unless score @s enemydummy2 matches 1.. if entity @p[distance=..1] run scoreboard players set @p set_damage 2
+execute unless score @s enemydummy2 matches 1.. if entity @p[distance=..1] run scoreboard players set @s enemydummy2 30
+execute if score @s enemydummy2 matches 1.. run scoreboard players remove @s enemydummy2 1

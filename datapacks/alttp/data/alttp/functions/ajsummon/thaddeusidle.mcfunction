@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=aj.thaddeus.root] run function animated_java:thaddeus/animations/idle/play

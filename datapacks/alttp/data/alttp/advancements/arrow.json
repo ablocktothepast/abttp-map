@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "eye": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "alttp:use_arrow"
+  }
+}
+

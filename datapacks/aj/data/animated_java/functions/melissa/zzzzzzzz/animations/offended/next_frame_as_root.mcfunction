@@ -1,0 +1,1 @@
+function animated_java:melissa/zzzzzzzz/animations/offended/tick_animation

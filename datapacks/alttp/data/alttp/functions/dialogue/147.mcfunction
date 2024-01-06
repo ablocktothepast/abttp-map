@@ -1,0 +1,28 @@
+execute if score letterIndex dialogue matches 1 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nG\\n\\n"}'}
+execute if score letterIndex dialogue matches 2 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo\\n\\n"}'}
+execute if score letterIndex dialogue matches 3 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo \\n\\n"}'}
+execute if score letterIndex dialogue matches 4 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo a\\n\\n"}'}
+execute if score letterIndex dialogue matches 5 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ah\\n\\n"}'}
+execute if score letterIndex dialogue matches 6 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahe\\n\\n"}'}
+execute if score letterIndex dialogue matches 7 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahea\\n\\n"}'}
+execute if score letterIndex dialogue matches 8 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead\\n\\n"}'}
+execute if score letterIndex dialogue matches 9 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead,\\n\\n"}'}
+execute if score letterIndex dialogue matches 10 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, \\n\\n"}'}
+execute if score letterIndex dialogue matches 11 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, t\\n\\n"}'}
+execute if score letterIndex dialogue matches 12 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, ta\\n\\n"}'}
+execute if score letterIndex dialogue matches 13 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, tak\\n\\n"}'}
+execute if score letterIndex dialogue matches 14 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, take\\n\\n"}'}
+execute if score letterIndex dialogue matches 15 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, take \\n\\n"}'}
+execute if score letterIndex dialogue matches 16 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, take a\\n\\n"}'}
+execute if score letterIndex dialogue matches 17 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, take a \\n\\n"}'}
+execute if score letterIndex dialogue matches 18 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, take a s\\n\\n"}'}
+execute if score letterIndex dialogue matches 19 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, take a se\\n\\n"}'}
+execute if score letterIndex dialogue matches 20 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, take a sea\\n\\n"}'}
+execute if score letterIndex dialogue matches 21 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, take a seat\\n\\n"}'}
+execute if score letterIndex dialogue matches 22.. run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nGo ahead, take a seat!\\n\\n"}'}
+scoreboard players set length dialogue 23
+execute if score letterIndex dialogue matches 1.. as @p at @s run playsound alttp.message weather @s
+scoreboard players set choicedialogue dialogue 0
+data merge storage dialogue {npc:"Bertram"}
+scoreboard players set cutscene dialogue 0
+scoreboard players set firstperson dialogue 0

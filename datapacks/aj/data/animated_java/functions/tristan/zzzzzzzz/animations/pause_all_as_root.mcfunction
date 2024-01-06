@@ -1,0 +1,2 @@
+function animated_java:tristan/zzzzzzzz/animations/walking/pause_as_root
+function animated_java:tristan/zzzzzzzz/animations/idle/pause_as_root

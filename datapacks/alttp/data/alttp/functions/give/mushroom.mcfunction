@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{display:{Name:'{"text":"Mushroom","color":"red","italic":false}',Lore:['{"text":"Used to create Magic Powder","color":"white","italic":false}']},CustomModelData:8} 1

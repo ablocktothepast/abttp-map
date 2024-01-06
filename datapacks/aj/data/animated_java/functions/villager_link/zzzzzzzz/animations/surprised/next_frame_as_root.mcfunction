@@ -1,0 +1,1 @@
+function animated_java:villager_link/zzzzzzzz/animations/surprised/tick_animation

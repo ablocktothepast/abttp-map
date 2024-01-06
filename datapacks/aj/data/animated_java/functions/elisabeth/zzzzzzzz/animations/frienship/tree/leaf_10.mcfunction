@@ -1,0 +1,2 @@
+execute on passengers run function animated_java:elisabeth/zzzzzzzz/animations/frienship/tree/leaf_10_as_bone
+function animated_java:elisabeth/zzzzzzzz/apply_variant/elisabeth_eyes_closed/as_root

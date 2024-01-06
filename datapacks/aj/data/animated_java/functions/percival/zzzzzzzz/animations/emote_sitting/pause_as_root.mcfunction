@@ -1,0 +1,1 @@
+tag @s remove aj.percival.animation.emote_sitting

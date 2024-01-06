@@ -1,0 +1,1 @@
+execute if score # gameplay matches 5 if score townscene gameplay matches 0 run function alttp:gameplay_impulse/townscene

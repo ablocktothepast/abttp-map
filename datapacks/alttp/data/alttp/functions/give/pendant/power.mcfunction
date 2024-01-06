@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{display:{Name:'{"text":"Pendant of Power","color":"blue","italic":false}',Lore:['{"text":"Found in the Desert Palace","color":"white","italic":false}']},CustomModelData:17} 1

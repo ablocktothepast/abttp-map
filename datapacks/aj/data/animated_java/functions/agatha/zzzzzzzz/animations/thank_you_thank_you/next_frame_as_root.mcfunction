@@ -1,0 +1,1 @@
+function animated_java:agatha/zzzzzzzz/animations/thank_you_thank_you/tick_animation

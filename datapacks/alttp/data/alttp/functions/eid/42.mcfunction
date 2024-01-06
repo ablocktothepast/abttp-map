@@ -1,0 +1,1 @@
+function alttp:enemytick/golden_bee_friend

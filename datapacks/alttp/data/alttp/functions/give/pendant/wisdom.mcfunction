@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{display:{Name:'{"text":"Pendant of Wisdom","color":"dark_red","italic":false}',Lore:['{"text":"Found in the Tower of Hera","color":"white","italic":false}']},CustomModelData:16} 1

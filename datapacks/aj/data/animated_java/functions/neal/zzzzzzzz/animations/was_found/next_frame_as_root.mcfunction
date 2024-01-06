@@ -1,0 +1,1 @@
+function animated_java:neal/zzzzzzzz/animations/was_found/tick_animation

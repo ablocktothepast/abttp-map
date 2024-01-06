@@ -1,0 +1,1 @@
+function alttp:enemytick/red_taros

@@ -1,0 +1,1 @@
+execute if score secondbatch gameplay matches 1 if score # gameplay matches 14 if score 6 quests_2_progress matches 4 run function alttp:gameplay_impulse/agathacat_pickup

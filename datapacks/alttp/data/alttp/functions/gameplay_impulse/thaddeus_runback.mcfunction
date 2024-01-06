@@ -1,0 +1,1 @@
+scoreboard players set thaddeusmove2 gameplay 2

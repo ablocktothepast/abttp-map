@@ -1,0 +1,1 @@
+function animated_java:bernard/zzzzzzzz/animations/departure/tick_animation

@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:elowen/zzzzzzzz/apply_variant/elowen_normal_face/as_bone

@@ -1,0 +1,2 @@
+execute if score path cutscene matches 1 run summon area_effect_cloud -229 -4 573 {Duration:-1,Age:-2147483648,WaitTime:0,Tags:["cutscene_aec"],Passengers:[{id:"minecraft:minecart",Invulnerable:1b,Tags:["cutscene_mc"]}]}
+execute if score path cutscene matches 2 run summon villager -318 -1 596 {NoGravity:1b,Silent:1b,Invulnerable:1b,NoAI:1b,Tags:["cutscener"],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:99999,show_particles:0b}]}

@@ -1,0 +1,1 @@
+$bossbar set racetime name "Time: $(racetime)"

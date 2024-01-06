@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.seraphina.root] run function animated_java:seraphina/zzzzzzzz/tick_as_root

@@ -1,0 +1,5 @@
+function animated_java:fiona/zzzzzzzz/animations/idle/pause_as_root
+function animated_java:fiona/zzzzzzzz/animations/walking/pause_as_root
+function animated_java:fiona/zzzzzzzz/animations/running/pause_as_root
+function animated_java:fiona/zzzzzzzz/animations/idle_sitting/pause_as_root
+function animated_java:fiona/zzzzzzzz/animations/emote/pause_as_root

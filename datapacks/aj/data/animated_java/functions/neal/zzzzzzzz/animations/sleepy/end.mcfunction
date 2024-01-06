@@ -1,0 +1,3 @@
+execute if score @s aj.neal.animation.sleepy.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:neal/zzzzzzzz/animations/sleepy/end_loop
+execute if score @s aj.neal.animation.sleepy.loop_mode = $aj.loop_mode.once aj.i run function animated_java:neal/animations/sleepy/stop
+execute if score @s aj.neal.animation.sleepy.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:neal/animations/sleepy/pause

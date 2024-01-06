@@ -1,0 +1,2 @@
+execute if entity @s[tag=aj.agatha.animation.idle] run function animated_java:agatha/zzzzzzzz/animations/idle/tick
+execute if entity @s[tag=aj.agatha.animation.thank_you_thank_you] run function animated_java:agatha/zzzzzzzz/animations/thank_you_thank_you/tick

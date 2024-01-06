@@ -1,0 +1,1 @@
+give @p armor_stand{display:{Name:'{"text":"Fighting Dummy","color":"gray","italic":false}',Lore:['{"text":"Test your damage on this dummy!","color":"white","italic":false}']},CustomModelData:1,EntityTag:{Marker:1b,Tags:["dummy"]},Pose:{Body:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f],Head:[0f,0f,0f]}} 1

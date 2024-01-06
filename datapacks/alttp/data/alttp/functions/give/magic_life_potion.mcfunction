@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{display:{Name:'{"text":"Medicine of Life & Magic","color":"blue","italic":false}',Lore:['{"text":"Restores you to full health and grants magic.","color":"white","italic":false}']},CustomModelData:51} 1

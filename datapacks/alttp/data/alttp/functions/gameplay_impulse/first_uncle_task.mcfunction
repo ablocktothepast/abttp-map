@@ -1,0 +1,1 @@
+scoreboard players set 1 quests_2 1

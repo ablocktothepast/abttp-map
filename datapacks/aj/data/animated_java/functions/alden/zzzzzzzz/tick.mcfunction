@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.alden.root] run function animated_java:alden/zzzzzzzz/tick_as_root

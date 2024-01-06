@@ -1,0 +1,2 @@
+execute if entity @s[tag=aj.elowen.root] run function animated_java:elowen/zzzzzzzz/apply_variant/elowen_normal_face/as_root
+execute if entity @s[tag=!aj.elowen.root] run tellraw @a ["",{"text":"["},{"text":"Animated Java","color":"aqua"},{"text":"] "},{"text":"ERROR ☠","color":"red"},{"text":" > ","color":"gray"},[{"text":"The function","color":"yellow"},{"text":" animated_java:elowen/apply_variant/elowen_normal_face ","color":"blue"},{"text":"must be run"},{"text":" as ","color":"red"},{"text":"the root entity!"}]]

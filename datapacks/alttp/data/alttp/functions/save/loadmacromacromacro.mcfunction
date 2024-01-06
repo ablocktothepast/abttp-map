@@ -1,0 +1,1 @@
+$data modify storage load current set from storage load $(part)

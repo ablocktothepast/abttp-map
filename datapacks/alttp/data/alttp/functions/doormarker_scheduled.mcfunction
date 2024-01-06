@@ -1,0 +1,2 @@
+execute as @p at @s unless score active dialogue matches 1 rotated ~ 0 positioned ^ ^ ^2 as @e[type=marker,tag=doormarker,distance=..2,limit=1,sort=nearest] at @s unless score menu quests matches 1 unless score racetime gameplay matches -100.. run function alttp:doormarker
+tag @s remove scheduled

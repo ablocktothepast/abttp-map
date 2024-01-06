@@ -1,0 +1,7 @@
+#execute positioned -3 -24 4 run execute if entity @p[distance=..1] run tellraw @p ["",{"text":"[#1 - Casper] ","color":"gold"},"Welcome to the Developer Commentary for ALTTP in Minecraft! These will be long strings of text, so get ready to read! Don't worry, you can also disable this feature by interacting on Link's Bed."]
+
+#execute positioned -15 -24 5 run execute if entity @p[distance=..1] run tellraw @p ["",{"text":"[#2 - Casper] ","color":"gold"},"This house is one of the first things Reevz built. He built it and the castle before I even joined the project. He gave up on it, but when we started working together, he regained interest and completed the map."]
+
+#execute positioned -20 -27 28 run execute if entity @p[distance=..1] run tellraw @p ["",{"text":"[#3 - Casper] ","color":"gold"},"Creating bushes was hard, we wanted the sweet berry bush texture without berries, but you couldn't walk through it, it took longer to mine and it didn't prick the player. We had to go through many blocks and retexture the best one."]
+
+#execute positioned 83 -22 -24 run execute if entity @p[distance=..1] run tellraw @p ["",{"text":"[#4 - Casper] ","color":"gold"},"We had to place barriers all over the place to prevent the player from escaping the map's boundaries. This took a lot of trial and error, we even had to try to break our own game, which can be fun at times!"]

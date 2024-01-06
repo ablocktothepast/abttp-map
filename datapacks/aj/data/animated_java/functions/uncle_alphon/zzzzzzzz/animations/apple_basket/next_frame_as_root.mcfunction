@@ -1,0 +1,1 @@
+function animated_java:uncle_alphon/zzzzzzzz/animations/apple_basket/tick_animation

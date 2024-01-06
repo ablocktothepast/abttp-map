@@ -1,0 +1,2 @@
+scoreboard players set @s aj.thaddeus.rig_loaded 1
+execute unless score @s aj.thaddeus.export_version = aj.thaddeus.export_version aj.i at @s run function animated_java:thaddeus/zzzzzzzz/mark_outdated_rig

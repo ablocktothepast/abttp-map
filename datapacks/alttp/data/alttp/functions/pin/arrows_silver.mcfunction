@@ -1,0 +1,2 @@
+$execute unless entity @p[nbt={SelectedItemSlot:8}] run item replace entity @s hotbar.8 with spectral_arrow{display:{Name:'{"text":"Silver Arrow","color":"gray","italic":false}'}} $(arrows)
+$execute if entity @p[nbt={SelectedItemSlot:8}] run item replace entity @s hotbar.8 with ender_eye{CustomModelData:3,display:{Name:'{"text":"Silver Arrow","color":"gray","italic":false}'}} $(arrows)

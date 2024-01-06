@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Age:5800,PickupDelay:32767,Tags:["greenrupee","loot"],Item:{id:"minecraft:diamond",Count:1b}}

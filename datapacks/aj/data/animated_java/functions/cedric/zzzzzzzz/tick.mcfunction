@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.cedric.root] run function animated_java:cedric/zzzzzzzz/tick_as_root

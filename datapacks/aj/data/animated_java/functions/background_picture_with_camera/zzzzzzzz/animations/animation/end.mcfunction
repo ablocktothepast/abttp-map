@@ -1,0 +1,3 @@
+execute if score @s aj.background_picture_with_camera.animation.animation.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:background_picture_with_camera/zzzzzzzz/animations/animation/end_loop
+execute if score @s aj.background_picture_with_camera.animation.animation.loop_mode = $aj.loop_mode.once aj.i run function animated_java:background_picture_with_camera/animations/animation/stop
+execute if score @s aj.background_picture_with_camera.animation.animation.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:background_picture_with_camera/animations/animation/pause

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "player_hurt_entity": {
+            "trigger": "minecraft:player_hurt_entity"
+        }
+    },
+    "rewards": {
+        "function": "alttp:player_hurt_entity"
+    }
+}

@@ -1,0 +1,1 @@
+function animated_java:cedric/zzzzzzzz/animations/walking/tick_animation

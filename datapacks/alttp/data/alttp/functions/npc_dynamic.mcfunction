@@ -1,0 +1,1 @@
+execute if entity @s[tag=erin] run function alttp:npc_dynamic/erin

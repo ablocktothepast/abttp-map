@@ -1,0 +1,1 @@
+function alttp:enemytick/chain_chomp

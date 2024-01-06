@@ -1,0 +1,2 @@
+scoreboard players set @s aj.villager_link.rig_loaded 1
+execute unless score @s aj.villager_link.export_version = aj.villager_link.export_version aj.i at @s run function animated_java:villager_link/zzzzzzzz/mark_outdated_rig

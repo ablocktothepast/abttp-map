@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "hurtPlayer": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:[\"stalfos_knightzo\"]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "alttp:hitbystalfosknight"
+    }
+}

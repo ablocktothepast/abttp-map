@@ -1,0 +1,2 @@
+execute if entity @s[tag=aj.owen.animation.idle] run function animated_java:owen/zzzzzzzz/animations/idle/tick
+execute if entity @s[tag=aj.owen.animation.walking] run function animated_java:owen/zzzzzzzz/animations/walking/tick

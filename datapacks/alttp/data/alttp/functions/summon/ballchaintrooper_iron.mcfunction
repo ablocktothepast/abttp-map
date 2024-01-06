@@ -1,0 +1,3 @@
+summon drowned ~ ~ ~ {Silent:1b,Passengers:[{id:"minecraft:marker",Tags:["ballchaintrooper_iron_test","test"]}],ArmorItems:[{},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:iron_chestplate",Count:1b},{id:"minecraft:iron_helmet",Count:1b}],Health:30f,Attributes:[{Name:generic.max_health,Base:30},{Name:generic.follow_range,Base:10}],Tags:["enemy","ballchaintrooper_iron","noinvis"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:25}},{}]}
+scoreboard players set @e[type=drowned,tag=ballchaintrooper_iron,limit=1,sort=nearest] bct_spincool -1
+scoreboard players set @e[type=drowned,tag=ballchaintrooper_iron,limit=1,sort=nearest] bct_state 1

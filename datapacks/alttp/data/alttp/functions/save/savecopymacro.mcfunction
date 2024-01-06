@@ -1,0 +1,1 @@
+$tellraw @p ["","Your save code has been generated!","\n",{"text":"[Click here to copy]","color":"green","clickEvent":{"action":"copy_to_clipboard","value":"$(result)"},"hoverEvent":{"action":"show_text","contents":["Click to copy your save code for transferring"]}}]

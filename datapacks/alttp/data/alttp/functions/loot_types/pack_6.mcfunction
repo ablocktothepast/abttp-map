@@ -1,0 +1,16 @@
+#FIRST TIME?
+execute unless score 6 prizepacks matches 0.. run scoreboard players set 6 prizepacks 1
+
+#GIVE LOOT
+execute if score 6 prizepacks matches 1 run function alttp:loot/smallmagic
+execute if score 6 prizepacks matches 2 run function alttp:loot/greenrupee
+execute if score 6 prizepacks matches 3 run function alttp:loot/heart
+execute if score 6 prizepacks matches 4 run function alttp:loot/arrow_5
+execute if score 6 prizepacks matches 5 run function alttp:loot/smallmagic
+execute if score 6 prizepacks matches 6 run function alttp:loot/bomb_1
+execute if score 6 prizepacks matches 7 run function alttp:loot/greenrupee
+execute if score 6 prizepacks matches 8 run function alttp:loot/heart
+
+#INCREASE VARIABLE
+scoreboard players add 6 prizepacks 1
+execute if score 6 prizepacks matches 9.. run scoreboard players set 6 prizepacks 1

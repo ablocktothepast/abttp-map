@@ -1,0 +1,1 @@
+scoreboard players set 5 quests_2_progress 2

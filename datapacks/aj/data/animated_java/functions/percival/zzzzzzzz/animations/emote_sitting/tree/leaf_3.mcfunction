@@ -1,0 +1,2 @@
+execute on passengers run function animated_java:percival/zzzzzzzz/animations/emote_sitting/tree/leaf_3_as_bone
+function animated_java:percival/zzzzzzzz/apply_variant/percival_grin/as_root

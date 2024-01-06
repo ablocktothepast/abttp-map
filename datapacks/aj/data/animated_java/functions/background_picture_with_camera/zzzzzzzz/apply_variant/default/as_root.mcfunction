@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:background_picture_with_camera/zzzzzzzz/apply_variant/default/as_bone

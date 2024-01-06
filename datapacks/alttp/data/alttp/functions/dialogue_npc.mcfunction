@@ -1,0 +1,2 @@
+$data merge entity @e[type=text_display,tag=dialogue_nd,limit=1] {text:'[{"text":"\\n"},{"text":"$(npc)"}]'}
+execute if score choicedialogue dialogue matches 1 run data merge entity @e[type=text_display,tag=dialogue_nd,limit=1] {text:'[{"text":"\\n"}]'}

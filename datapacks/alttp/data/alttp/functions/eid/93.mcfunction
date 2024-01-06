@@ -1,0 +1,1 @@
+function alttp:enemytick/red_big_spear_soldier

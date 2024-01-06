@@ -1,0 +1,1 @@
+summon chicken ~ ~ ~ {Tags:["chicken","nolifesteal"]}

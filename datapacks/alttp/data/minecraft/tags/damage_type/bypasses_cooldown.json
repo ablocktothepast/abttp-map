@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "death_message_type": "intentional_game_design",
+  "effects": "burning",
+  "values": [
+    "minecraft:magic",
+    "minecraft:arrow"
+  ]
+}

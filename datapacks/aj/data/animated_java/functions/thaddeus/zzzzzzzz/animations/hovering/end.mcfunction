@@ -1,0 +1,3 @@
+execute if score @s aj.thaddeus.animation.hovering.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:thaddeus/zzzzzzzz/animations/hovering/end_loop
+execute if score @s aj.thaddeus.animation.hovering.loop_mode = $aj.loop_mode.once aj.i run function animated_java:thaddeus/animations/hovering/stop
+execute if score @s aj.thaddeus.animation.hovering.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:thaddeus/animations/hovering/pause

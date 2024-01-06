@@ -1,0 +1,1 @@
+function animated_java:elisabeth/zzzzzzzz/animations/frienship/tick_animation

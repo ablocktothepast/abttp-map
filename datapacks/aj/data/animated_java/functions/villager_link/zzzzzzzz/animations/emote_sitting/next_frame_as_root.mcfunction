@@ -1,0 +1,1 @@
+function animated_java:villager_link/zzzzzzzz/animations/emote_sitting/tick_animation

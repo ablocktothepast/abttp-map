@@ -1,0 +1,1 @@
+$data modify storage load $(part) set value $(current)$(check)

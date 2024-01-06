@@ -1,0 +1,1 @@
+function animated_java:lysander/zzzzzzzz/animations/emote_sitting/tick_animation

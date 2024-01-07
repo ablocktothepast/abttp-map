@@ -29,12 +29,14 @@ tag @e[type=armor_stand,tag=superbombfollow,distance=..2] add active
 
 #CHEST OPENING
 execute rotated ~ 0 positioned ^ ^ ^0.8 run tag @e[type=interaction,tag=chestm,distance=..0.6,limit=1,sort=nearest] add open_sesame
+execute rotated ~ 0 positioned ^ ^ ^0.8 if entity @e[type=interaction,tag=chestm,distance=..0.6,limit=1,sort=nearest] run return 0
 
 ##Dungeon door opening
 execute if entity @e[type=item_display,tag=dungeon_door,distance=..1.5] as @e[type=item_display,tag=dungeon_door,distance=..1.5,limit=1,sort=nearest] at @s run function alttp:dungeon/open_door
 
 ##NPCs / interaction elements
 execute if entity @p[gamemode=adventure] unless entity @e[tag=applebasket,distance=..3] unless score active dialogue matches 1 rotated ~ 0 positioned ^ ^ ^2 as @e[type=marker,tag=interact,distance=..2,limit=1,sort=nearest] unless score menu quests matches 1 unless score racetime gameplay matches -100.. run function alttp:interactmarker
+execute if entity @p[gamemode=adventure] unless entity @e[tag=applebasket,distance=..3] unless score active dialogue matches 1 rotated ~ 0 positioned ^ ^ ^2 as @e[type=marker,tag=interact,distance=..2,limit=1,sort=nearest] unless score menu quests matches 1 unless score racetime gameplay matches -100.. run return 0
 
 ##Apple basket
 execute rotated ~ 0 positioned ^ ^ ^2 as @e[type=armor_stand,tag=applebasket] run function alttp:applebasket_pickup

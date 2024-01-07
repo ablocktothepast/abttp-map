@@ -104,6 +104,8 @@ execute if score id dialogue matches 58 if score bernardfound gameplay matches 1
 execute if score id dialogue matches 58 if score idd dialogue matches 58 run scoreboard players add idd dialogue 1
 execute if score id dialogue matches 59..60 as @e[type=item_display,tag=aj.neal.root] run function animated_java:neal/animations/idle/stop
 execute if score id dialogue matches 59..60 as @e[type=item_display,tag=aj.neal.root] run function animated_java:neal/animations/sleepy/play
+execute if score id dialogue matches 59..60 as @e[type=item_display,tag=aj.neal.root] if score bernardfound gameplay matches 1 if score elisabethfound gameplay matches 1 run function animated_java:neal/animations/sleepy/stop
+execute if score id dialogue matches 59..60 as @e[type=item_display,tag=aj.neal.root] if score bernardfound gameplay matches 1 if score elisabethfound gameplay matches 1 run function animated_java:neal/animations/idle/play
 execute if score id dialogue matches 59..60 run function alttp:dialogue_stop
 execute if score id dialogue matches 59..60 run tp @e[tag=neal] -279 -14 728 180 0
 execute if score id dialogue matches 59 run function alttp:gameplay_impulse/hide_and_seek_found_neal

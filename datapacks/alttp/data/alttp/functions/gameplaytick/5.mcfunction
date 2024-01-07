@@ -51,3 +51,10 @@ execute if score townscene gameplay matches 600 run title @p times 2s 5s 2s
 execute if score townscene gameplay matches 600 run title @a title ["",{"text":"🍂 ","color":"gold"},{"text":"Oakheart Village","color":"dark_green"},{"text":" 🍁","color":"gold"}]
 execute if score townscene gameplay matches 600 run title @a subtitle "Chapter 0"
 execute if score townscene gameplay matches 600.. run scoreboard players set townscene gameplay 0
+
+execute if score townscene gameplay matches 2 run function alttp:animcheck
+execute if score townscene gameplay matches 101 run function alttp:animcheck
+execute if score townscene gameplay matches 201 run function alttp:animcheck
+execute if score townscene gameplay matches 301 run function alttp:animcheck
+execute if score townscene gameplay matches 401 run function alttp:animcheck
+execute if score townscene gameplay matches 540 run function alttp:animcheck

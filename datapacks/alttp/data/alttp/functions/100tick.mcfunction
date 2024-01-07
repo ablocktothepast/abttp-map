@@ -25,9 +25,9 @@ execute at @p as @e[type=marker,tag=cluster,nbt={data:{active:0b}},distance=..64
 execute at @p as @e[type=marker,tag=cluster,nbt={data:{active:1b}},distance=64..] at @s run function alttp:clusters/deactivate
 
 ##NPC Animations
-execute at @p as @e[type=armor_stand,tag=npc,distance=..32] run function alttp:npc_animate
-execute at @p as @e[type=item_display,tag=npc,distance=..32,tag=!aj.rig_root] run function alttp:npc_animate
-execute at @p as @e[type=#animated_java:root,tag=npc,distance=32..] run function alttp:npc_unanimate
+execute at @p as @e[type=armor_stand,tag=npc,distance=..64] run function alttp:npc_animate
+execute at @p as @e[type=item_display,tag=npc,distance=..64,tag=!aj.rig_root] run function alttp:npc_animate
+execute at @p as @e[type=#animated_java:root,tag=npc,distance=64..] run function alttp:npc_unanimate
 
 #OTHER
 kill @e[type=arrow,nbt={inGround:1b}]

@@ -1,1 +1,1 @@
-{"alttp":{"$func":["fov_init","tick","startgame","testerstuff","reset","init"]}}
+{"alttp":{"$func":["fov_init","tick","startgame","testerstuff","reset","init","100tick","40tick","animcheck","interact","dialogue_next"],"gameplaytick":{"$func":["5"]}}}

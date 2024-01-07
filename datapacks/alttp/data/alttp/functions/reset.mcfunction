@@ -111,9 +111,6 @@ scoreboard players set @a flippers 300
 scoreboard objectives remove keys
 scoreboard objectives add keys dummy
 
-scoreboard players set 1 quests_1 0
-scoreboard players set 1 quests_2 0
-
 experience set @p 0 levels
 experience set @p 0 points
 

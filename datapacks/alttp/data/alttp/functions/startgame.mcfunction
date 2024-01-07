@@ -10,6 +10,8 @@ function alttp:intextmarker/0load_oakheart
 
 gamerule sendCommandFeedback false
 
+bossbar set fovinit visible false
+
 ##Fading
 tp @p -310 -14 601
 kill @e[type=area_effect_cloud,tag=begin_aec]

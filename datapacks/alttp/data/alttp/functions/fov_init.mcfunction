@@ -11,34 +11,26 @@ item replace entity @p hotbar.6 with carrot_on_a_stick{display:{Name:'{"text":" 
 item replace entity @p hotbar.7 with carrot_on_a_stick{display:{Name:'{"text":" "}'},CustomModelData:0}
 item replace entity @p hotbar.8 with carrot_on_a_stick{display:{Name:'{"text":" "}'},CustomModelData:0}
 
-execute if score fov_init dummy matches 2 run title @p times 10t 5s 10t
-execute if score fov_init dummy matches 2 run title @a title "Before we begin..."
-execute if score fov_init dummy matches 2 run title @a subtitle "let's choose an FOV..."
-
-execute if score fov_init dummy matches 123 run title @p times 10t 9999s 10t
-execute if score fov_init dummy matches 123 run title @a title "60 / 70 / 85 / 110"
-execute if score fov_init dummy matches 123 run title @a subtitle "Set your FOV to one of these, sneak to continue..."
-execute if score fov_init dummy matches 123 run scoreboard objectives remove fovsneak
-execute if score fov_init dummy matches 123 run scoreboard objectives add fovsneak minecraft.custom:minecraft.sneak_time
-
-execute if score fov_init dummy matches 180 if score @p fovsneak matches 1.. run scoreboard players set fov_init dummy 230
-execute if score fov_init dummy matches 180 run scoreboard players remove fov_init dummy 1
+execute if score fov_init dummy matches 2 run bossbar add fovinit ""
+execute if score fov_init dummy matches 2 run bossbar set fovinit name [{"text":"Scroll","color":"gold"},{"text":" to select | ","color":"white"},{"keybind":"key.sneak"},{"text":" to confirm","color":"white"}]
+execute if score fov_init dummy matches 2 run bossbar set fovinit visible true
+execute if score fov_init dummy matches 2 run bossbar set fovinit players @a
+execute if score fov_init dummy matches 2 run scoreboard players set fov_init dummy 235
 
 execute if score fov_init dummy matches 235 run title @p times 0t 9999s 10t
-execute if score fov_init dummy matches 235 run title @a subtitle "Great, now scroll and sneak to select your choice..."
+execute if score fov_init dummy matches 235 run title @a subtitle "Please select and use one of these FOVs..."
 execute if score fov_init dummy matches 235..299 if score choice fovsneak matches 1 run title @a title ["",{"text":"60","color":"gold"}," / ",{"text":"70","color":"white"}," / ",{"text":"85","color":"white"}," / ",{"text":"110","color":"white"}]
 execute if score fov_init dummy matches 235..299 if score choice fovsneak matches 2 run title @a title ["",{"text":"60","color":"white"}," / ",{"text":"70","color":"gold"}," / ",{"text":"85","color":"white"}," / ",{"text":"110","color":"white"}]
 execute if score fov_init dummy matches 235..299 if score choice fovsneak matches 3 run title @a title ["",{"text":"60","color":"white"}," / ",{"text":"70","color":"white"}," / ",{"text":"85","color":"gold"}," / ",{"text":"110","color":"white"}]
 execute if score fov_init dummy matches 235..299 if score choice fovsneak matches 4 run title @a title ["",{"text":"60","color":"white"}," / ",{"text":"70","color":"white"}," / ",{"text":"85","color":"white"}," / ",{"text":"110","color":"gold"}]
-execute if score fov_init dummy matches 235 run scoreboard players reset @p fovsneak
 execute if score fov_init dummy matches 235 run scoreboard players set choice fovsneak 1
-
-execute if score fov_init dummy matches 235 run scoreboard players reset @p fovsneak
 
 #Scroll detection
 execute if score fov_init dummy matches 235..299 store result score slotselect fovsneak run data get entity @p SelectedItemSlot
 execute if score fov_init dummy matches 235..299 unless score oldslotselect fovsneak = slotselect fovsneak run function alttp:fov_init_slotmove
 
+execute if score fov_init dummy matches 238 run scoreboard players reset @p fovsneak
+execute if score fov_init dummy matches 240 if score @p fovsneak matches 1.. run scoreboard players remove fov_init dummy 3
 execute if score fov_init dummy matches 280 if score @p fovsneak matches 1.. run scoreboard players set fov_init dummy 300
 execute if score fov_init dummy matches 280 run scoreboard players remove fov_init dummy 1
 

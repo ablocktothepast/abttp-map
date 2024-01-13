@@ -36,6 +36,9 @@ execute if score thaddeusmove gameplay matches 1 run setblock -405 -10 680 air
 execute if score thaddeusmove gameplay matches 1 run scoreboard players set 4 quests_2_progress 3
 execute if score thaddeusmove gameplay matches 1 as @e[type=item_display,tag=thaddeus] run function animated_java:thaddeus/animations/running/stop
 execute if score thaddeusmove gameplay matches 1 as @e[type=item_display,tag=thaddeus] run function animated_java:thaddeus/animations/idle/play
+execute if score thaddeusmove gameplay matches 1 run bossbar set questupdate name [{"text":"Quest updated: "},{"text":"A test of agility","color":"gold","bold":true}]
+execute if score thaddeusmove gameplay matches 1 run bossbar set questupdate visible true
+execute if score thaddeusmove gameplay matches 1 run schedule function alttp:questupdatehide 5s
 execute if score thaddeusmove gameplay matches 1 run scoreboard players set thaddeusmove gameplay 0
 
 execute if score racetime gameplay matches -100.. run scoreboard players add racetime gameplay 1

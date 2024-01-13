@@ -318,3 +318,7 @@ tellraw @p "Everything has been initiated!"
 #TESTER STUFF
 scoreboard objectives add testerdetect dummy
 execute as @a at @s unless score @s testerdetect matches -2147483648..2147483647 run function alttp:testerstuff
+
+##Other
+bossbar add questupdate ""
+bossbar set questupdate players @a

@@ -14,3 +14,7 @@ scoreboard players set bertrampoints gameplay 0
 scoreboard players set id dialogue 148
 tag @e[tag=bertram] add npc_focus
 function alttp:dialogue_start
+
+bossbar set questupdate name [{"text":"Quest updated: "},{"text":"A test of knowledge","color":"gold","bold":true}]
+bossbar set questupdate visible true
+schedule function alttp:questupdatehide 5s

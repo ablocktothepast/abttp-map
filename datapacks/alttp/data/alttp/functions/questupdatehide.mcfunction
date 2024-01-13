@@ -1,0 +1,1 @@
+bossbar set questupdate visible false

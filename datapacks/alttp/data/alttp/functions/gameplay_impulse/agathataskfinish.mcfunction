@@ -2,6 +2,10 @@ scoreboard players set # gameplay 15
 scoreboard players set 6 quests_2_completed 1
 clear @p carrot_on_a_stick{CustomModelData:297}
 
+bossbar set questupdate name [{"text":"Quest completed: "},{"text":"A cat that's stuck","color":"gold","bold":true}]
+bossbar set questupdate visible true
+schedule function alttp:questupdatehide 5s
+
 kill @e[type=cat,tag=agathacat]
 summon cat -296 -5 667 {Invulnerable:1b,NoAI:1b,Owner:[I;2119276449,-101957143,-1523254293,104690445],Sitting:1b,variant:"minecraft:persian",CollarColor:11b,Rotation:[-62F,0F],Tags:["agathacat"]}
 

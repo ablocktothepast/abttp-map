@@ -3,6 +3,10 @@ scoreboard players set 5 quests_2_completed 1
 setblock -295 -9 681 oak_slab[type=bottom]
 setblock -294 -9 681 minecraft:spruce_wall_sign[facing=east]
 
+bossbar set questupdate name [{"text":"Quest completed: "},{"text":"A test of knowledge","color":"gold","bold":true}]
+bossbar set questupdate visible true
+schedule function alttp:questupdatehide 5s
+
 scoreboard players set amarawalk gameplay 2
 execute as @e[type=item_display,tag=amara] run function animated_java:amara/animations/idle_sitting/stop
 execute as @e[type=item_display,tag=amara] run function animated_java:amara/animations/running/play

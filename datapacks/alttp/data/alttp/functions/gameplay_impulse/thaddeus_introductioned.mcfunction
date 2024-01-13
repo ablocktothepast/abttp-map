@@ -20,3 +20,7 @@ summon marker -401 -11 711 {Tags:["thaddeusmove","end"]}
 setblock -405 -10 680 redstone_torch
 
 execute as @e[type=item_display,tag=thaddeus] run function animated_java:thaddeus/animations/running/play
+
+bossbar set questupdate name [{"text":"Quest updated: "},{"text":"A test of agility","color":"gold","bold":true}]
+bossbar set questupdate visible true
+schedule function alttp:questupdatehide 5s

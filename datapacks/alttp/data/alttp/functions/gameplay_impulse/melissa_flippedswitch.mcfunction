@@ -8,3 +8,7 @@ fill -307 -17 654 -307 -20 652 minecraft:iron_bars
 scoreboard players set 3 quests_2_progress 3
 scoreboard players set id dialogue 115
 schedule function alttp:dialogue_start 20t
+
+bossbar set questupdate name [{"text":"Quest updated: "},{"text":"A test of navigation","color":"gold","bold":true}]
+bossbar set questupdate visible true
+schedule function alttp:questupdatehide 5s

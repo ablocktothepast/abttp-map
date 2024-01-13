@@ -11,3 +11,7 @@ kill @e[type=marker,tag=erin_marker]
 tag @e[tag=erin] remove dynamic
 execute as @e[type=item_display,tag=erin] run function animated_java:erin/animations/running/stop
 execute as @e[type=item_display,tag=erin] run function animated_java:erin/animations/idle/play
+
+bossbar set questupdate name [{"text":"Quest added: "},{"text":"A cat that's stuck","color":"gold","bold":true}]
+bossbar set questupdate visible true
+schedule function alttp:questupdatehide 5s

@@ -22,6 +22,8 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Ether Medallion","color":"yellow","italic":false}',Lore:['{"text":"Can create a frosty combination.","color":"white","italic":false}']},CustomModelData:12}}}] unless score @s magic matches 15.. run tellraw @s {"text":"Not enough magic!","color":"dark_red"}
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Ether Medallion","color":"yellow","italic":false}',Lore:['{"text":"Can create a frosty combination.","color":"white","italic":false}']},CustomModelData:12}}}] if score @s magic matches 15.. run function alttp:useethermedallion
 
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Quest Book","color":"blue","italic":false}',Lore:['{"text":"Right-click to view your quests!","color":"white","italic":false}']},CustomModelData:316}}}] run function alttp:questm_open
+
 # execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:36}}}] run playsound alttp.wallet weather @p ~ ~ ~ 1 1
 # execute if score @s rupees matches 2.. if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:36}}}] run tellraw @p ["","You have ",{"score":{"name":"@s","objective":"rupees"},"color":"green"},{"text":" rupees","color":"green"},"."]
 # execute if score @s rupees matches 1 if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:36}}}] run tellraw @p ["","You have ",{"score":{"name":"@s","objective":"rupees"},"color":"green"},{"text":" rupee","color":"green"},"."]

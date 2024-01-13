@@ -134,8 +134,8 @@ execute unless score @s spw_s matches 1.. run item replace entity @s inventory.2
 execute if score @s mapcooldown matches 1.. run scoreboard players remove @s mapcooldown 1
 
 #Quests button
-execute unless score @s spw_s matches 1.. unless score . intercool matches 1.. unless entity @p[nbt={Inventory:[{id:"minecraft:nether_star",Slot:34b,tag:{display:{Name:'{"text":"Quests","color":"blue","italic":false}',Lore:['{"text":"Click to view your quests!","color":"white","italic":false}']}}}]}] run function alttp:questm_open
-execute unless score @s spw_s matches 1.. run item replace entity @p inventory.25 with nether_star{display:{Name:'{"text":"Quests","color":"blue","italic":false}',Lore:['{"text":"Click to view your quests!","color":"white","italic":false}']}} 1
+execute unless score @s spw_s matches 1.. unless score . intercool matches 1.. unless entity @p[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",Slot:5b,tag:{display:{Name:'{"text":"Quest Book","color":"blue","italic":false}',Lore:['{"text":"Right-click to view your quests!","color":"white","italic":false}']}}}]}] run clear @p carrot_on_a_stick
+execute unless score @s spw_s matches 1.. run item replace entity @p hotbar.5 with carrot_on_a_stick{display:{Name:'{"text":"Quest Book","color":"blue","italic":false}',Lore:['{"text":"Right-click to view your quests!","color":"white","italic":false}']},CustomModelData:316} 1
 
 ##No gameplay
 execute if score . gameplay matches 0 run item replace entity @p[gamemode=adventure] hotbar.0 with carrot_on_a_stick{display:{Name:'{"text":" "}'},CustomModelData:0}

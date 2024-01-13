@@ -322,3 +322,5 @@ execute as @a at @s unless score @s testerdetect matches -2147483648..2147483647
 ##Other
 bossbar add questupdate ""
 bossbar set questupdate players @a
+bossbar add questupdate_ ""
+bossbar set questupdate players @a

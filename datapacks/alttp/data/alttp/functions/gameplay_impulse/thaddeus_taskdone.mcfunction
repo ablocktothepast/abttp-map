@@ -2,8 +2,8 @@ scoreboard players set 4 quests_2_completed 1
 schedule function alttp:gameplay_impulse/thaddeus_runback 3s
 scoreboard players set # gameplay 13
 
-bossbar set questupdate name [{"text":"Quest completed: "},{"text":"A test of agility","color":"gold","bold":true}]
-bossbar set questupdate visible true
+bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest completed: "},{"text":"A test of agility","color":"gold","bold":true},{"text":" ⟞⟝"}]
+function alttp:questupdateshow
 schedule function alttp:questupdatehide 5s
 
 kill @e[tag=thaddeusmove2]

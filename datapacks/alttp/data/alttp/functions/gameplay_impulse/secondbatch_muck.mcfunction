@@ -62,6 +62,6 @@ tag @e[tag=erin] remove dynamic
 execute as @e[type=item_display,tag=erin] run function animated_java:erin/animations/running/stop
 execute as @e[type=item_display,tag=erin] run function animated_java:erin/animations/idle/play
 
-bossbar set questupdate name [{"text":"Quest added: "},{"text":"A town filled with muck","color":"gold","bold":true}]
-bossbar set questupdate visible true
+bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest added: "},{"text":"A town filled with muck","color":"gold","bold":true},{"text":" ⟞⟝"}]
+function alttp:questupdateshow
 schedule function alttp:questupdatehide 5s

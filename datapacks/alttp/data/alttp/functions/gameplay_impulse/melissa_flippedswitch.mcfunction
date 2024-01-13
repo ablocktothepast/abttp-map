@@ -9,6 +9,6 @@ scoreboard players set 3 quests_2_progress 3
 scoreboard players set id dialogue 115
 schedule function alttp:dialogue_start 20t
 
-bossbar set questupdate name [{"text":"Quest updated: "},{"text":"A test of navigation","color":"gold","bold":true}]
-bossbar set questupdate visible true
+bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest updated: "},{"text":"A test of navigation","color":"gold","bold":true},{"text":" ⟞⟝"}]
+function alttp:questupdateshow
 schedule function alttp:questupdatehide 5s

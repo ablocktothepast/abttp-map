@@ -7,6 +7,6 @@ scoreboard players set bernardfound gameplay 0
 scoreboard players set elisabethfound gameplay 0
 scoreboard players set nealfound gameplay 0
 
-bossbar set questupdate name [{"text":"Quest added: "},{"text":"Boy Link!","color":"gold","bold":true}]
-bossbar set questupdate visible true
+bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest added: "},{"text":"Boy Link!","color":"gold","bold":true},{"text":" ⟞⟝"}]
+function alttp:questupdateshow
 schedule function alttp:questupdatehide 5s

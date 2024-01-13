@@ -2,8 +2,8 @@ scoreboard players set # gameplay 15
 scoreboard players set 7 quests_2_completed 1
 clear @p shears{CustomModelData:1}
 
-bossbar set questupdate name [{"text":"Quest completed: "},{"text":"A town filled with muck","color":"gold","bold":true}]
-bossbar set questupdate visible true
+bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest completed: "},{"text":"A town filled with muck","color":"gold","bold":true},{"text":" ⟞⟝"}]
+function alttp:questupdateshow
 schedule function alttp:questupdatehide 5s
 
 kill @e[tag=muckyspider]

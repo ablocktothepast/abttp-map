@@ -15,6 +15,6 @@ scoreboard players set id dialogue 148
 tag @e[tag=bertram] add npc_focus
 function alttp:dialogue_start
 
-bossbar set questupdate name [{"text":"Quest updated: "},{"text":"A test of knowledge","color":"gold","bold":true}]
-bossbar set questupdate visible true
+bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest updated: "},{"text":"A test of knowledge","color":"gold","bold":true},{"text":" ⟞⟝"}]
+function alttp:questupdateshow
 schedule function alttp:questupdatehide 5s

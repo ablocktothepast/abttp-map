@@ -3,8 +3,8 @@ scoreboard players set 3 quests_2_completed 1
 fill -301 -18 637 -301 -20 639 minecraft:iron_bars
 fill -263 -10 634 -263 -9 634 minecraft:mossy_cobblestone
 
-bossbar set questupdate name [{"text":"Quest completed: "},{"text":"A test of navigation","color":"gold","bold":true}]
-bossbar set questupdate visible true
+bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest completed: "},{"text":"A test of navigation","color":"gold","bold":true},{"text":" ⟞⟝"}]
+function alttp:questupdateshow
 schedule function alttp:questupdatehide 5s
 
 scoreboard players set amarawalk gameplay 2

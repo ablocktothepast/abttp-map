@@ -2,8 +2,8 @@ scoreboard players set # gameplay 15
 scoreboard players set 6 quests_2_completed 1
 clear @p carrot_on_a_stick{CustomModelData:297}
 
-bossbar set questupdate name [{"text":"Quest completed: "},{"text":"A cat that's stuck","color":"gold","bold":true}]
-bossbar set questupdate visible true
+bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest completed: "},{"text":"A cat that's stuck","color":"gold","bold":true},{"text":" ⟞⟝"}]
+function alttp:questupdateshow
 schedule function alttp:questupdatehide 5s
 
 kill @e[type=cat,tag=agathacat]

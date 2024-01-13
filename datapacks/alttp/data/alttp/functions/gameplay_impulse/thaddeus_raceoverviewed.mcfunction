@@ -3,6 +3,6 @@ fill -275 -8 632 -275 -5 632 air
 fill -310 -1 607 -310 2 607 air
 scoreboard players set 4 quests_2_progress 4
 
-bossbar set questupdate name [{"text":"Quest updated: "},{"text":"A test of agility","color":"gold","bold":true}]
-bossbar set questupdate visible true
+bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest updated: "},{"text":"A test of agility","color":"gold","bold":true},{"text":" ⟞⟝"}]
+function alttp:questupdateshow
 schedule function alttp:questupdatehide 5s

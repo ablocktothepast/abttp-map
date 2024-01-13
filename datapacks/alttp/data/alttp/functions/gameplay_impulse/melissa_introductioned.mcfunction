@@ -43,6 +43,6 @@ tag @e[type=marker,tag=doormarker,nbt={data:{id:12}}] remove locked
 
 scoreboard players set melissa_guide gameplay 1
 
-bossbar set questupdate name [{"text":"Quest updated: "},{"text":"A test of navigation","color":"gold","bold":true}]
-bossbar set questupdate visible true
+bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest updated: "},{"text":"A test of navigation","color":"gold","bold":true},{"text":" ⟞⟝"}]
+function alttp:questupdateshow
 schedule function alttp:questupdatehide 5s

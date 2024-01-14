@@ -89,8 +89,8 @@ execute if data entity @e[type=interaction,tag=dialogue_in,limit=1] attack run d
 
 ##Thing
 execute as @e[type=marker,tag=dialogue_player] at @s unless entity @e[type=marker,tag=dialogue_fakeplayerpos,distance=..0.3] facing entity @e[type=marker,tag=dialogue_fakeplayerpos,limit=1] eyes run tp @s ^ ^ ^0.16 ~ ~
-execute as @e[type=marker,tag=dialogue_player] at @s if entity @e[type=marker,tag=dialogue_fakeplayerpos,distance=..0.3] run function alttp:ajsummon/dialogue_link_idle
-execute as @e[type=marker,tag=dialogue_player] at @s if entity @e[type=marker,tag=dialogue_fakeplayerpos,distance=..0.3] run tp @s @e[type=marker,tag=dialogue_fakeplayerpos,limit=1]
+execute as @e[type=marker,tag=dialogue_player] at @s if entity @e[type=marker,tag=dialogue_fakeplayerpos,distance=0.01..0.3] run function alttp:ajsummon/dialogue_link_idle
+execute as @e[type=marker,tag=dialogue_player] at @s if entity @e[type=marker,tag=dialogue_fakeplayerpos,distance=0.01..0.3] run tp @s @e[type=marker,tag=dialogue_fakeplayerpos,limit=1]
 execute as @e[type=marker,tag=dialogue_player] at @s run tp @e[type=item_display,tag=aj.villager_link.root] ~ ~ ~ ~ 0
 
 execute store result score tpair dummy run data get entity @e[type=area_effect_cloud,tag=dialogue_lock_aec,limit=1] Air

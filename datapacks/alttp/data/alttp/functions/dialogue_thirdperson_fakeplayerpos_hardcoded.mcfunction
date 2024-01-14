@@ -1,9 +1,9 @@
 kill @e[type=marker,tag=dialogue_fakeplayerpos]
-execute if score id dialogue matches 4 run summon marker -315 -1 585 {Rotation:[120F,0F],Tags:["dialogue_fakeplayerpos"]}
-execute if score id dialogue matches 9 run summon marker -310 -2 608 {Rotation:[-51F,0F],Tags:["dialogue_fakeplayerpos"]}
+execute if score id dialogue matches 4 run summon marker -313.653 -1 585.373 {Rotation:[120F,0F],Tags:["dialogue_fakeplayerpos"]}
+execute if score id dialogue matches 9 run summon marker -310.069 -2 608.265 {Rotation:[-51F,0F],Tags:["dialogue_fakeplayerpos"]}
 execute if score id dialogue matches 15 run summon marker -362.611 -0.0625 720.592 {Rotation:[64F,0F],Tags:["dialogue_fakeplayerpos"]}
-execute if score id dialogue matches 24 run summon marker -310 -2 608 {Rotation:[-51F,0F],Tags:["dialogue_fakeplayerpos"]}
-execute if score id dialogue matches 28 run summon marker -310 -2 608 {Rotation:[-51F,0F],Tags:["dialogue_fakeplayerpos"]}
+execute if score id dialogue matches 24 run summon marker -310.069 -2 608.265 {Rotation:[-51F,0F],Tags:["dialogue_fakeplayerpos"]}
+execute if score id dialogue matches 28 run summon marker -310.069 -2 608.265 {Rotation:[-51F,0F],Tags:["dialogue_fakeplayerpos"]}
 execute if score id dialogue matches 39 run summon marker -227.952 -4.5 574.876 {Rotation:[-134F,0F],Tags:["dialogue_fakeplayerpos"]}
 execute if score id dialogue matches 45 run summon marker -272.149 -14 674.637 {Rotation:[130F,0F],Tags:["dialogue_fakeplayerpos"]}
 execute if score id dialogue matches 51 run summon marker -306.928 -2 562.577 {Rotation:[-125F,0F],Tags:["dialogue_fakeplayerpos"]}
@@ -12,8 +12,8 @@ execute if score id dialogue matches 61 run summon marker -272.149 -14 674.637 {
 execute if score id dialogue matches 62 run summon marker -306.928 -2 562.577 {Rotation:[-125F,0F],Tags:["dialogue_fakeplayerpos"]}
 execute if score id dialogue matches 63 run summon marker -280.146 -14 729.023 {Rotation:[-105F,0F],Tags:["dialogue_fakeplayerpos"]}
 execute if score id dialogue matches 64 run summon marker -227.952 -4.5 574.876 {Rotation:[-134F,0F],Tags:["dialogue_fakeplayerpos"]}
-execute if score id dialogue matches 74..75 run summon marker -310 -2 608 {Rotation:[-51F,0F],Tags:["dialogue_fakeplayerpos"]}
-execute if score id dialogue matches 77 run summon marker -310 -2 608 {Rotation:[-51F,0F],Tags:["dialogue_fakeplayerpos"]}
+execute if score id dialogue matches 74..75 run summon marker -310.069 -2 608.265 {Rotation:[-51F,0F],Tags:["dialogue_fakeplayerpos"]}
+execute if score id dialogue matches 77 run summon marker -310.069 -2 608.265 {Rotation:[-51F,0F],Tags:["dialogue_fakeplayerpos"]}
 execute if score id dialogue matches 100 run summon marker -291.553 -9.0625 636.447 {Rotation:[58F,0F],Tags:["dialogue_fakeplayerpos"]}
 execute if score id dialogue matches 111 run summon marker -291.553 -9.0625 636.447 {Rotation:[58F,0F],Tags:["dialogue_fakeplayerpos"]}
 execute if score id dialogue matches 116 run summon marker -291.553 -9.0625 636.447 {Rotation:[58F,0F],Tags:["dialogue_fakeplayerpos"]}

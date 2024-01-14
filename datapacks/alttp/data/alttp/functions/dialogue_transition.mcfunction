@@ -1,9 +1,6 @@
 scoreboard players add dialoguetransitiontick dummy 1
 
-execute if score dialoguetransitiontick dummy matches 1 at @e[type=marker,tag=dialogue_tp] align y run summon marker ~ ~-0.1 ~ {Tags:["dialoguetransitiongoal"]}
-
-execute if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s facing entity @e[type=marker,tag=dialoguetransitiongoal] feet run tp @s ^ ^ ^0.05
-execute as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=..0.06] run function alttp:dialogue_post_start
+execute if score dialoguetransitiontick dummy matches 1 at @e[type=marker,tag=dialogue_tp] run summon marker ~ ~ ~ {Tags:["dialoguetransitiongoal"]}
 
 execute if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s facing entity @e[type=marker,tag=dialoguetransitiongoal] feet run tp @s ^ ^ ^0.05
 execute as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=..0.06] run function alttp:dialogue_post_start
@@ -20,11 +17,11 @@ execute as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[
 execute if score dialoguetransitiontick dummy matches ..5 as @e[type=area_effect_cloud,tag=dialoguetransition] at @s facing entity @e[type=marker,tag=dialoguetransitiongoal] feet run tp @s ^ ^ ^0.05
 execute as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=..0.06] run function alttp:dialogue_post_start
 
-execute if score dialoguetransitiontick dummy matches 3..10 as @e[type=area_effect_cloud,tag=dialoguetransition] at @s facing entity @e[type=marker,tag=dialoguetransitiongoal] feet run tp @s ^ ^ ^0.05
+execute if score dialoguetransitiontick dummy matches ..8 as @e[type=area_effect_cloud,tag=dialoguetransition] at @s facing entity @e[type=marker,tag=dialoguetransitiongoal] feet run tp @s ^ ^ ^0.05
 execute as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=..0.06] run function alttp:dialogue_post_start
 
-execute if score dialoguetransitiontick dummy matches 5..15 as @e[type=area_effect_cloud,tag=dialoguetransition] at @s facing entity @e[type=marker,tag=dialoguetransitiongoal] feet run tp @s ^ ^ ^0.05
-execute as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=..0.06] run function alttp:dialogue_post_start
+# execute if score dialoguetransitiontick dummy matches 5..15 as @e[type=area_effect_cloud,tag=dialoguetransition] at @s facing entity @e[type=marker,tag=dialoguetransitiongoal] feet run tp @s ^ ^ ^0.05
+# execute as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=..0.06] run function alttp:dialogue_post_start
 
 execute if score dialoguetransitiontick dummy matches 1 at @e[type=marker,tag=dialogueplayerpos,limit=1] run summon marker ~ ~ ~ {Tags:["dialogue_player"]}
 execute if score dialoguetransitiontick dummy matches 1 at @e[type=marker,tag=dialogueplayerpos,limit=1] run tp @e[type=marker,tag=dialogue_player] ~ ~ ~ ~ ~
@@ -36,26 +33,26 @@ execute if score dialoguetransitiontick dummy matches 2.. as @e[type=marker,tag=
 execute if score dialoguetransitiontick dummy matches 2.. as @e[type=marker,tag=dialogue_player] at @s if entity @e[type=marker,tag=dialogue_fakeplayerpos,distance=..0.3] run tp @s @e[type=marker,tag=dialogue_fakeplayerpos,limit=1]
 execute if score dialoguetransitiontick dummy matches 2.. as @e[type=marker,tag=dialogue_player] at @s run tp @e[type=item_display,tag=aj.villager_link.root] ~ ~ ~ ~ 0
 
-execute if score angle dialogue matches 0 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes facing entity @e[tag=npcfocus,limit=1] eyes rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if score angle dialogue matches 0 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes rotated as @e[type=marker,tag=dialogue_tp,limit=1] rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
-execute if score angle dialogue matches 0 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes facing entity @e[tag=npcfocus,limit=1] eyes rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if score angle dialogue matches 0 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes rotated as @e[type=marker,tag=dialogue_tp,limit=1] rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
-execute if score angle dialogue matches 0 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes facing entity @e[tag=npcfocus,limit=1] eyes rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if score angle dialogue matches 0 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes rotated as @e[type=marker,tag=dialogue_tp,limit=1] rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
-execute if score angle dialogue matches 0 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=0.5..] anchored eyes facing entity @e[tag=npcfocus,limit=1] eyes rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if score angle dialogue matches 0 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=0.5..] anchored eyes rotated as @e[type=marker,tag=dialogue_tp,limit=1] rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
-execute if score angle dialogue matches 0 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=1..] anchored eyes facing entity @e[tag=npcfocus,limit=1] eyes rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if score angle dialogue matches 0 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=1..] anchored eyes rotated as @e[type=marker,tag=dialogue_tp,limit=1] rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
 
-execute if score angle dialogue matches 20 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes facing entity @e[tag=npcfocus,limit=1] eyes rotated ~ 20 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if score angle dialogue matches 20 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes rotated as @e[type=marker,tag=dialogue_tp,limit=1] rotated ~ 20 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
-execute if score angle dialogue matches 20 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes facing entity @e[tag=npcfocus,limit=1] eyes rotated ~ 20 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if score angle dialogue matches 20 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes rotated as @e[type=marker,tag=dialogue_tp,limit=1] rotated ~ 20 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
-execute if score angle dialogue matches 20 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes facing entity @e[tag=npcfocus,limit=1] eyes rotated ~ 20 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if score angle dialogue matches 20 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s anchored eyes rotated as @e[type=marker,tag=dialogue_tp,limit=1] rotated ~ 20 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
-execute if score angle dialogue matches 20 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=0.5..] anchored eyes facing entity @e[tag=npcfocus,limit=1] eyes rotated ~ 20 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if score angle dialogue matches 20 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=0.5..] anchored eyes rotated as @e[type=marker,tag=dialogue_tp,limit=1] rotated ~ 20 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
-execute if score angle dialogue matches 20 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=1..] anchored eyes facing entity @e[tag=npcfocus,limit=1] eyes rotated ~ 20 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if score angle dialogue matches 20 if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=1..] anchored eyes rotated as @e[type=marker,tag=dialogue_tp,limit=1] rotated ~ 20 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
 
 execute store result score tpair dummy run data get entity @e[type=area_effect_cloud,tag=dialoguetransition,limit=1] Air

@@ -1,7 +1,7 @@
 execute if score hidedown gameplay matches 1.. run scoreboard players remove hidedown gameplay 1
 
 execute if score hidedown gameplay matches 180 as @e[type=item_display,tag=aj.elisabeth.root] run function animated_java:elisabeth/animations/departure/play
-execute if score hidedown gameplay matches 120 run tp @e[type=item_display,tag=aj.elisabeth.root] -306 -2 561 -130 0
+execute if score hidedown gameplay matches 120 run tp @e[tag=elisabeth] -306 -2 561 -130 0
 
 execute if score hidedown gameplay matches 130 as @e[type=item_display,tag=aj.bernard.root] run function animated_java:bernard/animations/departure/play
 execute if score hidedown gameplay matches 91..95 as @e[type=item_display,tag=aj.bernard.root] at @s run particle cloud ~ ~ ~ 0.5 1.5 0.5 0 250 force
@@ -15,8 +15,8 @@ execute if score hidedown gameplay matches 126..130 as @e[type=item_display,tag=
 
 execute if score hidedown gameplay matches 80 as @e[type=item_display,tag=aj.neal.root] run function animated_java:neal/animations/departure/play
 
-execute if score hidedown gameplay matches 95 run tp @e[type=item_display,tag=aj.bernard.root] -274 -14 673 -40 0
-execute if score hidedown gameplay matches 20 run tp @e[type=item_display,tag=aj.neal.root] -279 -14 728 180 0
+execute if score hidedown gameplay matches 95 run tp @e[tag=bernard] -274 -14 673 -40 0
+execute if score hidedown gameplay matches 20 run tp @e[tag=neal] -279 -14 728 180 0
 execute if score hidedown gameplay matches 20 as @e[type=item_display,tag=aj.neal.root] run function animated_java:neal/animations/idle/stop
 execute if score hidedown gameplay matches 20 as @e[type=item_display,tag=aj.neal.root] run function animated_java:neal/animations/sleepy/play
 

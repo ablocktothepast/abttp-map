@@ -15,7 +15,7 @@ execute if score fov_init dummy matches 2 run bossbar add fovinit ""
 execute if score fov_init dummy matches 2 run bossbar set fovinit name [{"text":"Scroll","color":"gold"},{"text":" to select | ","color":"white"},{"keybind":"key.sneak"},{"text":" to confirm","color":"white"}]
 execute if score fov_init dummy matches 2 run bossbar set fovinit visible true
 execute if score fov_init dummy matches 2 run bossbar set fovinit players @a
-execute if score fov_init dummy matches 2 run scoreboard players set fov_init dummy 235
+execute if score fov_init dummy matches 2 run scoreboard players set fov_init dummy 234
 
 execute if score fov_init dummy matches 235 run title @p times 0t 9999s 10t
 execute if score fov_init dummy matches 235 run title @a subtitle "Please select and use one of these FOVs..."

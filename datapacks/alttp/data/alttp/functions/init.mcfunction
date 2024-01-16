@@ -264,6 +264,7 @@ scoreboard objectives add clusters dummy
 scoreboard objectives add gameplay dummy
 scoreboard objectives add shops dummy
 scoreboard objectives add keys dummy
+scoreboard objectives add fovsneak minecraft.custom:sneak_time
 
 #SET SCORES
 scoreboard players set $strength delta.api.launch 12500

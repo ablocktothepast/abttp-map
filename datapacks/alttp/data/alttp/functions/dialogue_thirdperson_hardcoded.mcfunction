@@ -20,15 +20,19 @@ execute if score id dialogue matches 118 run tp @s -407.217 -8.2 678.726 39 0
 execute if score id dialogue matches 125 run tp @s -400.871 -11.2 714.661 174 0
 execute if score id dialogue matches 131 run tp @s -400.871 -11.2 714.661 174 0
 execute if score id dialogue matches 134 run tp @s -400.871 -11.2 714.661 174 0
-execute if score id dialogue matches 139..142 run tp @s -298 -9 679
-execute if score id dialogue matches 143 run tp @s -296.980 -9 682.093
-execute if score id dialogue matches 147 run tp @s -296.980 -9 682.093
-execute if score id dialogue matches 235 run tp @s -312 -1.8 611
-execute if score id dialogue matches 254..258 run tp @s -294.349 -5 666.341
-execute if score id dialogue matches 259..260 run tp @s -312 -1.8 611
-execute if score id dialogue matches 266..267 run tp @s -312 -1.8 611
-execute if score id dialogue matches 269..282 run tp @s -245.007 -11 634.504
-execute if score id dialogue matches 283..284 run tp @s -329.659 2 648.278
+execute if score id dialogue matches 139 run tp @s -298.229 -9.2 683.451 -103 0
+execute if score id dialogue matches 140 run tp @s -297.259 -9.3 678.886 -62 0
+execute if score id dialogue matches 141 run tp @s -296.908 -9.1625 676.757 -57 0
+execute if score id dialogue matches 142 run tp @s -298.649 -9.2 675.340 -70 0
+execute if score id dialogue matches 143 run tp @s -296.759 -9.0625 681.429 131 0
+execute if score id dialogue matches 147 run tp @s -296.759 -9.0625 681.429 131 0
+execute if score id dialogue matches 235 run tp @s -311.826 -2.2 609.302 -103 0
+execute if score id dialogue matches 236 run tp @s -311.826 -2.2 609.302 -103 0
+execute if score id dialogue matches 254..258 run tp @s -293.295 -4.8 666.755 61 0
+execute if score id dialogue matches 259..260 run tp @s -311.826 -2.2 609.302 -103 0
+execute if score id dialogue matches 266..267 run tp @s -311.826 -2.2 609.302 -103 0
+execute if score id dialogue matches 269..282 run tp @s -247.934 -11.0625 631.314 -73 0
+execute if score id dialogue matches 283..284 run tp @s -329.550 2.0625 649.211 70 0
 execute if score id dialogue matches 285..293 run tp @s -324.473 -1 717.102
 execute if score id dialogue matches 294 run tp @s -363 0 724
 execute if score id dialogue matches 295..296 run tp @s -372.7 2 723.751

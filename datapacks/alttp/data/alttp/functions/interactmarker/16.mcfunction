@@ -1,6 +1,6 @@
 execute if score # gameplay matches 14 if score secondbatch gameplay matches 2 run return 0
 
-execute if score # gameplay matches 5.. run tp @e[tag=agatha] -296 -5 668 -123 0
+execute if score # gameplay matches 5.. run tp @e[tag=agatha] -296 -5 668 -144 0
 execute if score # gameplay matches 5.. run tag @e[tag=agatha] add npcfocus
 
 execute if score # gameplay matches 5..13 run scoreboard players set id dialogue 337

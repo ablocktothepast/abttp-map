@@ -256,51 +256,52 @@ execute if score id dialogue matches 146 run function alttp:gameplay_impulse/ber
 execute if score id dialogue matches 147 run function alttp:dialogue_stop
 execute if score id dialogue matches 148..178 run scoreboard players add idd dialogue 1
 execute if score id dialogue matches 148 run tag @e remove npcfocus
-execute if score id dialogue matches 148 run tp @e[type=marker,tag=dialogue_tp] -297.693 -9 683.240
+execute if score id dialogue matches 148 run tp @e[type=marker,tag=dialogue_tp] -297.693 -9 683.240 -85 0
 execute if score id dialogue matches 148 run tag @e[tag=percival] add npcfocus
 execute if score id dialogue matches 148 as @e[tag=percival] run function animated_java:percival/animations/idle_sitting/stop
 execute if score id dialogue matches 148 as @e[tag=percival] run function animated_java:percival/animations/idle_sitting_grin/play
-execute if score id dialogue matches 149 run tp @e[type=marker,tag=dialogue_tp] -296.595 -9 679.778
+execute if score id dialogue matches 149 run tp @e[type=marker,tag=dialogue_tp] -296.595 -9 679.778 -97 0
 execute if score id dialogue matches 149 run tag @e remove npcfocus
 execute if score id dialogue matches 149 as @e[tag=percival] run function animated_java:percival/animations/idle_sitting_grin/stop
 execute if score id dialogue matches 149 as @e[tag=percival] run function animated_java:percival/animations/idle_sitting/play
 execute if score id dialogue matches 149 as @e[tag=amara] run function animated_java:amara/animations/emote/play
 execute if score id dialogue matches 149 run tag @e[tag=amara] add npcfocus
-execute if score id dialogue matches 150 run tp @e[type=marker,tag=dialogue_tp] -296.595 -9 679.778
+execute if score id dialogue matches 150 run tp @e[type=marker,tag=dialogue_tp] -296.595 -9 679.778 -135 0
 execute if score id dialogue matches 150 run tag @e remove npcfocus
 execute if score id dialogue matches 150 as @e[tag=fiona] run function animated_java:fiona/animations/emote/play
 execute if score id dialogue matches 150 run tag @e[tag=fiona] add npcfocus
-execute if score id dialogue matches 151 run tp @e[type=marker,tag=dialogue_tp] -297.039 -9.0625 676.803
+execute if score id dialogue matches 151 run tp @e[type=marker,tag=dialogue_tp] -297.039 -9.0625 676.803 -125 0
 execute if score id dialogue matches 151 run tag @e remove npcfocus
 execute if score id dialogue matches 151 as @e[tag=lysander] run function animated_java:lysander/animations/emote_sitting/play
 execute if score id dialogue matches 151 run tag @e[tag=lysander] add npcfocus
 execute if score id dialogue matches 148 positioned -295 -8.5 681 rotated 109 0 run function animated_java:villager_link/summon
+execute if score id dialogue matches 148 run tp @e[type=item_display,tag=aj.villager_link.root] -295 -8.5 681 109 0
 execute if score id dialogue matches 148 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/idle_sitting/play
 execute if score id dialogue matches 152 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/emote_sitting/play
 execute if score id dialogue matches 148 run setblock -295 -9 681 oak_slab[type=bottom]
 execute if score id dialogue matches 152 run tag @e remove npc_focus
-execute if score id dialogue matches 152 run tp @e[type=marker,tag=dialogue_tp] -297.190 -9 680.547
+execute if score id dialogue matches 152 run tp @e[type=marker,tag=dialogue_tp] -297.190 -9 680.547 -70 0
 execute if score id dialogue matches 152 run tag @e[tag=aj.villager_link.root] add npcfocus
-execute if score id dialogue matches 153 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681
+execute if score id dialogue matches 153 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681 109 0
 execute if score id dialogue matches 153 run tag @e remove npcfocus
 execute if score id dialogue matches 153 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/remove/this
 execute if score id dialogue matches 153 run setblock -295 -9 681 air
 execute if score id dialogue matches 153 run tag @e[tag=bertram] add npcfocus
 
-execute if score id dialogue matches 157 run tp @e[type=marker,tag=dialogue_tp] -296.531 -9 679.537
-execute if score id dialogue matches 159 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681
+execute if score id dialogue matches 157 run tp @e[type=marker,tag=dialogue_tp] -296.531 -9 679.537 90 0
+execute if score id dialogue matches 159 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681 109 0
 
-execute if score id dialogue matches 161 run tp @e[type=marker,tag=dialogue_tp] -296.531 -9 679.537
-execute if score id dialogue matches 163 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681
+execute if score id dialogue matches 161 run tp @e[type=marker,tag=dialogue_tp] -296.531 -9 679.537 90 0
+execute if score id dialogue matches 163 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681 109 0
 
-execute if score id dialogue matches 165 run tp @e[type=marker,tag=dialogue_tp] -296.531 -9 679.537
-execute if score id dialogue matches 167 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681
+execute if score id dialogue matches 165 run tp @e[type=marker,tag=dialogue_tp] -296.531 -9 679.537 90 0
+execute if score id dialogue matches 167 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681 109 0
 
-execute if score id dialogue matches 169 run tp @e[type=marker,tag=dialogue_tp] -296.531 -9 679.537
-execute if score id dialogue matches 171 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681
+execute if score id dialogue matches 169 run tp @e[type=marker,tag=dialogue_tp] -296.531 -9 679.537 90 0
+execute if score id dialogue matches 171 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681 109 0
 
-execute if score id dialogue matches 173 run tp @e[type=marker,tag=dialogue_tp] -296.531 -9 679.537
-execute if score id dialogue matches 175 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681
+execute if score id dialogue matches 173 run tp @e[type=marker,tag=dialogue_tp] -296.531 -9 679.537 90 0
+execute if score id dialogue matches 175 run tp @e[type=marker,tag=dialogue_tp] -295 -9 681 109 0
 
 execute if score id dialogue matches 159 if score choice dialogue matches 2 run scoreboard players set bertramcorrect gameplay 1
 execute if score id dialogue matches 163 if score choice dialogue matches 1 run scoreboard players set bertramcorrect gameplay 1

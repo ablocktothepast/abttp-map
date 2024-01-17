@@ -87,4 +87,4 @@ execute if score letterIndex dialogue matches 1.. as @p at @s run playsound altt
 scoreboard players set choicedialogue dialogue 0
 data merge storage dialogue {npc:"Bertram"}
 scoreboard players set cutscene dialogue 0
-scoreboard players set firstperson dialogue 0
+scoreboard players set firstperson dialogue 1

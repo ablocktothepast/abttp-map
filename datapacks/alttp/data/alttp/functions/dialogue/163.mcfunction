@@ -6,4 +6,4 @@ scoreboard players set choicedialogue dialogue 1
 scoreboard players set length dialogue 11
 data merge storage dialogue {npc:"Bertram"}
 scoreboard players set cutscene dialogue 0
-scoreboard players set firstperson dialogue 0
+scoreboard players set firstperson dialogue 1

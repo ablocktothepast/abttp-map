@@ -1,6 +1,6 @@
 execute if score # gameplay matches 14 if score secondbatch gameplay matches 2 run return 0
 
-execute if score # gameplay matches 5.. run tp @e[tag=eamon] -252.0 -6 72 -161 0
+execute if score # gameplay matches 5.. run tp @e[tag=eamon] -252.0 -6 727 170 0
 execute if score # gameplay matches 5.. run tag @e[tag=eamon] add npcfocus
 
 execute if score # gameplay matches 5..11 run scoreboard players set id dialogue 362

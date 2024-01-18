@@ -296,9 +296,9 @@ execute if score . gameplay matches 1 run function alttp:tick_gameplay
 execute as @e[type=item_display,tag=shop_item,tag=animate] at @s run function alttp:shop_item_animation_tick
 
 ##Disable interaction
-attribute @p[gamemode=adventure,tag=!muck_cobweb] minecraft:generic.block_interaction_range base set 0
-attribute @p[gamemode=adventure,tag=muck_cobweb] minecraft:generic.block_interaction_range base set 4.5
-attribute @p[gamemode=!adventure] minecraft:generic.block_interaction_range base set 4.5
+attribute @p[gamemode=adventure,tag=!muck_cobweb] minecraft:player.block_interaction_range base set 0
+attribute @p[gamemode=adventure,tag=muck_cobweb] minecraft:player.block_interaction_range base set 4.5
+attribute @p[gamemode=!adventure] minecraft:player.block_interaction_range base set 4.5
 
 ##Interior/exterior
 execute as @p[tag=!interior] at @s if entity @e[type=marker,tag=intextmarker,tag=int,distance=..0.5] run function alttp:go_interior

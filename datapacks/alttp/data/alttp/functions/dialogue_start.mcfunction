@@ -13,3 +13,7 @@ execute if score firstperson dialogue matches 1 run function alttp:dialogue_post
 execute if score dlfov options matches 70 run effect give @p slowness infinite 1 true
 execute if score dlfov options matches 85 run effect give @p slowness infinite 3 true
 execute if score dlfov options matches 110 run effect give @p slowness infinite 5 true
+
+bossbar add dialoguebars "\uE017"
+bossbar set dialoguebars players @p
+bossbar set dialoguebars visible true

@@ -12,3 +12,5 @@ execute as @p at @s run function alttp:dialogue_thirdpersonplayer
 function animated_java:villager_link/remove/all
 
 effect clear @p slowness
+
+bossbar set dialoguebars visible false

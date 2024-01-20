@@ -3,4 +3,4 @@ execute if score # gameplay matches 15.. run tag @e[tag=bertram] add npcfocus
 
 execute if score # gameplay matches 15.. run scoreboard players set id dialogue 343
 
-execute if score # gameplay matches 5.. run function alttp:dialogue_start
+execute if score # gameplay matches 15.. run function alttp:dialogue_start

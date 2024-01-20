@@ -104,7 +104,7 @@ scoreboard players set @a arrows_fire 0
 scoreboard players set @a arrows_ice 0
 scoreboard players set @a arrows_silver 0
 scoreboard players set @a arrows_bomb 0
-scoreboard players set dlspeed options 1
+scoreboard players set dlspeed options 2
 scoreboard players set dlfov options 90
 scoreboard players set @a flippers 300
 

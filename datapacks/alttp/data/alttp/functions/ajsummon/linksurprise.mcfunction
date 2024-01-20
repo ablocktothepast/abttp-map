@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/surprised/play

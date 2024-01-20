@@ -13,3 +13,4 @@ summon marker -370 1 724 {Tags:["doormarker"],data:{id:9}}
 summon marker -405 -8 680 {Tags:["doormarker"],data:{id:10}}
 summon marker -331 6 642 {Tags:["doormarker","hard"],data:{id:11}}
 summon marker -305 -14 642 {Tags:["doormarker","locked"],data:{id:12}}
+summon marker -336 1 684 {Tags:["doormarker"],data:{id:13}}

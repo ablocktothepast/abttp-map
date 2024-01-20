@@ -33,3 +33,7 @@ summon item_display ~ ~ ~ {billboard:"center",interpolation_start:-1,interpolati
 summon item_display ~ ~ ~ {billboard:"center",interpolation_start:-1,interpolation_duration:0,Tags:["dialogue_na"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.04f,0.04f,0f]},item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:116}},brightness:{sky:15,block:15}}
 
 summon interaction ~ ~ ~ {Tags:["dialogue_in"],height:4,width:4}
+
+bossbar add dialoguecontrols [{"keybind":"key.attack"},{"text":" to continue"},{"text":" | ","color":"gray"},{"text":"Scroll to select choices"}]
+bossbar set dialoguecontrols players @p
+bossbar set dialoguecontrols visible true

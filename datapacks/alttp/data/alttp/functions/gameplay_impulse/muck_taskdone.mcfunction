@@ -46,3 +46,5 @@ setblock -286 -7 661 redstone_torch
 scoreboard players set bertramwalk gameplay 2
 execute as @e[type=item_display,tag=bertram] run function animated_java:bertram/animations/idle/stop
 execute as @e[type=item_display,tag=bertram] run function animated_java:bertram/animations/walking/play
+
+tellraw @p "Hello testers! This is the end of the current game. You can look around the town and talk to the NPCs some more, but there are no new quests. Thank you for testing! If you want, you can download a fresh copy of the game to test other quests."

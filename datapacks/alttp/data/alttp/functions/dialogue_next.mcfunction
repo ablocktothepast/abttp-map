@@ -56,7 +56,7 @@ execute if score id dialogue matches 29 if score choice dialogue matches 1 run s
 execute if score id dialogue matches 29 if score choice dialogue matches 2 run scoreboard players set idd dialogue 31
 execute if score id dialogue matches 30 run scoreboard players set idd dialogue 33
 execute if score id dialogue matches 30 as @e[type=item_display,tag=aj.uncle_alphon.root] run function animated_java:uncle_alphon/animations/surprised/play
-execute if score id dialogue matches 30 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/surprised/play
+execute if score id dialogue matches 30 run schedule function alttp:ajsummon/linksurprise 30t
 execute if score id dialogue matches 31..32 run scoreboard players add idd dialogue 1
 execute if score id dialogue matches 33..37 run scoreboard players add idd dialogue 1
 execute if score id dialogue matches 38 run function alttp:dialogue_stop

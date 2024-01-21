@@ -2,7 +2,7 @@ execute if score letterIndex dialogue matches 1 run data merge entity @e[type=te
 execute if score letterIndex dialogue matches 2 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nLi\\n\\n"}'}
 execute if score letterIndex dialogue matches 3 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nLin\\n\\n"}'}
 execute if score letterIndex dialogue matches 4 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nLink\\n\\n"}'}
-execute if score letterIndex dialogue matches 5 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nLink!\\n\\n"}'}
+execute if score letterIndex dialogue matches 5..29 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nLink!\\n\\n"}'}
 
 execute if score letterIndex dialogue matches 30 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nLink!\\nW\\n"}'}
 execute if score letterIndex dialogue matches 31 run data merge entity @e[type=text_display,tag=dialogue_td,limit=1] {text:'{"text":"\\nLink!\\nWa\\n"}'}

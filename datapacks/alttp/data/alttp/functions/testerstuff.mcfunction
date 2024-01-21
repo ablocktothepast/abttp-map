@@ -8,8 +8,6 @@ execute if score active dialogue matches 1 run function alttp:dialogue_stop
 
 tp @s -287 14 516 0 0
 
-tellraw @p "Hello gamer, please read the signs and play the game! No cheating, bugs caused by cheating are not valid buggies!"
-
 effect give @p regeneration 2 255 true
 
 item replace entity @p inventory.0 with air 1

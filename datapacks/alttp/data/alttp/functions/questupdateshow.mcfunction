@@ -7,4 +7,4 @@ bossbar set questupdate_ players
 bossbar set questupdate_ players @a
 bossbar set questupdate players @a
 
-execute at @p run playsound minecraft:block.note_block.bit weather @p
+execute at @p run playsound minecraft:alttp.quest_update weather @p ~ ~ ~ 1 1

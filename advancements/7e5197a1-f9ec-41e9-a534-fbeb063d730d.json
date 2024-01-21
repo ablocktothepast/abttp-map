@@ -395,5 +395,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-01-21 11:28:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2024-01-21 11:28:59 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3805
 }

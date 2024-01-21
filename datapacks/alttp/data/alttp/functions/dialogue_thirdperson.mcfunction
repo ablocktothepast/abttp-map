@@ -2,8 +2,6 @@ kill @e[type=marker,tag=dialogue_tp]
 summon marker ~ ~ ~ {Tags:["dialogue_tp"]}
 
 execute at @p run summon marker ~ ~ ~ {Tags:["dialogueplayerpos"]}
-execute if entity @e[tag=npc,tag=npcfocus] at @e[tag=npc,tag=npcfocus] facing entity @p eyes positioned ^ ^ ^1 run summon marker ~ ~ ~ {Tags:["dialoguemidpoint"]}
-execute at @p unless entity @e[tag=npc,tag=npcfocus] positioned ^ ^ ^1 run summon marker ~ ~ ~ {Tags:["dialoguemidpoint"]}
 execute at @p run tp @e[type=marker,tag=dialogueplayerpos] ~ ~ ~ ~ ~
 kill @e[type=area_effect_cloud,tag=dialoguetransition]
 kill @e[type=minecart,tag=dialogue_minecart]

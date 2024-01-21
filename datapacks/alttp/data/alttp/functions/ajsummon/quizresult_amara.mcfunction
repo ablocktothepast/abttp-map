@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=amara] run function animated_java:amara/animations/clap/play

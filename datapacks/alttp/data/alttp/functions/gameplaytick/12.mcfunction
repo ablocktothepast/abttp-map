@@ -75,4 +75,5 @@ execute if score racetime gameplay matches 1.. as @e[type=wolf,tag=dog,tag=close
 execute if score firstbatch gameplay matches 3 if score active dialogue matches 1 if score id dialogue matches 179.. run function alttp:bertram_resultstick
 
 execute store result score time dummy run time query daytime
-execute if score time dummy matches ..12000 run time add 1t
+execute if score time dummy matches ..14000 run gamerule doDaylightCycle true
+execute if score time dummy matches 14001.. run gamerule doDaylightCycle false

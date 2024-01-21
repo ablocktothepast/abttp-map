@@ -82,6 +82,8 @@ execute if score id dialogue matches 418 run summon marker -297.733 -9 679.569 {
 execute if score id dialogue matches 419 run summon marker -286.205 -12 698.415 {Rotation:[90F,0F],Tags:["dialogue_fakeplayerpos"]}
 execute if score id dialogue matches 436 run summon marker -286.205 -12 698.415 {Rotation:[90F,0F],Tags:["dialogue_fakeplayerpos"]}
 execute if score id dialogue matches 438 run summon marker -308.604 -14 642.613 {Rotation:[-146F,0F],Tags:["dialogue_fakeplayerpos"]}
+execute if score id dialogue matches 439 run summon marker -247.641 -11 631.052 {Rotation:[-105F,0F],Tags:["dialogue_fakeplayerpos"]}
+execute if score id dialogue matches 440 run summon marker -360.959 0 715.083 {Rotation:[135F,0F],Tags:["dialogue_fakeplayerpos"]}
 
 ##NOT HARD
 execute unless entity @e[type=marker,tag=dialogue_fakeplayerpos] at @p run summon marker ~ ~ ~ {Tags:["dialogue_fakeplayerpos","unhard"]}

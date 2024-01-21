@@ -8,7 +8,8 @@ execute if score unclewalkedout gameplay matches 1 run fill -318 -5 590 -319 -5 
 execute if score unclewalkedout gameplay matches 1 run fill -318 -5 590 -319 -5 590 air
 
 execute store result score time dummy run time query daytime
-execute if score time dummy matches ..10000 run time add 3t
+execute if score time dummy matches ..8000 run gamerule doDaylightCycle true
+execute if score time dummy matches 8001.. run gamerule doDaylightCycle false
 
 execute if score dialoguetransition2 dummy matches 0 unless score unclewalkedout gameplay matches 1 as @e[type=marker,tag=unclelock] at @s if entity @e[type=item_display,tag=unclestart,distance=..6] facing entity @e[type=item_display,tag=unclestart] eyes rotated ~ 0 run tp @s ~ ~ ~ ~ 0
 execute if score dialoguetransition2 dummy matches 0 unless score unclewalkedout gameplay matches 1 run tp @p @e[type=marker,tag=unclelock,limit=1]
@@ -50,7 +51,7 @@ execute if score townscene gameplay matches 540 run bossbar set blackbars visibl
 execute if score townscene gameplay matches 600 run title @p times 2s 5s 2s
 execute if score townscene gameplay matches 600 run title @a title ["",{"text":"🍂 ","color":"gold"},{"text":"Oakheart Village","color":"dark_green"},{"text":" 🍁","color":"gold"}]
 execute if score townscene gameplay matches 600 run title @a subtitle "Chapter 0"
-execute if score townscene gameplay matches 600.. run scoreboard players set townscene gameplay 0
+execute if score townscene gameplay matches 600.. run scoreboard players set townscene gameplay -1
 
 execute if score townscene gameplay matches 2 run function alttp:animcheck
 execute if score townscene gameplay matches 101 run function alttp:animcheck

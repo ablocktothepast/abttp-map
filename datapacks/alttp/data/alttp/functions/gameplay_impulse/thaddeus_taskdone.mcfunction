@@ -21,8 +21,8 @@ summon marker -410 -8 680 {Tags:["thaddeusmove2","end"]}
 setblock -405 -10 680 redstone_torch
 
 execute as @e[type=item_display,tag=thaddeus] run function animated_java:thaddeus/animations/hovering/stop
-execute as @e[type=item_display,tag=thaddeus] run function animated_java:thaddeus/animations/idle/stop
 execute as @e[type=item_display,tag=thaddeus] run function animated_java:thaddeus/animations/surprised/stop
+execute as @e[type=item_display,tag=thaddeus] run function animated_java:thaddeus/animations/idle/play
 
 scoreboard players set amarawalk gameplay 2
 execute as @e[type=item_display,tag=amara] run function animated_java:amara/animations/idle_sitting/stop

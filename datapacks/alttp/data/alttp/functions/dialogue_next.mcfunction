@@ -277,7 +277,7 @@ execute if score id dialogue matches 151 run tag @e[tag=lysander] add npcfocus
 execute if score id dialogue matches 148 positioned -295 -8.5 681 rotated 109 0 run function animated_java:villager_link/summon
 execute if score id dialogue matches 148 run tp @e[type=item_display,tag=aj.villager_link.root] -295 -8.5 681 109 0
 execute if score id dialogue matches 148 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/idle_sitting/play
-execute if score id dialogue matches 152 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/emote_sitting/play
+execute if score id dialogue matches 152 run schedule function alttp:ajsummon/quizresult_link 1s
 execute if score id dialogue matches 148 run setblock -295 -9 681 oak_slab[type=bottom]
 execute if score id dialogue matches 152 run tag @e remove npc_focus
 execute if score id dialogue matches 152 run tp @e[type=marker,tag=dialogue_tp] -297.190 -9 680.547 -70 0
@@ -369,40 +369,40 @@ execute if score idd dialogue matches 232..233 run tp @e[type=marker,tag=dialogu
 execute if score idd dialogue matches 232..233 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/remove/this
 execute if score idd dialogue matches 232..233 run setblock -295 -9 681 air
 
-execute if score id dialogue matches 180 as @e[type=item_display,tag=lysander] run function animated_java:lysander/animations/quiz_result/play
-execute if score id dialogue matches 190 as @e[type=item_display,tag=lysander] run function animated_java:lysander/animations/quiz_result/play
-execute if score id dialogue matches 198 as @e[type=item_display,tag=lysander] run function animated_java:lysander/animations/quiz_result/play
-execute if score id dialogue matches 206 as @e[type=item_display,tag=lysander] run function animated_java:lysander/animations/quiz_result/play
-execute if score id dialogue matches 214 as @e[type=item_display,tag=lysander] run function animated_java:lysander/animations/quiz_result/play
-execute if score id dialogue matches 224 as @e[type=item_display,tag=lysander] run function animated_java:lysander/animations/quiz_result/play
+execute if score id dialogue matches 180 run schedule function alttp:ajsummon/quizresult_lysander 15t
+execute if score id dialogue matches 190 run schedule function alttp:ajsummon/quizresult_lysander 15t
+execute if score id dialogue matches 198 run schedule function alttp:ajsummon/quizresult_lysander 15t
+execute if score id dialogue matches 206 run schedule function alttp:ajsummon/quizresult_lysander 15t
+execute if score id dialogue matches 214 run schedule function alttp:ajsummon/quizresult_lysander 15t
+execute if score id dialogue matches 224 run schedule function alttp:ajsummon/quizresult_lysander 15t
 
-execute if score id dialogue matches 182 as @e[type=item_display,tag=amara] run function animated_java:amara/animations/clap/play
-execute if score id dialogue matches 192 as @e[type=item_display,tag=amara] run function animated_java:amara/animations/clap/play
-execute if score id dialogue matches 200 as @e[type=item_display,tag=amara] run function animated_java:amara/animations/clap/play
-execute if score id dialogue matches 208 as @e[type=item_display,tag=amara] run function animated_java:amara/animations/clap/play
-execute if score id dialogue matches 216 as @e[type=item_display,tag=amara] run function animated_java:amara/animations/clap/play
-execute if score id dialogue matches 226 as @e[type=item_display,tag=amara] run function animated_java:amara/animations/clap/play
+execute if score id dialogue matches 182 run schedule function alttp:ajsummon/quizresult_amara 1s
+execute if score id dialogue matches 192 run schedule function alttp:ajsummon/quizresult_amara 1s
+execute if score id dialogue matches 200 run schedule function alttp:ajsummon/quizresult_amara 1s
+execute if score id dialogue matches 208 run schedule function alttp:ajsummon/quizresult_amara 1s
+execute if score id dialogue matches 216 run schedule function alttp:ajsummon/quizresult_amara 1s
+execute if score id dialogue matches 226 run schedule function alttp:ajsummon/quizresult_amara 1s
 
-execute if score id dialogue matches 184 as @e[type=item_display,tag=fiona] run function animated_java:fiona/animations/emote/play
-execute if score id dialogue matches 194 as @e[type=item_display,tag=fiona] run function animated_java:fiona/animations/emote/play
-execute if score id dialogue matches 202 as @e[type=item_display,tag=fiona] run function animated_java:fiona/animations/emote/play
-execute if score id dialogue matches 210 as @e[type=item_display,tag=fiona] run function animated_java:fiona/animations/emote/play
-execute if score id dialogue matches 218 as @e[type=item_display,tag=fiona] run function animated_java:fiona/animations/emote/play
-execute if score id dialogue matches 228 as @e[type=item_display,tag=fiona] run function animated_java:fiona/animations/emote/play
+execute if score id dialogue matches 184 run schedule function alttp:ajsummon/quizresult_fiona 25t
+execute if score id dialogue matches 194 run schedule function alttp:ajsummon/quizresult_fiona 25t
+execute if score id dialogue matches 202 run schedule function alttp:ajsummon/quizresult_fiona 25t
+execute if score id dialogue matches 210 run schedule function alttp:ajsummon/quizresult_fiona 25t
+execute if score id dialogue matches 218 run schedule function alttp:ajsummon/quizresult_fiona 25t
+execute if score id dialogue matches 228 run schedule function alttp:ajsummon/quizresult_fiona 25t
 
-execute if score id dialogue matches 186 as @e[type=item_display,tag=percival] run function animated_java:percival/animations/emote_sitting/play
-execute if score id dialogue matches 196 as @e[type=item_display,tag=percival] run function animated_java:percival/animations/emote_sitting/play
-execute if score id dialogue matches 204 as @e[type=item_display,tag=percival] run function animated_java:percival/animations/emote_sitting/play
-execute if score id dialogue matches 212 as @e[type=item_display,tag=percival] run function animated_java:percival/animations/emote_sitting/play
-execute if score id dialogue matches 220 as @e[type=item_display,tag=percival] run function animated_java:percival/animations/emote_sitting/play
-execute if score id dialogue matches 230 as @e[type=item_display,tag=percival] run function animated_java:percival/animations/emote_sitting/play
+execute if score id dialogue matches 186 run schedule function alttp:ajsummon/quizresult_percival 15t
+execute if score id dialogue matches 196 run schedule function alttp:ajsummon/quizresult_percival 15t
+execute if score id dialogue matches 204 run schedule function alttp:ajsummon/quizresult_percival 15t
+execute if score id dialogue matches 212 run schedule function alttp:ajsummon/quizresult_percival 15t
+execute if score id dialogue matches 220 run schedule function alttp:ajsummon/quizresult_percival 15t
+execute if score id dialogue matches 230 run schedule function alttp:ajsummon/quizresult_percival 15t
 
-execute if score id dialogue matches 188 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/emote_sitting/play
-execute if score id dialogue matches 196 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/emote_sitting/play
-execute if score id dialogue matches 202 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/emote_sitting/play
-execute if score id dialogue matches 208 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/emote_sitting/play
-execute if score id dialogue matches 214 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/emote_sitting/play
-execute if score id dialogue matches 222 as @e[type=item_display,tag=aj.villager_link.root] run function animated_java:villager_link/animations/emote_sitting/play
+execute if score id dialogue matches 188 run schedule function alttp:ajsummon/quizresult_link 1s
+execute if score id dialogue matches 196 run schedule function alttp:ajsummon/quizresult_link 1s
+execute if score id dialogue matches 202 run schedule function alttp:ajsummon/quizresult_link 1s
+execute if score id dialogue matches 208 run schedule function alttp:ajsummon/quizresult_link 1s
+execute if score id dialogue matches 214 run schedule function alttp:ajsummon/quizresult_link 1s
+execute if score id dialogue matches 222 run schedule function alttp:ajsummon/quizresult_link 1s
 
 execute if score id dialogue matches 232..233 run scoreboard players add idd dialogue 1
 execute if score id dialogue matches 234 run function alttp:dialogue_stop
@@ -598,7 +598,7 @@ execute if score id dialogue matches 433 if score choice dialogue matches 2 run 
 execute if score id dialogue matches 433 if score choice dialogue matches 1 unless score @p rupees matches 25.. run scoreboard players set idd dialogue 434
 execute if score id dialogue matches 433 if score choice dialogue matches 1 if score @p rupees matches 25.. run scoreboard players set idd dialogue 435
 execute if score id dialogue matches 433 if score choice dialogue matches 1 if score @p rupees matches 25.. run function alttp:shops_buy/oakheart_alden_4
-execute if score id dialogue matches 434..438 run function alttp:dialogue_stop
+execute if score id dialogue matches 434..440 run function alttp:dialogue_stop
 
 execute store result score id dialogue run scoreboard players get idd dialogue
 

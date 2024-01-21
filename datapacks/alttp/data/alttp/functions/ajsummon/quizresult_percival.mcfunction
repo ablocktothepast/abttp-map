@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=percival] run function animated_java:percival/animations/emote_sitting/play

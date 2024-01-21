@@ -27,4 +27,5 @@ execute if score hidedown gameplay matches 120 as @e[type=item_display,tag=aj.el
 execute if score hidedown gameplay matches 120 as @e[type=item_display,tag=aj.elisabeth.root] run function animated_java:elisabeth/animations/idle/play
 
 execute store result score time dummy run time query daytime
-execute if score time dummy matches ..10000 run time add 3t
+execute if score time dummy matches ..12000 run gamerule doDaylightCycle true
+execute if score time dummy matches 12001.. run gamerule doDaylightCycle false

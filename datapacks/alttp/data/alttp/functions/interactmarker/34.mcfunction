@@ -1,6 +1,7 @@
 execute if score # gameplay matches 14 if score secondbatch gameplay matches 2 run return 0
 
 execute if score # gameplay matches 5..13 run tag @e[tag=erin] add npcfocus
+execute if score # gameplay matches 5..13 run scoreboard players set angle dialogue 20
 execute if score # gameplay matches 5..13 as @e[type=item_display,tag=erin] run function animated_java:erin/animations/running/stop
 execute if score # gameplay matches 5..13 as @e[type=item_display,tag=erin] run function animated_java:erin/animations/idle/play
 execute if score # gameplay matches 5..13 at @e[tag=erin] run tp @e[tag=erin] ~ ~ ~ facing entity @p

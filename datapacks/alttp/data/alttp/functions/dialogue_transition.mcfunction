@@ -13,6 +13,9 @@ execute as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[
 execute if score dialoguetransitiontick dummy matches 1.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s facing entity @e[type=marker,tag=dialoguetransitiongoal] feet run tp @s ^ ^ ^0.05
 execute as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=..0.06] run function alttp:dialogue_post_start
 
+execute if score dialoguetransitiontick dummy matches 2.. as @e[type=area_effect_cloud,tag=dialoguetransition] at @s facing entity @e[type=marker,tag=dialoguetransitiongoal] feet run tp @s ^ ^ ^0.05
+execute as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=..0.06] run function alttp:dialogue_post_start
+
 execute if score dialoguetransitiontick dummy matches ..1 as @e[type=area_effect_cloud,tag=dialoguetransition] at @s facing entity @e[type=marker,tag=dialoguetransitiongoal] feet run tp @s ^ ^ ^0.05
 execute as @e[type=area_effect_cloud,tag=dialoguetransition] at @s if entity @e[type=marker,tag=dialoguetransitiongoal,distance=..0.06] run function alttp:dialogue_post_start
 

@@ -58,6 +58,7 @@ execute if score id dialogue matches 383..397 run tp @s -226.023 -5 577.659 167 
 execute if score id dialogue matches 398 run tp @s -245.3 -6.3 732.883 160 0
 execute if score id dialogue matches 399 run tp @s -245.307 -6.35 735.623 149 0
 execute if score id dialogue matches 400 run tp @s -250.241 -2.05 720.842 -126 0
+execute if score id dialogue matches 401..404 if score # gameplay matches ..13 facing entity @e[tag=erin,limit=1] eyes run tp @s ~ ~ ~ ~ 0
 execute if score id dialogue matches 404..405 if score # gameplay matches 14.. run tp @s -300.693 -14.2 648.563 -167 0
 execute if score id dialogue matches 406 run tp @s -398.923 -8.2 686.313 165 0
 execute if score id dialogue matches 407 run tp @s -346.443 4 674.945 -23 0
@@ -74,3 +75,5 @@ execute if score id dialogue matches 418 run tp @s -296.759 -9.0625 681.429 131 
 execute if score id dialogue matches 419 run tp @s -285.643 -12.15 696.711 34 0
 execute if score id dialogue matches 436 run tp @s -285.643 -12.15 696.711 34 0
 execute if score id dialogue matches 438 run tp @s -310.54 -14.2 642.26 -96 0
+execute if score id dialogue matches 439 run tp @s -248.410 -11.0625 632.777 -140 0
+execute if score id dialogue matches 440 run tp @s -359.168 0 714.119 83 0

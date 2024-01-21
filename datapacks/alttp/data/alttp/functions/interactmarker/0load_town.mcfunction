@@ -52,3 +52,5 @@ summon marker -295 -9 681 {Tags:["interact"],data:{id:49}}
 summon marker -318.0 -3 589.5 {Tags:["interact"],data:{id:50}}
 summon marker -308 -14 640 {Tags:["interact"],data:{id:51}}
 summon marker -246 -11 631 {Tags:["interact"],data:{id:52}}
+summon marker -246 -11 630 {Tags:["interact"],data:{id:53}}
+summon marker -363 1 713 {Tags:["interact"],data:{id:54}}

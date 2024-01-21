@@ -105,4 +105,5 @@ execute if score secondbatch gameplay matches 2 run scoreboard players add mucks
 execute if score secondbatch gameplay matches 2 if score muckspiders gameplay matches 600.. at @p unless entity @e[type=silverfish,tag=muckyspidersf,distance=..10] run function alttp:gameplay_impulse/muckyspiderspawn
 
 execute store result score time dummy run time query daytime
-execute if score time dummy matches ..14000 run time add 1t
+execute if score time dummy matches ..14500 run gamerule doDaylightCycle true
+execute if score time dummy matches 14501.. run gamerule doDaylightCycle false

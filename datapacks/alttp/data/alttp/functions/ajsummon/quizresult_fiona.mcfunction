@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=fiona] run function animated_java:fiona/animations/emote/play

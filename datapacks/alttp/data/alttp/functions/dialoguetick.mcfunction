@@ -85,3 +85,7 @@ execute as @e[type=marker,tag=dialogue_player] unless score cutscene dialogue ma
 execute store result score tpair dummy run data get entity @e[type=area_effect_cloud,tag=dialogue_lock_aec,limit=1] Air
 execute if score tpair dummy matches 0 run data merge entity @e[type=area_effect_cloud,tag=dialogue_lock_aec,limit=1] {Air:1}
 execute unless score tpair dummy matches 0 run data merge entity @e[type=area_effect_cloud,tag=dialogue_lock_aec,limit=1] {Air:0}
+
+##Controls
+execute if score choicedialogue dialogue matches 1 run bossbar set minecraft:dialoguecontrols name [{"keybind":"key.attack"},{"text":" to continue"},{"text":" | ","color":"gray"},{"text":"Scroll to select choices"}]
+execute if score choicedialogue dialogue matches 0 run bossbar set minecraft:dialoguecontrols name [{"keybind":"key.attack"},{"text":" to continue"}]

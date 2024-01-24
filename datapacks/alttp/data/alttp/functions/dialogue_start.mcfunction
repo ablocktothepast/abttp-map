@@ -34,6 +34,7 @@ summon item_display ~ ~ ~ {billboard:"center",interpolation_start:-1,interpolati
 
 summon interaction ~ ~ ~ {Tags:["dialogue_in"],height:4,width:4}
 
-bossbar add dialoguecontrols [{"keybind":"key.attack"},{"text":" to continue"},{"text":" | ","color":"gray"},{"text":"Scroll to select choices"}]
+bossbar remove dialoguecontrols
+bossbar add dialoguecontrols ""
 bossbar set dialoguecontrols players @p
 bossbar set dialoguecontrols visible true

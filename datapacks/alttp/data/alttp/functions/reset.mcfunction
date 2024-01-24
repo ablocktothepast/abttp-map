@@ -107,6 +107,8 @@ scoreboard players set @a arrows_bomb 0
 scoreboard players set dlspeed options 2
 scoreboard players set dlfov options 90
 scoreboard players set @a flippers 300
+scoreboard players set @a drowning 300
+scoreboard players set $strength delta.api.launch 10000
 
 scoreboard objectives remove keys
 scoreboard objectives add keys dummy

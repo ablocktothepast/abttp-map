@@ -325,3 +325,4 @@ bossbar add questupdate ""
 bossbar set questupdate players @a
 bossbar add questupdate_ ""
 bossbar set questupdate players @a
+execute as @e[type=minecraft:armor_stand] run data merge entity @s {DisabledSlots:4144959}

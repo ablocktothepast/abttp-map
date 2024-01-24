@@ -1,10 +1,11 @@
 execute if entity @e[type=marker,tag=unclemove] as @e[type=item_display,tag=unclestart] at @s facing entity @e[type=marker,tag=unclemove,limit=1,sort=nearest] eyes run tp @s ^ ^ ^0.16 ~-90 0
 # execute if entity @e[type=marker,tag=unclemove] as @e[type=item_display,tag=unclestart] at @s run tp @s @e[type=marker,tag=unclemove,limit=1,sort=nearest,distance=..0.17]
 execute if entity @e[type=marker,tag=unclemove] as @e[type=item_display,tag=unclestart] at @s if entity @e[type=marker,tag=unclemove,tag=end,distance=..0.17] run scoreboard players set unclewalkedout gameplay 1
+execute if entity @e[type=marker,tag=unclemove] as @e[type=item_display,tag=unclestart] at @s if entity @e[type=marker,tag=unclemove,tag=end,distance=..0.17] as @e[type=item_display,tag=aj.uncle_alphon.root] run function animated_java:uncle_alphon/animations/walking/stop
+execute if entity @e[type=marker,tag=unclemove] as @e[type=item_display,tag=unclestart] at @s if entity @e[type=marker,tag=unclemove,tag=end,distance=..0.17] as @e[type=item_display,tag=aj.uncle_alphon.root] run function animated_java:uncle_alphon/animations/idle/play
 execute if entity @e[type=marker,tag=unclemove] as @e[type=item_display,tag=unclestart] at @s if entity @e[type=marker,tag=unclemove,tag=end,distance=..0.17] run tp @s -309 -2 609 43 0
 execute if entity @e[type=marker,tag=unclemove] as @e[type=item_display,tag=unclestart] at @s run kill @e[type=marker,tag=unclemove,limit=1,sort=nearest,distance=..0.17]
 execute if score unclewalkedout gameplay matches 1 run kill @e[tag=unclemove]
-execute if score unclewalkedout gameplay matches 1 run fill -318 -5 590 -319 -5 590 air
 execute if score unclewalkedout gameplay matches 1 run fill -318 -5 590 -319 -5 590 air
 
 execute store result score time dummy run time query daytime

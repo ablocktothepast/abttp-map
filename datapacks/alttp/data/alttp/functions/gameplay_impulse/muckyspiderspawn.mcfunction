@@ -1,6 +1,7 @@
 ##Mucky spiders
-kill @e[tag=muckyspider]
-kill @e[tag=muckyspidersf]
+tp @e[type=spider,tag=muckyspider] 0 -64 0
+tag @e[type=spider,tag=muckyspider] add kill
+schedule function alttp:gameplay_impulse/muckyspiderkill 30t
 execute positioned -255 -6 733 run function alttp:summon/mucky_spider
 execute positioned -249 -6 722 run function alttp:summon/mucky_spider
 execute positioned -246 -2 734 run function alttp:summon/mucky_spider

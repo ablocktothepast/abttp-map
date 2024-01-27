@@ -1,10 +1,10 @@
-execute positioned -302 -20 654 if entity @p[distance=..2] run scoreboard players set navblindness gameplay 1
-execute positioned -255 -16 642 if entity @p[distance=..2] run scoreboard players set navblindness gameplay 1
-execute positioned -310 -14 646 if entity @p[distance=..2] run scoreboard players set navblindness gameplay 0
-execute positioned -255 -11 638 if entity @p[distance=..2] run scoreboard players set navblindness gameplay 0
+execute positioned -302 -20 654 if entity @p[distance=..3] run scoreboard players set navblindness gameplay 1
+execute positioned -255 -16 642 if entity @p[distance=..3] run scoreboard players set navblindness gameplay 1
+execute positioned -310 -14 646 if entity @p[distance=..3] run scoreboard players set navblindness gameplay 0
+execute positioned -255 -11 638 if entity @p[distance=..3] run scoreboard players set navblindness gameplay 0
 
-execute positioned -302 -20 654 if entity @p[distance=..2] if score melissa_guide gameplay matches 2 run tp @e[tag=melissa] -294 -9 637 -103 0
-execute positioned -302 -20 654 if entity @p[distance=..2] if score melissa_guide gameplay matches 2 run scoreboard players set melissa_guide gameplay 0
+execute positioned -302 -20 654 if entity @p[distance=..3] if score melissa_guide gameplay matches 2 run tp @e[tag=melissa] -294 -9 637 -103 0
+execute positioned -302 -20 654 if entity @p[distance=..3] if score melissa_guide gameplay matches 2 run scoreboard players set melissa_guide gameplay 0
 
 execute if score navblindness gameplay matches 0 run effect clear @p blindness
 execute if score @p lamp_state matches 1 run effect clear @p blindness

@@ -38,6 +38,7 @@ scoreboard players set applebasket gameplay 0
 scoreboard players set melissawalk gameplay 0
 scoreboard players set melissa_guide gameplay 0
 scoreboard players set heartpiecelog gameplay 1
+scoreboard players set askedhide gameplay 0
 
 gamerule fallDamage false
 

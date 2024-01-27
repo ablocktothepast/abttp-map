@@ -69,8 +69,8 @@ execute as @a at @s if score @s gamesquit matches 1.. run function alttp:enterga
 
 #DROWNING
 # execute as @p at @s if block ~ ~ ~ water run scoreboard players remove @s drowning 2
-execute as @p at @s if block ~ ~1.2 ~ water run scoreboard players remove @s drowning 2
-execute as @p at @s unless block ~ ~ ~ water unless block ~ ~1.2 ~ water if score @s drowning < @s flippers unless block ~ ~-0.1 ~ #gothrough run scoreboard players add @s drowning 2
+execute as @p at @s positioned ~ ~1.2 ~ if predicate minecraft:water run scoreboard players remove @s drowning 2
+execute as @p at @s unless predicate minecraft:water positioned ~ ~1.2 ~ unless predicate minecraft:water if score @s drowning < @s flippers at @s unless block ~ ~-0.1 ~ #gothrough run scoreboard players add @s drowning 2
 execute as @p at @s if score @s drowning > @s flippers store result score @s drowning run scoreboard players get @s flippers
 execute as @p at @s if score @s drowning < @s flippers run function alttp:drownbar
 execute as @p at @s unless score @s drowning < @s flippers if score drownbar dummy matches 1.. run scoreboard players remove drownbar dummy 1

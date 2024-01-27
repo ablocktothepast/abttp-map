@@ -6,6 +6,7 @@ execute positioned -331 14 647 if entity @p[distance=..4] at @p unless block ~ ~
 execute if score agathacat1 gameplay matches 1.. run scoreboard players add agathacat1 gameplay 1
 execute if score agathacat1 gameplay matches 1.. run gamemode spectator @p
 execute if score agathacat1 gameplay matches 1.. run attribute @p minecraft:player.entity_interaction_range base set 0
+execute if score agathacat1 gameplay matches 1.. run attribute @p minecraft:generic.movement_speed base set 0
 execute if score agathacat1 gameplay matches 2 as @p at @s run summon marker ~ ~ ~ {Tags:["catlock"]}
 execute if score agathacat1 gameplay matches 2..50 as @p at @e[type=marker,tag=catlock] run tp @s ~ ~ ~ facing -281 13 642
 execute if score agathacat1 gameplay matches 20 run data merge entity @e[type=cat,tag=agathacat,limit=1] {NoAI:0b}
@@ -28,12 +29,14 @@ execute if score agathacat1 gameplay matches 100 run effect clear @p slowness
 execute if score agathacat1 gameplay matches 100 run kill @e[type=marker,tag=catlock]
 execute if score agathacat1 gameplay matches 100 run gamemode adventure @p
 execute if score agathacat1 gameplay matches 100 run attribute @p minecraft:player.entity_interaction_range base set 4.5
+execute if score agathacat1 gameplay matches 100 run attribute @p minecraft:generic.movement_speed base set 0.1
 execute if score agathacat1 gameplay matches 100 run scoreboard players set agathacat1 gameplay 0
 
 ##Agatha cat animation 2
 execute if score agathacat2 gameplay matches 1.. run scoreboard players add agathacat2 gameplay 1
 execute if score agathacat2 gameplay matches 1.. run gamemode spectator @p
 execute if score agathacat2 gameplay matches 1.. run attribute @p minecraft:player.entity_interaction_range base set 0
+execute if score agathacat2 gameplay matches 1.. run attribute @p minecraft:generic.movement_speed base set 0
 execute if score agathacat2 gameplay matches 2 as @p at @s run summon marker ~ ~ ~ {Tags:["catlock"]}
 execute if score agathacat2 gameplay matches 2..50 as @p at @e[type=marker,tag=catlock] run tp @s ~ ~ ~ facing -275 14 600
 execute if score agathacat2 gameplay matches 20 run data merge entity @e[type=cat,tag=agathacat,limit=1] {NoAI:0b}
@@ -59,12 +62,14 @@ execute if score agathacat2 gameplay matches 120 run effect clear @p slowness
 execute if score agathacat2 gameplay matches 120 run kill @e[type=marker,tag=catlock]
 execute if score agathacat2 gameplay matches 120 run gamemode adventure @p
 execute if score agathacat2 gameplay matches 120 run attribute @p minecraft:player.entity_interaction_range base set 4.5
+execute if score agathacat2 gameplay matches 120 run attribute @p minecraft:generic.movement_speed base set 0.1
 execute if score agathacat2 gameplay matches 120 run scoreboard players set agathacat2 gameplay 0
 
 ##Agatha cat animation 3
 execute if score agathacat3 gameplay matches 1.. run scoreboard players add agathacat3 gameplay 1
 execute if score agathacat3 gameplay matches 1.. run gamemode spectator @p
 execute if score agathacat3 gameplay matches 1.. run attribute @p minecraft:player.entity_interaction_range base set 0
+execute if score agathacat3 gameplay matches 1.. run attribute @p minecraft:generic.movement_speed base set 0
 execute if score agathacat3 gameplay matches 2 as @p at @s run summon marker ~ ~ ~ {Tags:["catlock"]}
 execute if score agathacat3 gameplay matches 2..50 as @p at @e[type=marker,tag=catlock] run tp @s ~ ~ ~ facing -331 13 647
 execute if score agathacat3 gameplay matches 20 run data merge entity @e[type=cat,tag=agathacat,limit=1] {NoAI:0b}
@@ -90,6 +95,7 @@ execute if score agathacat3 gameplay matches 120 run effect clear @p slowness
 execute if score agathacat3 gameplay matches 120 run kill @e[type=marker,tag=catlock]
 execute if score agathacat3 gameplay matches 120 run gamemode adventure @p
 execute if score agathacat3 gameplay matches 120 run attribute @p minecraft:player.entity_interaction_range base set 4.5
+execute if score agathacat3 gameplay matches 120 run attribute @p minecraft:generic.movement_speed base set 0.1
 execute if score agathacat3 gameplay matches 120 run scoreboard players set agathacat3 gameplay 0
 
 ##Cat held

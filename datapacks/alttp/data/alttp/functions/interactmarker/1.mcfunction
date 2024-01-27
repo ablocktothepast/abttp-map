@@ -6,7 +6,9 @@ execute if score # gameplay matches 6 run scoreboard players set id dialogue 24
 execute if score # gameplay matches 7 run scoreboard players set id dialogue 28
 execute if score # gameplay matches 8 run scoreboard players set id dialogue 74
 execute if score # gameplay matches 9..10 run scoreboard players set id dialogue 75
-execute if score # gameplay matches 11 run scoreboard players set id dialogue 77
+execute if score # gameplay matches 11 if score askedhide gameplay matches 1 run scoreboard players set id dialogue 80
+execute if score # gameplay matches 11 if score askedhide gameplay matches 0 run scoreboard players set id dialogue 77
+execute if score # gameplay matches 11 if score askedhide gameplay matches 0 run scoreboard players set askedhide gameplay 1
 execute if score # gameplay matches 12 run scoreboard players set id dialogue 235
 execute if score # gameplay matches 13 run scoreboard players set id dialogue 236
 execute if score # gameplay matches 14 if score secondbatch gameplay matches 2 positioned -309 -2 609 if entity @e[tag=muckyspider,distance=..10] run scoreboard players set id dialogue 259

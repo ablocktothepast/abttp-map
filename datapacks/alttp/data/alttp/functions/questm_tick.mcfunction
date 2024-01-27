@@ -4,14 +4,6 @@ execute unless score init quests matches 1 as @e[type=text_display,tag=descripti
 execute unless score init quests matches 1 run function alttp:questm_list_scroll
 scoreboard players set init quests 1
 
-##Bossbar instructions
-bossbar add quests [{"text":"Left-click to switch type"},{"text":" | ","color":"gray","bold":true},{"text":"Right-click to mark"},{"text":" | ","color":"gray","bold":true},{"keybind":"key.sneak"},{"text":" to close"}]
-bossbar set quests visible true
-bossbar set quests players @p
-bossbar set quests color white
-bossbar set quests max 100
-bossbar set quests value 100
-
 ##Freeze player
 tp @p @e[type=marker,tag=playerpos,limit=1]
 

@@ -7,5 +7,3 @@ scoreboard players set racetime gameplay -101
 schedule function alttp:gameplay_impulse/thaddeus_race_results 25t
 setblock -360 -3 766 air
 setblock -360 -1 766 minecraft:grass_block
-
-gamerule fallDamage true

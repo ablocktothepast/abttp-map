@@ -13,6 +13,7 @@ execute if score id dialogue matches 63 run tp @s -280.529 -13.8 726.363 -31 0
 execute if score id dialogue matches 64 run tp @s -226.023 -5 577.659 167 0
 execute if score id dialogue matches 74..75 run tp @s -311.826 -2.2 609.302 -103 0
 execute if score id dialogue matches 77 run tp @s -311.826 -2.2 609.302 -103 0
+execute if score id dialogue matches 80 run tp @s -311.826 -2.2 609.302 -103 0
 execute if score id dialogue matches 100 run tp @s -291.968 -9.2 634.617 9 0
 execute if score id dialogue matches 111 run tp @s -291.968 -9.2 634.617 9 0
 execute if score id dialogue matches 116 run tp @s -291.968 -9.2 634.617 9 0

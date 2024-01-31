@@ -53,7 +53,7 @@ execute if entity @p[gamemode=adventure] run function alttp:hotbar
 kill @e[type=item,tag=!loot,nbt=!{Item:{id:"minecraft:turtle_scute",Count:1b,tag:{display:{Name:'{"text":"Super Bomb","color":"dark_red","italic":false}',Lore:['{"text":"This heavy bomb breaks heavy seals.","color":"white","italic":false}']},CustomModelData:14}}},nbt=!{Item:{id:"minecraft:sweet_berries",Count:1b}},nbt=!{Item:{id:"minecraft:tnt",Count:1b,tag:{display:{Name:'{"text":"Bomb","color":"blue","italic":false}',Lore:['{"text":"Throw to place a bomb.","color":"white","italic":false}']},Enchantments:[{}]}}},nbt=!{Item:{id:"minecraft:tnt",Count:1b,tag:{display:{Name:'{"text":"Active Bomb","color":"red","italic":false}',Lore:['{"text":"Quick! Throw it away!","color":"white","italic":false}']}}}}]
 
 ##Stuck detection
-execute as @p[gamemode=adventure] at @s unless score # gameplay matches 1 unless score fov_init dummy matches 1.. unless block ~ ~1 ~1 #gothrough unless block ~ ~1 ~-1 #gothrough unless block ~1 ~1 ~ #gothrough unless block ~-1 ~1 ~ #gothrough unless block ~ ~-0.1 ~ #gothrough run function alttp:drown
+execute as @p[gamemode=adventure] at @s unless score # gameplay matches 1 unless score fov_init dummy matches 1.. unless block ~ ~1 ~1 #gothrough_stuck unless block ~ ~1 ~-1 #gothrough_stuck unless block ~1 ~1 ~ #gothrough_stuck unless block ~-1 ~1 ~ #gothrough_stuck unless block ~ ~-0.1 ~ #gothrough_stuck run function alttp:drown
 
 ##Set new respawn point for drowning
 execute unless entity @e[type=marker,tag=respawn] run summon marker ~ ~ ~ {Tags:["respawn"]}

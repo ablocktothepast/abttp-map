@@ -21,3 +21,11 @@ bossbar set quests color white
 bossbar set quests max 100
 bossbar set quests value 100
 
+execute if score dlfov options matches 60 run effect give @p speed infinite 5 true
+
+execute if score dlfov options matches 70 run effect give @p speed infinite 3 true
+execute if score dlfov options matches 70 run attribute @p minecraft:generic.movement_speed base set 0.095
+
+execute if score dlfov options matches 85 run effect give @p speed infinite 0 true
+
+execute if score dlfov options matches 110 run effect give @p slowness infinite 1 true

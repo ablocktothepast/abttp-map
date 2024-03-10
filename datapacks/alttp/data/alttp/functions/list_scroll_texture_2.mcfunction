@@ -2,13 +2,13 @@ data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{Custo
 tag @s remove quest_completed
 tag @s remove quest_marked
 
-execute if score @s questlist matches 1 run data merge entity @s {item:{id:"minecraft:kelp",Count:1b,tag:{CustomModelData:1}}}
-execute if score @s questlist matches 2 run data merge entity @s {item:{id:"minecraft:kelp",Count:1b,tag:{CustomModelData:2}}}
-execute if score @s questlist matches 3 run data merge entity @s {item:{id:"minecraft:kelp",Count:1b,tag:{CustomModelData:3}}}
-execute if score @s questlist matches 4 run data merge entity @s {item:{id:"minecraft:kelp",Count:1b,tag:{CustomModelData:4}}}
-execute if score @s questlist matches 5 run data merge entity @s {item:{id:"minecraft:kelp",Count:1b,tag:{CustomModelData:5}}}
-execute if score @s questlist matches 6 run data merge entity @s {item:{id:"minecraft:kelp",Count:1b,tag:{CustomModelData:6}}}
-execute if score @s questlist matches 7 run data merge entity @s {item:{id:"minecraft:kelp",Count:1b,tag:{CustomModelData:7}}}
+execute if score @s questlist matches 1 run data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:9001}}}
+execute if score @s questlist matches 2 run data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:9002}}}
+execute if score @s questlist matches 3 run data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:9003}}}
+execute if score @s questlist matches 4 run data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:9004}}}
+execute if score @s questlist matches 5 run data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:9005}}}
+execute if score @s questlist matches 6 run data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:9006}}}
+execute if score @s questlist matches 7 run data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:9007}}}
 
 ##Completed markers
 execute if score @s questlist matches 1 if score 1 quests_2_completed matches 1 run tag @s add quest_completed

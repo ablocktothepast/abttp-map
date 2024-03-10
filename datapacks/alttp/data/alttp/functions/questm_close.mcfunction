@@ -9,4 +9,6 @@ bossbar set quests visible false
 scoreboard players set init quests 0
 scoreboard players set . crosshair 1
 effect clear @p speed
+effect clear @p slowness
 effect clear @p blindness
+attribute @p minecraft:generic.movement_speed base set 0.1

@@ -9,30 +9,30 @@ tp @p @e[type=marker,tag=playerpos,limit=1]
 
 ##Align elements
 execute at @p run tp @e[type=item_display,tag=bg] ^ ^1.6205 ^0.35
-execute at @p run tp @e[type=item_display,tag=list1] ^0.225 ^1.7648 ^0.345
-execute at @p run tp @e[type=item_display,tag=list2] ^0.225 ^1.691 ^0.345
-execute at @p run tp @e[type=item_display,tag=list3] ^0.225 ^1.618 ^0.345
-execute at @p run tp @e[type=item_display,tag=list4] ^0.225 ^1.546 ^0.345
-execute at @p run tp @e[type=item_display,tag=list5] ^0.225 ^1.473 ^0.345
-execute at @p run tp @e[type=item_display,tag=list6] ^0.225 ^1.399 ^0.345
-execute at @p run tp @e[type=text_display,tag=description] ^-0.2 ^1.37 ^0.3445
-execute at @p run tp @e[type=text_display,tag=title] ^-0.2 ^1.8125 ^0.345
+execute at @p run tp @e[type=item_display,tag=list1] ^0.239 ^1.7648 ^0.345
+execute at @p run tp @e[type=item_display,tag=list2] ^0.239 ^1.69294 ^0.345
+execute at @p run tp @e[type=item_display,tag=list3] ^0.239 ^1.62108 ^0.345
+execute at @p run tp @e[type=item_display,tag=list4] ^0.239 ^1.54922 ^0.345
+execute at @p run tp @e[type=item_display,tag=list5] ^0.239 ^1.47736 ^0.345
+execute at @p run tp @e[type=item_display,tag=list6] ^0.239 ^1.4055 ^0.345
+execute at @p run tp @e[type=text_display,tag=description] ^-0.21 ^1.37 ^0.345
+execute at @p run tp @e[type=text_display,tag=title] ^-0.215 ^1.8125 ^0.345
 execute at @p run tp @e[type=item_display,tag=completed1] ^0.05 ^1.7648 ^0.345
-execute at @p run tp @e[type=item_display,tag=completed2] ^0.05 ^1.691 ^0.345
-execute at @p run tp @e[type=item_display,tag=completed3] ^0.05 ^1.618 ^0.345
-execute at @p run tp @e[type=item_display,tag=completed4] ^0.05 ^1.546 ^0.345
-execute at @p run tp @e[type=item_display,tag=completed5] ^0.05 ^1.473 ^0.345
-execute at @p run tp @e[type=item_display,tag=completed6] ^0.05 ^1.399 ^0.345
+execute at @p run tp @e[type=item_display,tag=completed2] ^0.05 ^1.69294 ^0.345
+execute at @p run tp @e[type=item_display,tag=completed3] ^0.05 ^1.62108 ^0.345
+execute at @p run tp @e[type=item_display,tag=completed4] ^0.05 ^1.54922 ^0.345
+execute at @p run tp @e[type=item_display,tag=completed5] ^0.05 ^1.47736 ^0.345
+execute at @p run tp @e[type=item_display,tag=completed6] ^0.05 ^1.4055 ^0.345
 execute at @p unless entity @e[type=marker,tag=quest_switchalign] run function alttp:questm_switchalign
 execute at @p run tp @e[type=interaction,tag=leftclick] ~ ~ ~
 
 ##Select texture
-execute if score selected quests matches 1 at @p run tp @e[type=item_display,tag=listselect] ^0.225 ^1.7648 ^0.344
-execute if score selected quests matches 2 at @p run tp @e[type=item_display,tag=listselect] ^0.225 ^1.691 ^0.344
-execute if score selected quests matches 3 at @p run tp @e[type=item_display,tag=listselect] ^0.225 ^1.618 ^0.344
-execute if score selected quests matches 4 at @p run tp @e[type=item_display,tag=listselect] ^0.225 ^1.546 ^0.344
-execute if score selected quests matches 5 at @p run tp @e[type=item_display,tag=listselect] ^0.225 ^1.473 ^0.344
-execute if score selected quests matches 6 at @p run tp @e[type=item_display,tag=listselect] ^0.225 ^1.399 ^0.344
+execute if score selected quests matches 1 at @p run tp @e[type=item_display,tag=listselect] ^0.236 ^1.7648 ^0.344
+execute if score selected quests matches 2 at @p run tp @e[type=item_display,tag=listselect] ^0.236 ^1.69294 ^0.344
+execute if score selected quests matches 3 at @p run tp @e[type=item_display,tag=listselect] ^0.236 ^1.62108 ^0.344
+execute if score selected quests matches 4 at @p run tp @e[type=item_display,tag=listselect] ^0.236 ^1.54922 ^0.344
+execute if score selected quests matches 5 at @p run tp @e[type=item_display,tag=listselect] ^0.236 ^1.47736 ^0.344
+execute if score selected quests matches 6 at @p run tp @e[type=item_display,tag=listselect] ^0.236 ^1.4055 ^0.344
 
 ##Inventory
 item replace entity @p hotbar.0 with carrot_on_a_stick{display:{Name:'{"text":" "}'},CustomModelData:0}
@@ -62,8 +62,7 @@ execute if score newscroll quests < oldscroll quests run function alttp:questm_s
 execute store result score oldscroll quests run data get entity @p SelectedItemSlot
 
 #FX
-effect give @p blindness infinite 255 true
-effect give @p speed infinite 0 true
+#effect give @p blindness infinite 255 true
 
 ##Quest mapping
 execute if score @p quest_sneaking matches 1.. run function alttp:questm_close

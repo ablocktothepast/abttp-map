@@ -9,7 +9,7 @@ execute as @e[type=minecraft:falling_block,tag=wblock] at @s run data merge enti
 execute as @e[tag=enemy] at @s run data merge entity @s {PersistenceRequired:1b}
 
 #KILL LONE HITBOX MOBS
-execute as @p at @s run tag @e[tag=enemy,type=!armor_stand,type=!item_display,distance=..25] add lone
+execute as @p at @s run tag @e[tag=enemy,type=!armor_stand,type=!item_display,type=!area_effect_cloud,distance=..25] add lone
 execute as @p at @s as @e[tag=enemy,type=!armor_stand,distance=..25] at @s as @e[tag=enemy,type=armor_stand,distance=..25] if score @s enemylink = @e[tag=lone,tag=enemy,limit=1,sort=nearest] enemylink run tag @e[tag=lone,tag=enemy,limit=1,sort=nearest] remove lone
 execute as @p at @s as @e[tag=enemy,type=!armor_stand,distance=..25] at @s as @e[tag=enemy,type=item_display,distance=..25] if score @s enemylink = @e[tag=lone,tag=enemy,limit=1,sort=nearest] enemylink run tag @e[tag=lone,tag=enemy,limit=1,sort=nearest] remove lone
 kill @e[tag=lone,tag=!armosknightmarker,tag=!aksandwave,tag=!muckyspider]

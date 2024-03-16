@@ -96,7 +96,7 @@ execute as @a at @s if score @s rightclick matches 1.. run function alttp:rightc
 execute as @a at @s if score @s bushminecool matches 1.. run scoreboard players remove @s bushminecool 1
 
 #PINNING ITEMS
-execute as @a[name=!"Reevz_"] at @s unless score @s mapping matches 1.. unless score active dialogue matches 1 unless score menu quests matches 1 unless score dialoguetransition dummy matches 1 run function alttp:itempinning
+execute as @a[name=!"Reevz_"] at @s unless score @s mapping matches 1.. unless score active dialogue matches 1 unless score menu quests matches 1 unless score dialoguetransition dummy matches 1 unless score active bm matches 1 run function alttp:itempinning
 
 #PEGASUS BOOTS
 execute if score . intercool matches 1.. run scoreboard players set @a pegasussneak 0
@@ -259,6 +259,9 @@ execute as @e[type=marker,tag=knocky] at @s run function alttp:knockbackmarker
 
 #Quests
 execute if score menu quests matches 1 run function alttp:questm_tick
+
+#Big menu
+execute if score active bm matches 1 run function alttp:bm_tick
 
 #Cutscene
 execute if score tick cutscene matches -10.. if score active cutscene matches 1 run function alttp:cutscenetick

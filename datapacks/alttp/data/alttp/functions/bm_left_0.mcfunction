@@ -1,4 +1,5 @@
 scoreboard players remove slot bm 1
+execute if score slot bm matches -1 run scoreboard players add slot bm 1
 execute if score slot bm matches 6 run scoreboard players add slot bm 1
 execute if score slot bm matches 13 run scoreboard players add slot bm 1
 execute if score slot bm matches 20 run scoreboard players add slot bm 1

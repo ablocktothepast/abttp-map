@@ -1,0 +1,1 @@
+scoreboard players set sneak_cool bm 0

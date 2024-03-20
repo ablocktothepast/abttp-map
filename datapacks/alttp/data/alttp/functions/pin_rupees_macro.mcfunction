@@ -1,2 +1,0 @@
-item replace entity @p hotbar.6 with air
-$item replace entity @p hotbar.6 with carrot_on_a_stick{display:{Name:'{"text":"$(amount) rupees","color":"green","italic":false}',Lore:['{"text":"This handy pouch can store all your rupees!","color":"white","italic":false}']},CustomModelData:36} 1

@@ -1,4 +1,5 @@
-execute at @p run tp @e[type=item_display,tag=bm,tag=bg] ^ ^1.62 ^0.39
+execute at @p run tp @e[type=text_display,tag=bm,tag=bg] ^ ^1.21 ^0.39
+execute at @p run tp @e[type=text_display,tag=bm,tag=bb] ^ ^2.15 ^0.385
 
 #Selector
 execute if score menu bm matches 0 run function alttp:bm_boxalign_0

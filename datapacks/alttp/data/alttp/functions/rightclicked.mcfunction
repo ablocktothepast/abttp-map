@@ -59,4 +59,6 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1
 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Titan\'s Mitt","color":"gray","italic":false}',Lore:['{"text":"Right-click to lift the heaviest!","color":"white","italic":false}']},CustomModelData:63}}}] run function alttp:use_titansmitt
 
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Inventory","color":"gold","italic":false}',Lore:['{"text":"Right-click to open your inventory!","color":"white","italic":false}']}}}}] run function alttp:bm_open
+
 scoreboard players set @s rightclick 0

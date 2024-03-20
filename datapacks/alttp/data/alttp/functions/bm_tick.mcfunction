@@ -1,3 +1,7 @@
+#Bottom bar
+title @p times 0t 1s 0t
+title @p title "\uE021"
+
 #Sneak detection
 execute unless data entity @p RootVehicle unless score sneak_cool bm matches 1 run function alttp:bm_sneak
 

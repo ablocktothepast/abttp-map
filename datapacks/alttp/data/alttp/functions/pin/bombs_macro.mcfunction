@@ -1,1 +1,0 @@
-$item replace entity @s hotbar.7 with carrot_on_a_stick{CustomModelData:284,display:{Name:'{"text":"$(bombs) bombs","color":"blue","italic":false}',Lore:['{"text":"Right-click to throw a bomb.","color":"white","italic":false}']},Enchantments:[{}],pin:1,amount:$(bombs),active:0} 1

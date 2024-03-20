@@ -6,6 +6,13 @@ function alttp:bm_entities
 function alttp:bm_playerlock
 
 ##Bossbar instructions
+bossbar remove bm_
+bossbar add bm_ ""
+bossbar set bm_ visible true
+bossbar set bm_ players @p
+bossbar set bm_ color white
+bossbar set bm_ max 100
+bossbar set bm_ value 100
 bossbar remove bm
 bossbar add bm [{"keybind":"key.attack"},{"text":" to select"},{"text":" | ","color":"gray","bold":true},{"keybind":"key.sneak"},{"text":" to close"}]
 bossbar set bm visible true

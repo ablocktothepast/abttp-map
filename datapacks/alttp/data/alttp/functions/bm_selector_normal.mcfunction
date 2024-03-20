@@ -1,1 +1,1 @@
-data modify entity @e[tag=bm,tag=sel,limit=1] item.tag.CustomModelData set value 8005
+data modify entity @e[tag=bm,tag=sel,limit=1] text set value '{"text":"\\uE019"}'

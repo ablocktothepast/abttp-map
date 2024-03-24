@@ -266,6 +266,9 @@ scoreboard objectives add shops dummy
 scoreboard objectives add keys dummy
 scoreboard objectives add fovsneak minecraft.custom:sneak_time
 scoreboard objectives add bm dummy
+scoreboard objectives add spw_1_go dummy
+scoreboard objectives add spw_2_go dummy
+scoreboard objectives add spw_3_go dummy
 
 #SET SCORES
 scoreboard players set $strength delta.api.launch 12500

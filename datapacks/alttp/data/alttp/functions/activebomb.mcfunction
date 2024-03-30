@@ -1,5 +1,4 @@
-summon armor_stand ~ ~-1.5 ~ {Marker:1b,Invisible:1b,Tags:["bomb","activebomb"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1274520565,137973731,-1550009758,370346578],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM1NjNiOWI1ODI0MDlmNDFmMGUwNzgxYTk4M2FmZTNkOGZlMmZiZjM4M2M1M2E1ZDI3NDMxNTU1NjRkNjgifX19"}]}}}}]}
-execute store result score @e[type=armor_stand,tag=activebomb,limit=1,sort=nearest] bombtick run scoreboard players get @p bombtick
-scoreboard players set @p bombtick -1
-tag @p remove bomb
-kill @e[type=item,nbt={Item:{id:"minecraft:tnt",Count:1b,tag:{display:{Name:'{"text":"Active Bomb","color":"red","italic":false}',Lore:['{"text":"Quick! Throw it away!","color":"white","italic":false}']}}}}]
+summon armor_stand ~ ~-1.5 ~ {Marker:1b,Invisible:1b,Tags:["activebomb","bomb"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1274520565,137973731,-1550009758,370346578],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM1NjNiOWI1ODI0MDlmNDFmMGUwNzgxYTk4M2FmZTNkOGZlMmZiZjM4M2M1M2E1ZDI3NDMxNTU1NjRkNjgifX19"}]}}}}]}
+execute store result score @e[type=armor_stand,tag=activebomb,limit=1,sort=nearest] bombtick run scoreboard players get bombticktemp dummy
+kill @s
+playsound alttp.lay_bomb weather @p ~ ~ ~ 1 1

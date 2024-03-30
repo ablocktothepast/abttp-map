@@ -1,3 +1,5 @@
+execute unless block ~ ~-0.1 ~ #gothrough if entity @s[tag=active] run function alttp:activebomb
+execute unless block ~ ~-0.1 ~ #gothrough if entity @s[tag=active] run return 0
 execute unless block ~ ~-0.1 ~ #gothrough run summon armor_stand ~ ~-1.5 ~ {Marker:1b,Invisible:1b,Tags:["bomb"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1274520565,137973731,-1550009758,370346578],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM1NjNiOWI1ODI0MDlmNDFmMGUwNzgxYTk4M2FmZTNkOGZlMmZiZjM4M2M1M2E1ZDI3NDMxNTU1NjRkNjgifX19"}]}}}}]}
 execute unless block ~ ~-0.1 ~ #gothrough run playsound alttp.lay_bomb weather @p ~ ~ ~ 1 1
 execute if data entity @s Item.tag.activebomb unless block ~ ~-0.1 ~ #gothrough run tag @p remove bomb

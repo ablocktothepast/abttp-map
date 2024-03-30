@@ -9,7 +9,7 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick", tag:{d
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Magic Powder","color":"aqua","italic":false}',Lore:['{"text":"Sprinkle it on your foes!","color":"white","italic":false}']},CustomModelData:9}}}] unless score @s magic matches 1.. run tellraw @s {"text":"You're out of magic!","color":"dark_red"}
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Magic Powder","color":"aqua","italic":false}',Lore:['{"text":"Sprinkle it on your foes!","color":"white","italic":false}']},CustomModelData:9}}}] if score @s magic matches 1.. run function alttp:usemagicpowder
 
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:284,active:0}}}] run function alttp:bombuse
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:284,active:0}}}] run function alttp:bombuse
 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:284,active:1}}}] run function alttp:activebombuse
 

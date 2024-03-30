@@ -79,10 +79,9 @@ execute if score @p armortier matches 2 run scoreboard players set @p drowning 9
 
 #BOMB PICKUP
 execute if score @p bombtick matches 1.. run scoreboard players remove @p bombtick 1
-execute as @a at @s if score @s interactsneak matches 1.. positioned ~ ~-1.3 ~ unless score @s bombtick matches 1.. run function alttp:bombpickup
+execute as @a[tag=!bomb] at @s if score @s interactsneak matches 1.. positioned ~ ~-1.3 ~ unless score @s bombtick matches 1.. run function alttp:bombpickup
 execute as @a at @s if score @s bombtick matches 0 run summon creeper ~ ~ ~ {Fuse:0,ignited:1b,Attributes:[{Name:generic.attack_damage,Base:1}]}
 execute as @a at @s if score @s bombtick matches 0 run function delta:api/explosion_emitter_particle
-execute as @a at @s if score @s bombtick matches 0 run clear @s carrot_on_a_stick{CustomModelData:284,active:1}
 execute as @a at @s if score @s bombtick matches 0 run tag @s remove bomb
 execute as @a at @s if score @s bombtick matches 0 run scoreboard players set @s bombtick -1
 

@@ -53,6 +53,8 @@ execute if score @s arrows_selected matches 3 if entity @s[nbt={SelectedItemSlot
 execute if score @s arrows_selected matches 4 if entity @s[nbt={SelectedItemSlot:8}] unless entity @s[nbt={Inventory:[{id:"minecraft:ender_eye",Slot:8b,tag:{CustomModelData:5}}]}] run function alttp:pin/arrows
 execute if score @s arrows_selected matches 5 if entity @s[nbt={SelectedItemSlot:8}] unless entity @s[nbt={Inventory:[{id:"minecraft:ender_eye",Slot:8b,tag:{CustomModelData:6}}]}] run function alttp:pin/arrows
 
+execute if score @p bombs > @p bombsmax store result score @p bombs run scoreboard players get @p bombsmax
+
 #BOW
 execute unless score . thirdperson matches 1 if score @s hasbow matches 1 unless entity @s[nbt={Inventory:[{id:"minecraft:bow",Slot:1b}]}] run clear @s bow
 execute unless score . thirdperson matches 1 if score @s hasbow matches 1 unless entity @s[nbt={Inventory:[{id:"minecraft:bow",Slot:1b}]}] run item replace entity @s hotbar.1 with bow

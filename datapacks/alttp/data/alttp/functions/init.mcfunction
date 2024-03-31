@@ -269,6 +269,10 @@ scoreboard objectives add bm dummy
 scoreboard objectives add spw_1_go dummy
 scoreboard objectives add spw_2_go dummy
 scoreboard objectives add spw_3_go dummy
+scoreboard objectives add bottle_1 dummy
+scoreboard objectives add bottle_2 dummy
+scoreboard objectives add bottle_3 dummy
+scoreboard objectives add bottle_4 dummy
 
 #SET SCORES
 scoreboard players set $strength delta.api.launch 12500

@@ -109,6 +109,10 @@ scoreboard players set dlfov options 90
 scoreboard players set @a flippers 300
 scoreboard players set @a drowning 300
 scoreboard players set $strength delta.api.launch 10000
+scoreboard players set @a bottle_1 -1
+scoreboard players set @a bottle_2 -1
+scoreboard players set @a bottle_3 -1
+scoreboard players set @a bottle_4 -1
 
 scoreboard objectives remove keys
 scoreboard objectives add keys dummy

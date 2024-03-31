@@ -31,17 +31,17 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1
 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Bug-Catching Net","color":"yellow","italic":false}',Lore:['{"text":"Right-click to catch!","color":"white","italic":false}']},CustomModelData:44}}}] run function alttp:bug_catch
 
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Fairy Bottle","color":"dark_gray","italic":false}',Lore:['{"text":"Right-click to release it!","color":"white","italic":false}']},CustomModelData:48}}}] run function alttp:use_fairybottle
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{bottle:1,type:4}}}] run function alttp:use_fairybottle
 
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Bee Bottle","color":"dark_gray","italic":false}',Lore:['{"text":"Right-click to release it!","color":"white","italic":false}']},CustomModelData:47}}}] run function alttp:use_beebottle
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{bottle:1,type:5}}}] run function alttp:use_beebottle
 
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Golden Bee Bottle","color":"dark_gray","italic":false}',Lore:['{"text":"Right-click to release it!","color":"white","italic":false}']},CustomModelData:47}}}] run function alttp:use_goldenbeebottle
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{bottle:1,type:6}}}] run function alttp:use_goldenbeebottle
 
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Medicine of Life","color":"red","italic":false}',Lore:['{"text":"Restores you to full health.","color":"white","italic":false}']},CustomModelData:49}}}] run function alttp:other/witch/use_lifepotion
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{bottle:1,type:3}}}] run function alttp:other/witch/use_lifepotion
 
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Medicine of Magic","color":"green","italic":false}',Lore:['{"text":"Fills up your magic meter.","color":"white","italic":false}']},CustomModelData:50}}}] run function alttp:other/witch/use_magicpotion
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{bottle:1,type:2}}}] run function alttp:other/witch/use_magicpotion
 
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Medicine of Life & Magic","color":"blue","italic":false}',Lore:['{"text":"Restores you to full health and grants magic.","color":"white","italic":false}']},CustomModelData:51}}}] run function alttp:other/witch/use_lifemagicpotion
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{bottle:1,type:1}}}] run function alttp:other/witch/use_lifemagicpotion
 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Shovel","color":"gray","italic":false}',Lore:['{"text":"Find the Flute Boy\'s lost flute!","color":"white","italic":false}']},CustomModelData:52}}}] run function alttp:use_shovel
 

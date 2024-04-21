@@ -30,3 +30,5 @@ execute if score slot bm matches 24 at @p run tp @e[type=text_display,tag=bm,tag
 execute if score slot bm matches 25 at @p run tp @e[type=text_display,tag=bm,tag=sel] ^-0.118 ^1.382 ^0.3835
 execute if score slot bm matches 26 at @p run tp @e[type=text_display,tag=bm,tag=sel] ^-0.243 ^1.382 ^0.3835
 execute if score slot bm matches 27 at @p run tp @e[type=text_display,tag=bm,tag=sel] ^-0.391 ^1.445 ^0.3835
+
+function alttp:bm_inventory_items

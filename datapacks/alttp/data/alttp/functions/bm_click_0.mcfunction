@@ -29,3 +29,5 @@ execute if score slot bm matches 19 if score @p bottle_3 matches 0.. run functio
 execute if score slot bm matches 21 if score @p spw_u_6 matches 1 run function alttp:bm_iclick/21
 execute if score slot bm matches 22 if score @p spw_u_7 matches 1 run function alttp:bm_iclick/22
 execute if score slot bm matches 26 if score @p bottle_4 matches 0.. run function alttp:bm_iclick/26
+
+execute at @p run function alttp:bm_indicators

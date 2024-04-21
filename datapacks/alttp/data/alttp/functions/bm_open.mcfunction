@@ -5,6 +5,7 @@ scoreboard players set select bm 0
 
 function alttp:bm_entities
 function alttp:bm_playerlock
+execute at @p run function alttp:bm_indicators
 
 ##Bossbar instructions
 bossbar remove bm_

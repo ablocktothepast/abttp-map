@@ -41,8 +41,6 @@ execute if score .d wasd matches 0 if score d_cool bm matches 1 run scoreboard p
 execute if data entity @e[type=minecraft:interaction,tag=bm,tag=interact,limit=1] attack run function alttp:bm_click
 execute if data entity @e[type=minecraft:interaction,tag=bm,tag=interact,limit=1] interaction run function alttp:bm_rclick
 
-function alttp:bm_inventory_items
-
 execute if score @p spw_1_go matches 1.. run function alttp:bm_spw1go
 execute if score @p spw_2_go matches 1.. run function alttp:bm_spw2go
 execute if score @p spw_3_go matches 1.. run function alttp:bm_spw3go

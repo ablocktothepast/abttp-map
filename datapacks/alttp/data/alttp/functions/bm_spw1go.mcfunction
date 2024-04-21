@@ -4,3 +4,5 @@ execute if score @p spw_3 = @p spw_1_go run scoreboard players set @p spw_3 0
 execute store result score @p spw_1 run scoreboard players get @p spw_1_go
 
 scoreboard players set @p spw_1_go 0
+
+execute at @p run function alttp:bm_indicators

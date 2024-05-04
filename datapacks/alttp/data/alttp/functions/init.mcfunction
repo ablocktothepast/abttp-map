@@ -273,6 +273,16 @@ scoreboard objectives add bottle_1 dummy
 scoreboard objectives add bottle_2 dummy
 scoreboard objectives add bottle_3 dummy
 scoreboard objectives add bottle_4 dummy
+scoreboard objectives add pendant_courage dummy
+scoreboard objectives add pendant_power dummy
+scoreboard objectives add pendant_wisdom dummy
+scoreboard objectives add crystal_1 dummy
+scoreboard objectives add crystal_2 dummy
+scoreboard objectives add crystal_3 dummy
+scoreboard objectives add crystal_4 dummy
+scoreboard objectives add crystal_5 dummy
+scoreboard objectives add crystal_6 dummy
+scoreboard objectives add crystal_7 dummy
 
 #SET SCORES
 scoreboard players set $strength delta.api.launch 12500

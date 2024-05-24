@@ -1,9 +1,14 @@
+#Get ID of selected quest
 execute if score selected quests matches 1 store result score sselectt dummy run scoreboard players get @e[type=item_display,tag=list1,limit=1] questlist
 execute if score selected quests matches 2 store result score sselectt dummy run scoreboard players get @e[type=item_display,tag=list2,limit=1] questlist
 execute if score selected quests matches 3 store result score sselectt dummy run scoreboard players get @e[type=item_display,tag=list3,limit=1] questlist
 execute if score selected quests matches 4 store result score sselectt dummy run scoreboard players get @e[type=item_display,tag=list4,limit=1] questlist
 execute if score selected quests matches 5 store result score sselectt dummy run scoreboard players get @e[type=item_display,tag=list5,limit=1] questlist
 execute if score selected quests matches 6 store result score sselectt dummy run scoreboard players get @e[type=item_display,tag=list6,limit=1] questlist
+
+#Get progress of selected quest
+execute store result storage quests temp int 1 run scoreboard players get sselectt dummy
+function alttp:questm_descriptions_1_macro with storage quests
 
 ##Descriptions
 execute if score sselectt dummy matches 1 run data merge entity @s {text:'{"text":"Link\'s uncle is bleeding to fucking death in the castle, go save him you ignorant moron!\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n","color":"black"}'}

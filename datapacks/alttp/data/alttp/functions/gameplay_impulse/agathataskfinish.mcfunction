@@ -1,5 +1,8 @@
 scoreboard players set # gameplay 15
-scoreboard players set 6 quests_2_completed 1
+
+data remove storage quests main[{id:6}]
+data modify storage quests main append value {id:6,progress:1,completed:1}
+
 clear @p carrot_on_a_stick{CustomModelData:297}
 
 bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest completed: "},{"text":"A cat that's stuck","color":"gold","bold":true},{"text":" ⟞⟝"}]

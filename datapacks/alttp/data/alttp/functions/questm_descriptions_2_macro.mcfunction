@@ -1,0 +1,1 @@
+$execute store result score sselectt_progress dummy run data get storage quests main[{id:$(temp)}].progress

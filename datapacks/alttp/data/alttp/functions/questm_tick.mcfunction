@@ -59,7 +59,6 @@ execute if score newscroll quests matches 0 if score oldscroll quests matches 8 
 execute if score newscroll quests matches 0 if score oldscroll quests matches 8 store result score oldscroll quests run data get entity @p SelectedItemSlot
 execute if score newscroll quests > oldscroll quests run function alttp:questm_select_down
 execute if score newscroll quests < oldscroll quests run function alttp:questm_select_up
-execute store result score oldscroll quests run data get entity @p SelectedItemSlot
 
 #FX
 #effect give @p blindness infinite 255 true

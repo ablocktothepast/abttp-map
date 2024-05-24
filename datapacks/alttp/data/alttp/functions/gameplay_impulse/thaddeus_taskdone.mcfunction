@@ -1,4 +1,6 @@
-scoreboard players set 4 quests_2_completed 1
+data remove storage quests main[{id:4}]
+data modify storage quests main append value {id:4,progress:1,completed:1}
+
 schedule function alttp:gameplay_impulse/thaddeus_runback 3s
 scoreboard players set # gameplay 13
 

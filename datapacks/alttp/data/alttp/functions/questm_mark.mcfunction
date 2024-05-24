@@ -1,7 +1,6 @@
 ##Reset variable
 data remove entity @e[type=interaction,tag=leftclick,limit=1] interaction
 
-
 ##Check if it is a completed quest
 execute if score selected quests matches 1 if entity @e[type=item_display,tag=list1,tag=quest_completed] run return 0
 execute if score selected quests matches 2 if entity @e[type=item_display,tag=list2,tag=quest_completed] run return 0

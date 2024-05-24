@@ -1,5 +1,8 @@
 scoreboard players set # gameplay 13
-scoreboard players set 5 quests_2_completed 1
+
+data remove storage quests main[{id:5}]
+data modify storage quests main append value {id:5,progress:1,completed:1}
+
 setblock -295 -9 681 oak_slab[type=bottom]
 setblock -294 -9 681 minecraft:spruce_wall_sign[facing=east]
 

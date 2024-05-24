@@ -3,6 +3,9 @@ scoreboard players set menu bm 0
 scoreboard players set slot bm 0
 scoreboard players set select bm 0
 
+execute if score @p arrows matches 1.. run scoreboard players set @p hasquiver 1
+execute if score @p bombs matches 1.. run scoreboard players set @p hasbombbag 1
+
 function alttp:bm_entities
 function alttp:bm_playerlock
 execute at @p run function alttp:bm_indicators

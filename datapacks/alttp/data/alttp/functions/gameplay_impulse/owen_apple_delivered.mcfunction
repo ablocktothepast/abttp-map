@@ -1,4 +1,6 @@
-scoreboard players set 1 quests_2_completed 1
+data remove storage quests main[{id:1}]
+data modify storage quests main append value {id:1,progress:1,completed:1}
+
 scoreboard players set # gameplay 7
 clear @p apple
 

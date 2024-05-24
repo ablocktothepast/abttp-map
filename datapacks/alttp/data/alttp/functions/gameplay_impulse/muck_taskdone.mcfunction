@@ -1,5 +1,8 @@
 scoreboard players set # gameplay 15
-scoreboard players set 7 quests_2_completed 1
+
+data remove storage quests main[{id:7}]
+data modify storage quests main append value {id:7,progress:1,completed:1}
+
 clear @p shears{CustomModelData:1}
 
 bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest completed: "},{"text":"A town filled with muck","color":"gold","bold":true},{"text":" ⟞⟝"}]

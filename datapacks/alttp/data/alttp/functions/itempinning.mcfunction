@@ -106,8 +106,8 @@ execute unless score @s spw_s matches 1.. run item replace entity @s hotbar.6 wi
 execute if score @s mapcooldown matches 1.. run scoreboard players remove @s mapcooldown 1
 
 #Quests button
-execute unless score @s spw_s matches 1.. unless score . intercool matches 1.. unless entity @p[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",Slot:7b,tag:{display:{Name:'{"text":"Quest Book","color":"blue","italic":false}',Lore:['{"text":"Right-click to view your quests!","color":"white","italic":false}']}}}]}] run clear @p carrot_on_a_stick
-execute unless score @s spw_s matches 1.. run item replace entity @p hotbar.7 with carrot_on_a_stick{display:{Name:'{"text":"Quest Book","color":"blue","italic":false}',Lore:['{"text":"Right-click to view your quests!","color":"white","italic":false}']},CustomModelData:316} 1
+execute if score @s hasquestbook matches 1 unless score @s spw_s matches 1.. unless score . intercool matches 1.. unless entity @p[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",Slot:7b,tag:{display:{Name:'{"text":"Quest Book","color":"blue","italic":false}',Lore:['{"text":"Right-click to view your quests!","color":"white","italic":false}']}}}]}] run clear @p carrot_on_a_stick
+execute if score @s hasquestbook matches 1 unless score @s spw_s matches 1.. run item replace entity @p hotbar.7 with carrot_on_a_stick{display:{Name:'{"text":"Quest Book","color":"blue","italic":false}',Lore:['{"text":"Right-click to view your quests!","color":"white","italic":false}']},CustomModelData:316} 1
 
 #Inventory button
 execute unless score @s spw_s matches 1.. unless score . intercool matches 1.. unless entity @p[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",Slot:5b,tag:{display:{Name:'{"text":"Inventory","color":"gold","italic":false}',Lore:['{"text":"Right-click to open your inventory!","color":"white","italic":false}']}}}]}] run clear @p carrot_on_a_stick{CustomModelData:1}

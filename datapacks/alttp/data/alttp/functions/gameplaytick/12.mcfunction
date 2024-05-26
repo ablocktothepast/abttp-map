@@ -33,7 +33,7 @@ execute if score thaddeusmove gameplay matches 1..2 as @e[tag=thaddeus] at @s an
 execute if score thaddeusmove gameplay matches 1..2 as @e[tag=thaddeus] at @s anchored eyes facing entity @e[type=marker,tag=thaddeusmove,limit=1,sort=nearest] eyes rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
 execute if score thaddeusmove gameplay matches 1 run setblock -405 -10 680 air
-execute if score thaddeusmove gameplay matches 1 run scoreboard players set 4 quests_2_progress 3
+execute if score thaddeusmove gameplay matches 1 run data modify storage minecraft:quests main[{id:4}].progress set value 3
 execute if score thaddeusmove gameplay matches 1 as @e[type=item_display,tag=thaddeus] run function animated_java:thaddeus/animations/running/stop
 execute if score thaddeusmove gameplay matches 1 as @e[type=item_display,tag=thaddeus] run function animated_java:thaddeus/animations/idle/play
 execute if score thaddeusmove gameplay matches 1 run bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest updated: "},{"text":"A test of agility","color":"gold","bold":true},{"text":" ⟞⟝"}]

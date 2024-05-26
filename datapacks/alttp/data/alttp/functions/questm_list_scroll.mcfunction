@@ -1,6 +1,8 @@
 ##Mathies
 execute store result score scrollindex questlist run scoreboard players get scrolled questlist
 
+execute as @e[type=item_display,tag=list] run scoreboard players set @s questlist 0
+
 ##First quest box
 data modify storage minecraft:quests temp_id set value 1
 execute store result storage quests temp int 1 run scoreboard players get scrollindex questlist

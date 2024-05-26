@@ -1,3 +1,3 @@
 ##Wanna transfer your ABTTP save file to a new version? You're in the right place! If this is the 'code_input' file in the new version of ABTTP, go ahead and replace the word YOURCODE on the next line with your entire save code. Make sure to keep it within the quotations (").
 
-data modify storage load input set value "1/1/0/0/1/1/1/1/1/0/1/0/0/0/0/0/0/1/0/0/4/0/0/14/0/0/60/10/0/0/0/0/2/0/0/10/30/1/999/1000/1/0/0/3/0/0/0/0/0/0/0/0/0/0/0/0/0"
+data modify storage load input set value "1/1/1/0/1/1/1/1/1/1/1/1/1/0/1/1/1/1/60/5/5/0/0/0/1/0/60/2/3/0/0/0/0/1/24/10/30/1/999/500/1/1/0/3/0/0/0/0/0/0/0/0/0/0/0/0/1/0/0/0/0/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1"

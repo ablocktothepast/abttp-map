@@ -1,4 +1,4 @@
-scoreboard players set 5 quests_2_progress 3
+data modify storage minecraft:quests main[{id:5}].progress set value 3
 tp @e[type=armor_stand,tag=bertram] -301 -7.8125 679 -90 0
 fill -295 -9 681 -294 -9 681 air replace
 

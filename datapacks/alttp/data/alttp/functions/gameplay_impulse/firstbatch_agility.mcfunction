@@ -1,6 +1,5 @@
 scoreboard players set # gameplay 12
-scoreboard players set 4 quests_2 1
-scoreboard players set 4 quests_2_progress 1
+data modify storage quests main prepend value {id:4,completed:0,progress:1}
 
 bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest added: "},{"text":"A test of agility","color":"gold","bold":true},{"text":" ⟞⟝"}]
 function alttp:questupdateshow

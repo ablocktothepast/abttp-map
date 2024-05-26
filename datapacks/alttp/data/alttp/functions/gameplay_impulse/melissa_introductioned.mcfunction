@@ -1,4 +1,4 @@
-scoreboard players set 3 quests_2_progress 2
+data modify storage minecraft:quests main[{id:3}].progress set value 2
 fill -307 -17 654 -307 -20 652 minecraft:air
 fill -254 -11 640 -255 -10 640 minecraft:air
 

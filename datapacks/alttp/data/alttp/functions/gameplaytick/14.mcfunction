@@ -12,7 +12,7 @@ execute if score agathacat1 gameplay matches 2..50 as @p at @e[type=marker,tag=c
 execute if score agathacat1 gameplay matches 20 run data merge entity @e[type=cat,tag=agathacat,limit=1] {NoAI:0b}
 execute if score agathacat1 gameplay matches 21 run data merge entity @e[type=cat,tag=agathacat,limit=1] {Motion:[-0.3,0.3,-0.3],Sitting:0b}
 execute if score agathacat1 gameplay matches 21 run data merge entity @e[type=cat,tag=agathacat,limit=1] {Rotation:[135F,0F]}
-execute if score agathacat1 gameplay matches 40 run scoreboard players set 6 quests_2_progress 2
+execute if score agathacat1 gameplay matches 40 run data modify storage minecraft:quests main[{id:6}].progress set value 2
 execute if score agathacat1 gameplay matches 40 run scoreboard players set . crosshair 0
 execute if score agathacat1 gameplay matches 40 run bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest updated: "},{"text":"A cat that's stuck","color":"gold","bold":true},{"text":" ⟞⟝"}]
 execute if score agathacat1 gameplay matches 40 run function alttp:questupdateshow
@@ -42,7 +42,7 @@ execute if score agathacat2 gameplay matches 2..50 as @p at @e[type=marker,tag=c
 execute if score agathacat2 gameplay matches 20 run data merge entity @e[type=cat,tag=agathacat,limit=1] {NoAI:0b}
 execute if score agathacat2 gameplay matches 21 run data merge entity @e[type=cat,tag=agathacat,limit=1] {Motion:[0.3,0.3,0.3],Sitting:0b}
 execute if score agathacat2 gameplay matches 21 run data merge entity @e[type=cat,tag=agathacat,limit=1] {Rotation:[-45F,0F]}
-execute if score agathacat2 gameplay matches 40 run scoreboard players set 6 quests_2_progress 3
+execute if score agathacat2 gameplay matches 40 run data modify storage minecraft:quests main[{id:6}].progress set value 3
 execute if score agathacat2 gameplay matches 40 run bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest updated: "},{"text":"A cat that's stuck","color":"gold","bold":true},{"text":" ⟞⟝"}]
 execute if score agathacat2 gameplay matches 40 run function alttp:questupdateshow
 execute if score agathacat2 gameplay matches 40 run schedule function alttp:questupdatehide 5s
@@ -75,7 +75,7 @@ execute if score agathacat3 gameplay matches 2..50 as @p at @e[type=marker,tag=c
 execute if score agathacat3 gameplay matches 20 run data merge entity @e[type=cat,tag=agathacat,limit=1] {NoAI:0b}
 execute if score agathacat3 gameplay matches 21 run data merge entity @e[type=cat,tag=agathacat,limit=1] {Motion:[-0.3,0.3,0.3],Sitting:0b}
 execute if score agathacat3 gameplay matches 21 run data merge entity @e[type=cat,tag=agathacat,limit=1] {Rotation:[45F,0F]}
-execute if score agathacat3 gameplay matches 40 run scoreboard players set 6 quests_2_progress 4
+execute if score agathacat3 gameplay matches 40 run data modify storage minecraft:quests main[{id:6}].progress set value 4
 execute if score agathacat3 gameplay matches 40 run bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest updated: "},{"text":"A cat that's stuck","color":"gold","bold":true},{"text":" ⟞⟝"}]
 execute if score agathacat3 gameplay matches 40 run function alttp:questupdateshow
 execute if score agathacat3 gameplay matches 40 run schedule function alttp:questupdatehide 5s

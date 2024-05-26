@@ -28,3 +28,6 @@ execute if score dlfov options matches 70 run attribute @p minecraft:generic.mov
 execute if score dlfov options matches 85 run effect give @p speed infinite 0 true
 
 execute if score dlfov options matches 110 run effect give @p slowness infinite 1 true
+
+execute store result score newscroll quests run data get entity @p SelectedItemSlot
+execute store result score oldscroll quests run data get entity @p SelectedItemSlot

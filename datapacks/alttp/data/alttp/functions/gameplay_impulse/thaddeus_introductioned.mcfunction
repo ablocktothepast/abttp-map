@@ -1,4 +1,4 @@
-scoreboard players set 4 quests_2_progress 2
+data modify storage minecraft:quests main[{id:4}].progress set value 2
 scoreboard players set thaddeusmove gameplay 2
 
 kill @e[tag=thaddeusmove]

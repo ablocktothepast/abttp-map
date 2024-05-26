@@ -117,4 +117,5 @@ scoreboard players set choicedialogue dialogue 0
 scoreboard players set npc dialogue 1
 scoreboard players set cutscene dialogue 0
 scoreboard players set firstperson dialogue 0
+scoreboard players set @p hasquestbook 1
 data merge storage dialogue {npc:"Uncle Alphon"}

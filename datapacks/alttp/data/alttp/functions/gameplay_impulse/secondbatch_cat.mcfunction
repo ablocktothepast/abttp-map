@@ -1,6 +1,5 @@
 scoreboard players set @p spw_u_1 1
-scoreboard players set 6 quests_2 1
-scoreboard players set 6 quests_2_progress 1
+data modify storage quests main prepend value {id:6,completed:0,progress:1}
 scoreboard players set # gameplay 14
 
 kill @e[type=cat,tag=agathacat]

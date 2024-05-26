@@ -55,6 +55,52 @@ execute store result storage save 54 int 1 run scoreboard players get @p spw_e_1
 execute store result storage save 55 int 1 run scoreboard players get @p spw_e_17
 execute store result storage save 56 int 1 run scoreboard players get @p spw_e_18
 execute store result storage save 57 int 1 run scoreboard players get @p handtier
+execute store result storage save 58 int 1 run scoreboard players get @p bottle_1
+execute store result storage save 59 int 1 run scoreboard players get @p bottle_2
+execute store result storage save 60 int 1 run scoreboard players get @p bottle_3
+execute store result storage save 61 int 1 run scoreboard players get @p bottle_4
+execute store result storage save 62 int 1 run scoreboard players get @p pendant_courage
+execute store result storage save 63 int 1 run scoreboard players get @p pendant_power
+execute store result storage save 64 int 1 run scoreboard players get @p pendant_wisdom
+execute store result storage save 65 int 1 run scoreboard players get @p crystal_1
+execute store result storage save 66 int 1 run scoreboard players get @p crystal_2
+execute store result storage save 67 int 1 run scoreboard players get @p crystal_3
+execute store result storage save 68 int 1 run scoreboard players get @p crystal_4
+execute store result storage save 69 int 1 run scoreboard players get @p crystal_5
+execute store result storage save 70 int 1 run scoreboard players get @p crystal_6
+execute store result storage save 71 int 1 run scoreboard players get @p crystal_7
+execute store result storage save 72 int 1 run scoreboard players get @p hasquiver
+execute store result storage save 73 int 1 run scoreboard players get @p hasbombbag
+execute store result storage save 74 int 1 run scoreboard players get @p hasquestbook
+
+#Quests (always push to end!)
+execute store success storage save 75 int 1 run data get storage minecraft:quests main[{id:1}]
+execute store result storage save 76 int 1 run data get storage minecraft:quests main[{id:1}].progress
+execute store result storage save 77 int 1 run data get storage minecraft:quests main[{id:1}].completed
+
+execute store success storage save 78 int 1 run data get storage minecraft:quests main[{id:2}]
+execute store result storage save 79 int 1 run data get storage minecraft:quests main[{id:2}].progress
+execute store result storage save 80 int 1 run data get storage minecraft:quests main[{id:2}].completed
+
+execute store success storage save 81 int 1 run data get storage minecraft:quests main[{id:3}]
+execute store result storage save 82 int 1 run data get storage minecraft:quests main[{id:3}].progress
+execute store result storage save 83 int 1 run data get storage minecraft:quests main[{id:3}].completed
+
+execute store success storage save 84 int 1 run data get storage minecraft:quests main[{id:4}]
+execute store result storage save 85 int 1 run data get storage minecraft:quests main[{id:4}].progress
+execute store result storage save 86 int 1 run data get storage minecraft:quests main[{id:4}].completed
+
+execute store success storage save 87 int 1 run data get storage minecraft:quests main[{id:5}]
+execute store result storage save 88 int 1 run data get storage minecraft:quests main[{id:5}].progress
+execute store result storage save 89 int 1 run data get storage minecraft:quests main[{id:5}].completed
+
+execute store success storage save 90 int 1 run data get storage minecraft:quests main[{id:6}]
+execute store result storage save 91 int 1 run data get storage minecraft:quests main[{id:6}].progress
+execute store result storage save 92 int 1 run data get storage minecraft:quests main[{id:6}].completed
+
+execute store success storage save 93 int 1 run data get storage minecraft:quests main[{id:7}]
+execute store result storage save 94 int 1 run data get storage minecraft:quests main[{id:7}].progress
+execute store result storage save 95 int 1 run data get storage minecraft:quests main[{id:7}].completed
 
 function alttp:save/savemacro with storage save
 

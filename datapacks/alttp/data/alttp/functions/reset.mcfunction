@@ -113,6 +113,19 @@ scoreboard players set @a bottle_1 -1
 scoreboard players set @a bottle_2 -1
 scoreboard players set @a bottle_3 -1
 scoreboard players set @a bottle_4 -1
+scoreboard players set @a pendant_courage 0
+scoreboard players set @a pendant_power 0
+scoreboard players set @a pendant_wisdom 0
+scoreboard players set @a crystal_1 0
+scoreboard players set @a crystal_2 0
+scoreboard players set @a crystal_3 0
+scoreboard players set @a crystal_4 0
+scoreboard players set @a crystal_5 0
+scoreboard players set @a crystal_6 0
+scoreboard players set @a crystal_7 0
+scoreboard players set @a hasquiver 0
+scoreboard players set @a hasbombbag 0
+scoreboard players set @a hasquestbook 0
 
 scoreboard objectives remove keys
 scoreboard objectives add keys dummy

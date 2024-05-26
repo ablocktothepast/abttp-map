@@ -285,6 +285,7 @@ scoreboard objectives add crystal_6 dummy
 scoreboard objectives add crystal_7 dummy
 scoreboard objectives add hasquiver dummy
 scoreboard objectives add hasbombbag dummy
+scoreboard objectives add hasquestbook dummy
 
 #SET SCORES
 scoreboard players set $strength delta.api.launch 12500

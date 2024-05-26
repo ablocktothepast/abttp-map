@@ -21,7 +21,7 @@ execute if score id dialogue matches 7..8 run function alttp:gameplay_impulse/ta
 
 execute if score id dialogue matches 9..13 run scoreboard players add idd dialogue 1
 execute if score id dialogue matches 10 as @e[type=item_display,tag=aj.uncle_alphon.root] run function animated_java:uncle_alphon/animations/apple_basket/play
-execute if score id dialogue matches 10 run schedule function alttp:applebasket 30t
+execute if score id dialogue matches 10 run schedule function alttp:applebasket 40t
 execute if score id dialogue matches 14 run function alttp:dialogue_stop
 execute if score id dialogue matches 14 run function alttp:gameplay_impulse/first_uncle_task
 

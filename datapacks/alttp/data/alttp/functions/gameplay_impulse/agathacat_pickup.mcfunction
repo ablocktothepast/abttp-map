@@ -1,4 +1,4 @@
-scoreboard players set 6 quests_2_progress 5
+data modify storage minecraft:quests main[{id:6}].progress set value 5
 bossbar set questupdate name [{"text":"⟞⟝ "},{"text":"Quest updated: "},{"text":"A cat that's stuck","color":"gold","bold":true},{"text":" ⟞⟝"}]
 function alttp:questupdateshow
 schedule function alttp:questupdatehide 5s

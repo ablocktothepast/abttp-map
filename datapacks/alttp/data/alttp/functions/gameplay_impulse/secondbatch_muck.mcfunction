@@ -1,6 +1,5 @@
 scoreboard players set @p spw_u_1 1
-scoreboard players set 7 quests_2 1
-scoreboard players set 7 quests_2_progress 1
+data modify storage quests main prepend value {id:7,completed:0,progress:1}
 scoreboard players set # gameplay 14
 give @p shears{CanDestroy:["minecraft:cobweb"],display:{Name:'{"text":"Cobweb Duster","color":"red","italic":false}',Lore:['{"text":"Quest Item","color":"gold","italic":false}','{"text":"Use this to clean cobwebs and","color":"white","italic":false}','{"text":"get rid of spiders!","color":"white","italic":false}']},HideFlags:1,CustomModelData:1,Enchantments:[{id:"minecraft:efficiency",lvl:10s}],Unbreakable:1b} 1
 

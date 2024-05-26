@@ -6,6 +6,10 @@ execute if score selected quests matches 4 store result score sselectt dummy run
 execute if score selected quests matches 5 store result score sselectt dummy run scoreboard players get @e[type=item_display,tag=list5,limit=1] questlist
 execute if score selected quests matches 6 store result score sselectt dummy run scoreboard players get @e[type=item_display,tag=list6,limit=1] questlist
 
+#If empty, scroll back up
+execute if score sselectt dummy matches 0 run function alttp:questm_select_up
+execute if score sselectt dummy matches 0 run return 0
+
 #Get progress of selected quest
 execute store result storage quests temp int 1 run scoreboard players get sselectt dummy
 function alttp:questm_descriptions_2_macro with storage quests

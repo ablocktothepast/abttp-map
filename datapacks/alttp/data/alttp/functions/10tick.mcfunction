@@ -1,6 +1,7 @@
 #RUN COMMANDS
 #HOTBAR TEXT
-execute if entity @p[gamemode=adventure] run function alttp:hotbar
+execute if entity @p[gamemode=adventure] if score drowning dummy matches 1 run function alttp:hotbar_water
+execute if entity @p[gamemode=adventure] unless score drowning dummy matches 1 run function alttp:hotbar
 
 #APPLY MAXMAGIC
 execute as @a at @s if score @s magic > @s magicmax store result score @s magic run scoreboard players get @s magicmax
@@ -45,9 +46,6 @@ execute as @e[type=arrow] run data merge entity @s {PierceLevel:5b}
 execute as @e[type=spectral_arrow] run data merge entity @s {PierceLevel:5b}
 execute as @a if score @s spw_e_2 matches 1 run scoreboard players set @s boomerangtier 3
 team join mcape_friends @e[tag=enemy]
-
-#HOTBAR TEXT
-execute if entity @p[gamemode=adventure] run function alttp:hotbar
 
 #DROPPED ITEMS
 kill @e[type=item,tag=!loot,nbt=!{Item:{id:"minecraft:turtle_scute",Count:1b,tag:{display:{Name:'{"text":"Super Bomb","color":"dark_red","italic":false}',Lore:['{"text":"This heavy bomb breaks heavy seals.","color":"white","italic":false}']},CustomModelData:14}}},nbt=!{Item:{id:"minecraft:sweet_berries",Count:1b}},nbt=!{Item:{id:"minecraft:tnt",Count:1b,tag:{display:{Name:'{"text":"Bomb","color":"blue","italic":false}',Lore:['{"text":"Throw to place a bomb.","color":"white","italic":false}']},Enchantments:[{}]}}},nbt=!{Item:{id:"minecraft:tnt",Count:1b,tag:{display:{Name:'{"text":"Active Bomb","color":"red","italic":false}',Lore:['{"text":"Quick! Throw it away!","color":"white","italic":false}']}}}}]

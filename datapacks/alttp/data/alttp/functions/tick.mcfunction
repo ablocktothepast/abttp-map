@@ -74,7 +74,7 @@ execute as @p at @s unless predicate minecraft:water positioned ~ ~1.2 ~ unless 
 execute as @p at @s if score @s drowning > @s flippers store result score @s drowning run scoreboard players get @s flippers
 execute as @p at @s if score @s drowning < @s flippers run function alttp:drownbar
 execute as @p at @s unless score @s drowning < @s flippers if score drownbar dummy matches 1.. run scoreboard players remove drownbar dummy 1
-execute if score drownbar dummy matches ..0 run bossbar set drowning visible false
+execute if score drownbar dummy matches ..0 run scoreboard players set drowning dummy 0
 execute if score @p armortier matches 2 run scoreboard players set @p drowning 99999999
 
 #BOMB PICKUP

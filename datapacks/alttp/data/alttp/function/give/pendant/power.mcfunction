@@ -1,0 +1,1 @@
+give @p minecraft:carrot_on_a_stick[minecraft:custom_model_data=17,minecraft:lore=['{"text":"Found in the Desert Palace","color":"white","italic":false}'],minecraft:custom_name='{"text":"Pendant of Power","color":"blue","italic":false}'] 1

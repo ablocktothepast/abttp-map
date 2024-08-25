@@ -1,0 +1,7 @@
+execute positioned ^ ^ ^2 if entity @e[type=bee,tag=bee,distance=..2] if entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_name":'{"color":"dark_gray","italic":false,"text":"Empty Bottle"}',"minecraft:lore":['{"color":"white","italic":false,"text":"Used to store many things."}'],"minecraft:custom_model_data":46}}]}] run function alttp:give/bee_bottle
+
+execute positioned ^ ^ ^2 if entity @e[type=item_display,tag=fairy,distance=..2] if entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_name":'{"color":"dark_gray","italic":false,"text":"Empty Bottle"}',"minecraft:lore":['{"color":"white","italic":false,"text":"Used to store many things."}'],"minecraft:custom_model_data":46}}]}] run function alttp:give/fairy_bottle
+
+execute positioned ^ ^ ^2 if entity @e[type=bee,tag=golden_bee,distance=..2] if entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_name":'{"color":"dark_gray","italic":false,"text":"Empty Bottle"}',"minecraft:lore":['{"color":"white","italic":false,"text":"Used to store many things."}'],"minecraft:custom_model_data":46}}]}] run function alttp:give/golden_bee_bottle
+
+playsound alttp.bug_net weather @p ~ ~ ~ 1 1

@@ -1,1 +1,0 @@
-summon armor_stand ~ ~0.75 ~ {NoGravity:1b,Marker:1b,Invisible:1b,Tags:["enemy","ball","4"],Passengers:[{id:"minecraft:item_display",item_display:"fixed",Tags:["enemy","balldi"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.25f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:263}}}]}

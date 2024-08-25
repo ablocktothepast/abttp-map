@@ -29,12 +29,6 @@
     },
     "done": true
   },
-  "alttp:root": {
-    "criteria": {
-      "tick": "2024-01-16 18:23:31 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-01-16 18:23:31 +0100"
@@ -104,12 +98,6 @@
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-01-16 18:23:31 +0100"
-    },
-    "done": true
-  },
-  "delta:player_setup": {
-    "criteria": {
-      "requirement": "2024-01-16 18:23:31 +0100"
     },
     "done": true
   },
@@ -277,6 +265,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2024-08-22 18:28:47 +0200",
+      "minecraft:river": "2024-08-22 18:28:39 +0200",
       "minecraft:plains": "2024-01-16 18:23:34 +0100"
     },
     "done": false
@@ -422,7 +412,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:silverfish": "2024-03-31 18:14:42 +0200",
-      "minecraft:spider": "2024-01-24 17:13:34 +0100"
+      "minecraft:spider": "2024-01-24 17:13:34 +0100",
+      "minecraft:zombie": "2024-08-25 15:36:00 +0200"
     },
     "done": false
   },
@@ -444,5 +435,11 @@
     },
     "done": true
   },
-  "DataVersion": 3805
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-08-25 15:36:00 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
 }

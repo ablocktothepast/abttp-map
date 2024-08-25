@@ -1,3 +1,0 @@
-summon item_display ~ ~ ~ {item_display:"thirdperson_righthand",Tags:["fairy","enemyCode","enemy","nolifesteal"],transformation:{left_rotation:[0.35f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:110}},brightness:{sky:15,block:15},shadow_radius:34f}
-
-scoreboard players set @e[type=armor_stand,tag=enemyCode,limit=1,sort=nearest] eid 34

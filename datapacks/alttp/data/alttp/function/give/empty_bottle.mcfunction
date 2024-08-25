@@ -1,0 +1,1 @@
+give @p minecraft:carrot_on_a_stick[minecraft:custom_model_data=46,minecraft:lore=['{"text":"Used to store many things.","color":"white","italic":false}'],minecraft:custom_name='{"text":"Empty Bottle","color":"dark_gray","italic":false}'] 1

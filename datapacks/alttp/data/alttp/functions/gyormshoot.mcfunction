@@ -1,3 +1,0 @@
-summon armor_stand ~ ~-1.3 ~ {Marker:1b,Invisible:1b,Tags:["enemy","gyormball","fs_fireball","nolifesteal"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-549555728,-1140897703,-2107063429,125194943],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQwN2ZkMDNjMDNjMDViNzQ0Y2ZmN2FjMWE5NWQ4MTYxNzA2MjA2ZjY4YzEyYzRjMjJjOTcwNWY3YzM3ZDA4In19fQ=="}]}}}}]}
-
-execute facing entity @p eyes run tp @e[type=armor_stand,tag=gyormball,limit=1,sort=nearest] ~ ~-1.3 ~ ~ ~

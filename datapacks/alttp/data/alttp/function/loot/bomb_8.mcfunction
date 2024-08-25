@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Age:5800,Item:{components:{"minecraft:custom_model_data":10},count:1,id:"minecraft:turtle_scute"},PickupDelay:32767,Tags:["bomb_8","loot"]}

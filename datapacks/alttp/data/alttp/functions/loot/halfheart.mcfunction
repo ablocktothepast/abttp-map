@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {Age:5800,PickupDelay:32767,Tags:["heart","loot"],Item:{id:"minecraft:cooked_beef",Count:1b}}

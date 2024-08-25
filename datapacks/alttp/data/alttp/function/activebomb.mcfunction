@@ -1,0 +1,4 @@
+summon armor_stand ~ ~-1.5 ~ {ArmorItems:[{},{},{},{components:{"minecraft:profile":{id:[I;1274520565,137973731,-1550009758,370346578],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM1NjNiOWI1ODI0MDlmNDFmMGUwNzgxYTk4M2FmZTNkOGZlMmZiZjM4M2M1M2E1ZDI3NDMxNTU1NjRkNjgifX19"}]}},count:1,id:"minecraft:player_head"}],Invisible:1b,Marker:1b,Tags:["activebomb","bomb"]}
+execute store result score @e[type=armor_stand,tag=activebomb,limit=1,sort=nearest] bombtick run scoreboard players get bombticktemp dummy
+kill @s
+playsound alttp.lay_bomb weather @p ~ ~ ~ 1 1

@@ -1,0 +1,4 @@
+summon armor_stand ~ ~ ~ {ArmorItems:[{},{},{},{components:{"minecraft:profile":{id:[I;-1166172713,1517896460,-1797089311,-2001972460],name:"",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk1YTdhNjdmN2E0YjM4ZjgyN2YxYmNhODBlNjFmNDg2MDZiNjljZTVmNjQzNDQxMmJiZmQ4YTU3NjU2YWQyZCJ9fX0="}]}},count:1,id:"minecraft:player_head"}],Invisible:1b,Marker:1b,Tags:["enemy","zazakball","ms_laser","nolifesteal"]}
+
+execute as @e[type=armor_stand,tag=zazakball,tag=!posed] run tp @s ~ ~ ~ ~ ~
+tag @e[type=armor_stand,tag=zazakball] add posed

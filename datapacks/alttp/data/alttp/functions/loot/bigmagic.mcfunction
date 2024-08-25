@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {Age:5800,PickupDelay:32767,Tags:["bigmagic","loot"],Item:{id:"minecraft:raw_iron",Count:1b}}

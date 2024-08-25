@@ -1,1 +1,0 @@
-give @p carrot_on_a_stick{display:{Name:'{"text":"Pendant of Courage","color":"dark_green","italic":false}',Lore:['{"text":"Found in the Eastern Palace","color":"white","italic":false}']},CustomModelData:15} 1

@@ -1,1 +1,0 @@
-give @p carrot_on_a_stick{display:{Name:'{"text":"Shovel","color":"gray","italic":false}',Lore:['{"text":"Find the Flute Boy\'s lost flute!","color":"white","italic":false}']},CustomModelData:52} 1

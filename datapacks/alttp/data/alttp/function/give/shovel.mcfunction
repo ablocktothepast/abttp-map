@@ -1,0 +1,1 @@
+give @p minecraft:carrot_on_a_stick[minecraft:custom_model_data=52,minecraft:lore=['{"text":"Find the Flute Boy\'s lost flute!","color":"white","italic":false}'],minecraft:custom_name='{"text":"Shovel","color":"gray","italic":false}'] 1

@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Age:5800,Item:{count:1,id:"minecraft:lapis_lazuli"},PickupDelay:32767,Tags:["smallmagic","loot"]}

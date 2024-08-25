@@ -1,1 +1,0 @@
-summon item ~ ~ ~ {Age:5800,PickupDelay:32767,Tags:["bigkey","loot"],Item:{id:"minecraft:turtle_scute",Count:1b,tag:{CustomModelData:16}}}

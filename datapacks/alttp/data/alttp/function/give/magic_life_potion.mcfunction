@@ -1,0 +1,1 @@
+give @p minecraft:carrot_on_a_stick[minecraft:custom_model_data=51,minecraft:lore=['{"text":"Restores you to full health and grants magic.","color":"white","italic":false}'],minecraft:custom_name='{"text":"Medicine of Life & Magic","color":"blue","italic":false}'] 1

@@ -1,1 +1,0 @@
-give @p carrot_on_a_stick{display:{Name:'{"text":"Medicine of Life","color":"red","italic":false}',Lore:['{"text":"Restores you to full health.","color":"white","italic":false}']},CustomModelData:49} 1

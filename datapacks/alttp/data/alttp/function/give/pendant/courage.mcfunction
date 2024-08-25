@@ -1,0 +1,1 @@
+give @p minecraft:carrot_on_a_stick[minecraft:custom_model_data=15,minecraft:lore=['{"text":"Found in the Eastern Palace","color":"white","italic":false}'],minecraft:custom_name='{"text":"Pendant of Courage","color":"dark_green","italic":false}'] 1

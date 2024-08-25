@@ -1,0 +1,2 @@
+give @p minecraft:carrot_on_a_stick[minecraft:custom_model_data=50,minecraft:lore=['{"text":"Fills up your magic meter.","color":"white","italic":false}'],minecraft:custom_name='{"text":"Medicine of Magic","color":"green","italic":false}'] 1
+execute at @p run playsound minecraft:alttp.itemget weather @p ~ ~ ~ 1 1

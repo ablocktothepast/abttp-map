@@ -1,0 +1,3 @@
+summon item_display ~ ~0.1 ~ {HurtByTimestamp:68,Tags:["lanmolas_tornado","enemyCode","enemy","nolifesteal"],item:{components:{"minecraft:custom_model_data":170},count:1,id:"minecraft:carrot_on_a_stick"},item_display:"ground",transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[0.0f,0.0f,0.0f],translation:[0.0f,0.0f,0.0f]}}
+
+scoreboard players set @e[type=item_display,tag=enemyCode,limit=1,sort=nearest] eid 68

@@ -1,0 +1,2 @@
+kill @e[type=item_display,tag=dungeon_door]
+summon item_display -33.5 1.5 11.0 {Rotation:[90.0f,0.0f],Tags:["dungeon_door","hera_tower"],item:{components:{"minecraft:custom_model_data":272},count:1,id:"minecraft:carrot_on_a_stick"},transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],translation:[0.0f,0.0f,0.0f]}}

@@ -1,0 +1,1 @@
+give @p minecraft:carrot_on_a_stick[minecraft:custom_model_data=8,minecraft:lore=['{"text":"Used to create Magic Powder","color":"white","italic":false}'],minecraft:custom_name='{"text":"Mushroom","color":"red","italic":false}'] 1

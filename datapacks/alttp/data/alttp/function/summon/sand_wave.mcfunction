@@ -1,0 +1,3 @@
+summon item_display 6967.0 68.35 6955.0 {Tags:["sandwave","enemyCode","enemy"],item:{components:{"minecraft:custom_model_data":171},count:1,id:"minecraft:carrot_on_a_stick"},item_display:"ground",shadow_radius:106.0f,transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],translation:[0.0f,0.0f,0.0f]}}
+
+scoreboard players set @e[type=armor_stand,tag=enemyCode,limit=1,sort=nearest] eid 106

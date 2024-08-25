@@ -1,0 +1,1 @@
+give @p minecraft:carrot_on_a_stick[minecraft:custom_model_data=16,minecraft:lore=['{"text":"Found in the Tower of Hera","color":"white","italic":false}'],minecraft:custom_name='{"text":"Pendant of Wisdom","color":"dark_red","italic":false}'] 1

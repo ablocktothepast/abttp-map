@@ -1,0 +1,8 @@
+#Detect if the item is gone, if so clear inventory to prevent smuggling
+execute unless entity @s[nbt={Inventory:[{id:"minecraft:prismarine_shard",Slot:103b}]}] run clear @s prismarine_shard
+execute unless entity @s[nbt={Inventory:[{id:"minecraft:prismarine_shard",Slot:103b}]}] if score @s holding_id matches 1 run item replace entity @s armor.head with minecraft:prismarine_shard[minecraft:custom_model_data=1,minecraft:lore=['{"text":"Shift to throw!","color":"white","italic":false}'],minecraft:custom_name='{"text":"Held Item","color":"gold","italic":false}']
+execute unless entity @s[nbt={Inventory:[{id:"minecraft:prismarine_shard",Slot:103b}]}] if score @s holding_id matches 3 run item replace entity @s armor.head with minecraft:prismarine_shard[minecraft:custom_model_data=1,minecraft:lore=['{"text":"Shift to throw!","color":"white","italic":false}'],minecraft:custom_name='{"text":"Held Item","color":"gold","italic":false}']
+execute unless entity @s[nbt={Inventory:[{id:"minecraft:prismarine_shard",Slot:103b}]}] if score @s holding_id matches 4 run item replace entity @s armor.head with minecraft:prismarine_shard[minecraft:custom_model_data=2,minecraft:lore=['{"text":"Shift to throw!","color":"white","italic":false}'],minecraft:custom_name='{"text":"Held Item","color":"gold","italic":false}']
+execute unless entity @s[nbt={Inventory:[{id:"minecraft:prismarine_shard",Slot:103b}]}] if score @s holding_id matches 5 run item replace entity @s armor.head with minecraft:prismarine_shard[minecraft:custom_model_data=1,minecraft:lore=['{"text":"Shift to throw!","color":"white","italic":false}'],minecraft:custom_name='{"text":"Held Item","color":"gold","italic":false}']
+
+execute if score @s holding_id matches 2 run tp @e[type=chicken,tag=heldchick] ~ ~1.8 ~

@@ -1,0 +1,10 @@
+kill @e[type=item_display,tag=oakheart_alden]
+kill @e[type=text_display,tag=oakheart_alden]
+
+execute if score oakheart_alden_2 shops matches 1 run summon item_display -288 -11 700.8 {Rotation:[90.0f,0.0f],Tags:["shop_item","oakheart_alden","2"],item:{components:{"minecraft:custom_model_data":1},count:1,id:"minecraft:shield"}}
+execute if score oakheart_alden_3 shops matches 1 run summon item_display -290 -11 698 {Rotation:[-90.0f,0.0f],Tags:["shop_item","oakheart_alden","3"],item:{components:{"minecraft:custom_model_data":50},count:1,id:"minecraft:carrot_on_a_stick"}}
+execute if score oakheart_alden_4 shops matches 1 run summon item_display -288 -11 696 {Rotation:[0.0f,0.0f],Tags:["shop_item","oakheart_alden","4"],item:{components:{"minecraft:custom_model_data":19},count:1,id:"minecraft:carrot_on_a_stick"}}
+
+execute if score oakheart_alden_2 shops matches 1 run summon text_display -288 -12 700.0 {Rotation:[180.0f,0.0f],Tags:["shop_price","oakheart_alden","2"],background:16711680,text:'{"text":"\\uE005 75"}',transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.2f,1.2f,1.2f],translation:[0.0f,0.0f,0.0f]}}
+execute if score oakheart_alden_3 shops matches 1 run summon text_display -289.0 -12 698 {Rotation:[-90.0f,0.0f],Tags:["shop_price","oakheart_alden","3"],background:16711680,text:'{"text":"\\uE005 40"}',transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.2f,1.2f,1.2f],translation:[0.0f,0.0f,0.0f]}}
+execute if score oakheart_alden_4 shops matches 1 run summon text_display -288 -12 697.0 {Rotation:[0.0f,0.0f],Tags:["shop_price","oakheart_alden","4"],background:16711680,text:'{"text":"\\uE005 25"}',transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.2f,1.2f,1.2f],translation:[0.0f,0.0f,0.0f]}}

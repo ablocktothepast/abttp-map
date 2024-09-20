@@ -116,8 +116,8 @@ execute if score @s bombostick matches 54 run playsound minecraft:alttp.pegasus_
 execute if score @s bombostick matches 56 run playsound minecraft:alttp.pegasus_boots weather @a ~ ~ ~ 1 0.5
 execute if score @s bombostick matches 58 run playsound minecraft:alttp.pegasus_boots weather @a ~ ~ ~ 1 0.5
 
-execute if score @s bombostick matches 60 run function delta:api/explosion_sound
-execute if score @s bombostick matches 60 positioned ~ ~1 ~ run function delta:api/explosion_emitter_particle
+execute if score @s bombostick matches 60 run playsound minecraft:entity.tnt.primed weather @p
+execute if score @s bombostick matches 60 positioned ~ ~1 ~ run particle minecraft:explosion_emitter
 execute if score @s bombostick matches 60 positioned ~ ~1 ~ run particle minecraft:flame ~ ~1 ~ 5 1 5 0.25 100
 execute if score @s spw_e_11 matches 1 if score @s bombostick matches 60 run particle minecraft:explosion ~ ~1 ~ 10 0 10 1 100
 execute if score @s spw_e_11 matches 1 if score @s bombostick matches 60 run particle minecraft:flame ~ ~1 ~ 10 1 10 0.25 200

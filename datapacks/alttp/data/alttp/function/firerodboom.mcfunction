@@ -1,7 +1,7 @@
 effect give @e[distance=..5] minecraft:resistance 1 255 true
 effect give @p minecraft:resistance 1 255 true
-function delta:api/explosion_emitter_particle
-function delta:api/explosion_sound
+particle minecraft:explosion_emitter
+playsound minecraft:entity.tnt.primed weather @p
 execute as @e[tag=enemy,distance=..5,type=!armor_stand] run damage @s 10
 tag @e[type=zombie,tag=gibdozo,distance=..5] add firerodhit
 

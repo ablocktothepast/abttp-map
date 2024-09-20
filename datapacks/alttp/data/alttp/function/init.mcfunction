@@ -9,8 +9,6 @@ scoreboard objectives add dist_traveled dummy
 scoreboard objectives add e_hit minecraft.custom:damage_dealt
 scoreboard objectives add st_bomb dummy
 scoreboard objectives add arrows dummy
-scoreboard objectives add arrows_fire dummy
-scoreboard objectives add arrows_ice dummy
 scoreboard objectives add arrows_silver dummy
 scoreboard objectives add arrows_bomb dummy
 scoreboard objectives add arrows_selected dummy
@@ -283,9 +281,10 @@ scoreboard objectives add crystal_4 dummy
 scoreboard objectives add crystal_5 dummy
 scoreboard objectives add crystal_6 dummy
 scoreboard objectives add crystal_7 dummy
-scoreboard objectives add hasquiver dummy
 scoreboard objectives add hasbombbag dummy
 scoreboard objectives add hasquestbook dummy
+scoreboard objectives add rupeepouchlevel dummy
+scoreboard objectives add quiverlevel dummy
 
 #SET SCORES
 scoreboard players set $strength delta.api.launch 12500

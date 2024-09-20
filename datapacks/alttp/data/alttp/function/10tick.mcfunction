@@ -67,10 +67,14 @@ scoreboard players set arrowupdate dummy 0
 execute if score @p arrows_selected matches 0 run scoreboard players set arrowupdate dummy 1
 execute if score @p arrows_selected matches 0 if score @p arrows matches 1.. run scoreboard players set @p arrows_selected 1
 execute if score @p arrows_selected matches 0 if score @p arrows_silver matches 1.. run scoreboard players set @p arrows_selected 2
-execute if score @p arrows_selected matches 0 if score @p arrows_fire matches 1.. run scoreboard players set @p arrows_selected 3
-execute if score @p arrows_selected matches 0 if score @p arrows_ice matches 1.. run scoreboard players set @p arrows_selected 4
-execute if score @p arrows_selected matches 0 if score @p arrows_bomb matches 1.. run scoreboard players set @p arrows_selected 5
+execute if score @p arrows_selected matches 0 if score @p arrows_bomb matches 1.. run scoreboard players set @p arrows_selected 3
 execute unless score @p arrows_selected matches 0 if score arrowupdate dummy matches 1 as @p at @s run function alttp:pin/arrows
+
+#ARROW CHANGES
+execute unless score old_arrow dummy = @p arrows run function alttp:arrows_update
+execute unless score old_arrowsilver dummy = @p arrows_silver run function alttp:arrows_update
+execute unless score old_arrowbomb dummy = @p arrows_bomb run function alttp:arrows_update
+execute unless score old_quiver dummy = @p quiverlevel run function alttp:arrows_update
 
 #RESCHEDULE
 schedule function alttp:10tick 10t

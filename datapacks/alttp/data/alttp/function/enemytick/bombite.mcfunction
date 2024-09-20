@@ -15,7 +15,7 @@ execute if score @s enemydummy matches 1.. run particle smoke ~ ~ ~ 0.2 0.3 0.2 
 execute if score @s enemydummy matches 1.. run effect give @e[type=silverfish,tag=link_b] speed 1 1 true
 execute if score @s enemydummy matches 75.. run particle flame ~ ~ ~ 0.2 0.3 0.2 0.05 5 force
 execute if score @s enemydummy matches 100.. run summon creeper ~ ~1.5 ~ {Fuse:0,ignited:1b,Attributes:[{Name:generic.attack_damage,Base:1}]}
-execute if score @s enemydummy matches 100.. run function delta:api/explosion_emitter_particle
+execute if score @s enemydummy matches 100.. run particle minecraft:explosion_emitter
 execute if score @s enemydummy matches 100.. run kill @e[type=silverfish,tag=link_b]
 execute if score @s enemydummy matches 100.. run kill @s
 

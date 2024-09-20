@@ -1,2 +1,0 @@
-$execute unless entity @p[nbt={SelectedItemSlot:8}] run item replace entity @s hotbar.8 with minecraft:arrow[minecraft:custom_model_data=1,minecraft:custom_name='{"text":"Fire Arrow","color":"red","italic":false}'] $(arrows)
-$execute if entity @p[nbt={SelectedItemSlot:8}] run item replace entity @s hotbar.8 with minecraft:ender_eye[minecraft:custom_model_data=4,minecraft:custom_name='{"text":"Fire Arrow","color":"red","italic":false}'] $(arrows)

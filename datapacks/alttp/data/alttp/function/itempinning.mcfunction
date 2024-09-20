@@ -32,26 +32,14 @@ execute if score @s shotarrow matches 1.. run function alttp:arrowshot
 execute unless score @s arrows_selected matches 0.. run scoreboard players set @s arrows_selected 1
 execute if score arrowselectcool dummy matches 1.. run scoreboard players remove arrowselectcool dummy 1
 execute if entity @s[nbt={SelectedItemSlot:8}] if score @s endereye matches 1 unless score arrowselectcool dummy matches 1.. run scoreboard players add @s arrows_selected 1
-execute if entity @s[nbt={SelectedItemSlot:8}] if score @s endereye matches 1 run scoreboard players set arrowselectcool dummy 2
-execute if score @s arrows_selected matches 6.. run scoreboard players set @s arrows_selected 1
+execute if entity @s[nbt={SelectedItemSlot:8}] if score @s endereye matches 1 unless score arrowselectcool dummy matches 1.. run function alttp:pin/arrows
+execute if entity @s[nbt={SelectedItemSlot:8}] if score @s endereye matches 1 run scoreboard players set arrowselectcool dummy 8
+execute if score @s arrows_selected matches 4.. run scoreboard players set @s arrows_selected 1
 execute store result score @s dummy run data get entity @s Inventory[{Slot:8b}].Count
-execute if score @s arrows_selected matches 1 store result score arrowselectamount dummy run scoreboard players get @s arrows
-execute if score @s arrows_selected matches 2 store result score arrowselectamount dummy run scoreboard players get @s arrows_silver
-execute if score @s arrows_selected matches 3 store result score arrowselectamount dummy run scoreboard players get @s arrows_fire
-execute if score @s arrows_selected matches 4 store result score arrowselectamount dummy run scoreboard players get @s arrows_ice
-execute if score @s arrows_selected matches 5 store result score arrowselectamount dummy run scoreboard players get @s arrows_bomb
-execute unless score @s dummy = arrowselectamount dummy run clear @s arrow
-execute if score @s arrows_selected matches 1.. unless score @s dummy = arrowselectamount dummy run function alttp:pin/arrows
-execute if score @s arrows_selected matches 1.. if score @s dummy matches 0 run function alttp:pin/arrows
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:arrow"},SelectedItemSlot:8}] run function alttp:pin/arrows
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:spectral_arrow"},SelectedItemSlot:8}] run function alttp:pin/arrows
-execute unless entity @s[nbt={SelectedItemSlot:8}] if entity @s[nbt={Inventory:[{id:"minecraft:ender_eye",Slot:8b}]}] run function alttp:pin/arrows
-execute if score @s arrows_selected matches 0 unless entity @s[nbt={Inventory:[{id:"minecraft:barrier",Slot:8b,components:{"minecraft:custom_name":'{"color":"red","italic":false,"text":"Out of arrows!"}',"minecraft:custom_model_data":1}}]}] run function alttp:pin/arrows
-execute if score @s arrows_selected matches 1 if entity @s[nbt={SelectedItemSlot:8}] unless entity @s[nbt={Inventory:[{id:"minecraft:ender_eye",Slot:8b,components:{"minecraft:custom_model_data":2}}]}] run function alttp:pin/arrows
-execute if score @s arrows_selected matches 2 if entity @s[nbt={SelectedItemSlot:8}] unless entity @s[nbt={Inventory:[{id:"minecraft:ender_eye",Slot:8b,components:{"minecraft:custom_model_data":3}}]}] run function alttp:pin/arrows
-execute if score @s arrows_selected matches 3 if entity @s[nbt={SelectedItemSlot:8}] unless entity @s[nbt={Inventory:[{id:"minecraft:ender_eye",Slot:8b,components:{"minecraft:custom_model_data":4}}]}] run function alttp:pin/arrows
-execute if score @s arrows_selected matches 4 if entity @s[nbt={SelectedItemSlot:8}] unless entity @s[nbt={Inventory:[{id:"minecraft:ender_eye",Slot:8b,components:{"minecraft:custom_model_data":5}}]}] run function alttp:pin/arrows
-execute if score @s arrows_selected matches 5 if entity @s[nbt={SelectedItemSlot:8}] unless entity @s[nbt={Inventory:[{id:"minecraft:ender_eye",Slot:8b,components:{"minecraft:custom_model_data":6}}]}] run function alttp:pin/arrows
+execute if score @s arrows_selected matches 1.. unless entity @s[nbt={SelectedItemSlot:8}] if entity @s[nbt={Inventory:[{id:"minecraft:ender_eye",Slot:8b}]}] run function alttp:pin/arrows
+execute if entity @s[nbt={SelectedItemSlot:8}] unless entity @s[nbt={Inventory:[{id:"minecraft:ender_eye",Slot:8b}]}] run function alttp:pin/arrows
 
 execute if score @p bombs > @p bombsmax store result score @p bombs run scoreboard players get @p bombsmax
 

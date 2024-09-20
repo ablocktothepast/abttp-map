@@ -123,9 +123,10 @@ scoreboard players set @a crystal_4 0
 scoreboard players set @a crystal_5 0
 scoreboard players set @a crystal_6 0
 scoreboard players set @a crystal_7 0
-scoreboard players set @a hasquiver 0
 scoreboard players set @a hasbombbag 0
 scoreboard players set @a hasquestbook 0
+scoreboard players set @a rupeepouchlevel 0
+scoreboard players set @a quiverlevel 0
 
 scoreboard objectives remove keys
 scoreboard objectives add keys dummy

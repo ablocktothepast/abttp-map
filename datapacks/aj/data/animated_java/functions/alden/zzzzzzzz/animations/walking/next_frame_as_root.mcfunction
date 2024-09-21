@@ -1,1 +1,0 @@
-function animated_java:alden/zzzzzzzz/animations/walking/tick_animation

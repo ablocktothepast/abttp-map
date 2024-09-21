@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..100 run function animated_java:percival/zzzzzzzz/animations/emote_sitting/tree/branch_0_100

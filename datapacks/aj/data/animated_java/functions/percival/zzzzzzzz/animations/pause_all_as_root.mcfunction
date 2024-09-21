@@ -1,6 +1,0 @@
-function animated_java:percival/zzzzzzzz/animations/idle/pause_as_root
-function animated_java:percival/zzzzzzzz/animations/walking/pause_as_root
-function animated_java:percival/zzzzzzzz/animations/running/pause_as_root
-function animated_java:percival/zzzzzzzz/animations/idle_sitting/pause_as_root
-function animated_java:percival/zzzzzzzz/animations/idle_sitting_grin/pause_as_root
-function animated_java:percival/zzzzzzzz/animations/emote_sitting/pause_as_root

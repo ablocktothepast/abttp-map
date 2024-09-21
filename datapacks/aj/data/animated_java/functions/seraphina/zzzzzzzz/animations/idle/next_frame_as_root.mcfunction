@@ -1,1 +1,0 @@
-function animated_java:seraphina/zzzzzzzz/animations/idle/tick_animation

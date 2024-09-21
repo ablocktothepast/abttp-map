@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.amara.root] run function animated_java:amara/zzzzzzzz/tick_as_root

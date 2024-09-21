@@ -1,1 +1,2 @@
-execute if score # gameplay matches 12 if score firstbatch gameplay matches 1 if score 3 quests_2_progress matches 2 run function alttp:gameplay_impulse/melissa_flippedswitch
+execute store result score questprog dummy run data get storage minecraft:quests main[{id:3}].progress
+execute if score # gameplay matches 12 if score firstbatch gameplay matches 1 if score questprog dummy matches 2 run function alttp:gameplay_impulse/melissa_flippedswitch

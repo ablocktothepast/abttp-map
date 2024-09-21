@@ -1,1 +1,0 @@
-function animated_java:tristan/zzzzzzzz/animations/walking/tick_animation

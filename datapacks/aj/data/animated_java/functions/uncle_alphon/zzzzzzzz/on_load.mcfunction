@@ -1,2 +1,0 @@
-scoreboard players set @s aj.uncle_alphon.rig_loaded 1
-execute unless score @s aj.uncle_alphon.export_version = aj.uncle_alphon.export_version aj.i at @s run function animated_java:uncle_alphon/zzzzzzzz/mark_outdated_rig

@@ -87,5 +87,8 @@ execute if score tpair dummy matches 0 run data merge entity @e[type=area_effect
 execute unless score tpair dummy matches 0 run data merge entity @e[type=area_effect_cloud,tag=dialogue_lock_aec,limit=1] {Air:0}
 
 ##Controls
-execute if score choicedialogue dialogue matches 1 run bossbar set minecraft:dialoguecontrols name [{"keybind":"key.attack"},{"text":" to continue"},{"text":" | ","color":"gray"},{"text":"Scroll to select choices"}]
-execute if score choicedialogue dialogue matches 0 run bossbar set minecraft:dialoguecontrols name [{"keybind":"key.attack"},{"text":" to continue"}]
+execute if score choicedialogue dialogue matches 1 run bossbar set minecraft:dialoguecontrols name [{"text":"\uF80D\uF80C"},{"keybind":"key.attack"},{"text":" to continue"},{"text":" | ","color":"gray"},{"text":"Scroll to select choices"}]
+execute if score choicedialogue dialogue matches 0 run bossbar set minecraft:dialoguecontrols name [{"text":"\uF80E"},{"keybind":"key.attack"},{"text":" to continue"}]
+execute if score choicedialogue dialogue matches 1 run bossbar set minecraft:dialoguebars name "\uE089"
+execute if score choicedialogue dialogue matches 0 run bossbar set minecraft:dialoguebars name "\uE017"
+execute if score active dialogue matches 0 run bossbar set dialoguebars name "\uE090"

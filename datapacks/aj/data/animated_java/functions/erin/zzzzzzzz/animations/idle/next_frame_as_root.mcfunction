@@ -1,1 +1,0 @@
-function animated_java:erin/zzzzzzzz/animations/idle/tick_animation

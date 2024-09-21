@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.owen.root] run function animated_java:owen/zzzzzzzz/tick_as_root

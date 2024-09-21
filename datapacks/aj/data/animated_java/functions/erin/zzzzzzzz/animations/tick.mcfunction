@@ -1,2 +1,0 @@
-execute if entity @s[tag=aj.erin.animation.running] run function animated_java:erin/zzzzzzzz/animations/running/tick
-execute if entity @s[tag=aj.erin.animation.idle] run function animated_java:erin/zzzzzzzz/animations/idle/tick

@@ -1,1 +1,0 @@
-function animated_java:elowen/zzzzzzzz/animations/walking/tick_animation

@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.villager_link.root] run function animated_java:villager_link/zzzzzzzz/tick_as_root

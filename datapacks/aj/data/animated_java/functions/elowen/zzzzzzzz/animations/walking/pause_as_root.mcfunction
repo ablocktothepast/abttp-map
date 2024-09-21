@@ -1,1 +1,0 @@
-tag @s remove aj.elowen.animation.walking

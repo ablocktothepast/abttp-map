@@ -1,1 +1,0 @@
-execute if score @s aj.anim_time matches 0..20 run function animated_java:background_picture_with_camera/zzzzzzzz/animations/animation/tree/branch_0_20

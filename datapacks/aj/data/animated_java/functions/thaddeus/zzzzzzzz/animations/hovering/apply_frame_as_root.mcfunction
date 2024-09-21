@@ -1,1 +1,0 @@
-execute if score @s aj.anim_time matches 0..120 run function animated_java:thaddeus/zzzzzzzz/animations/hovering/tree/branch_0_120

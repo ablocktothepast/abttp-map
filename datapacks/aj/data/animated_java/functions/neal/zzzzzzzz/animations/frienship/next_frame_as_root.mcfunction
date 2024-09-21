@@ -1,1 +1,0 @@
-function animated_java:neal/zzzzzzzz/animations/frienship/tick_animation

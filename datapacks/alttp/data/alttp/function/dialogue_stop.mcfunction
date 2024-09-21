@@ -20,4 +20,5 @@ scoreboard players set angle dialogue 0
 execute if score id dialogue matches 401..404 if score # gameplay matches ..13 as @e[type=item_display,tag=erin] run function animated_java:erin/animations/idle/stop
 execute if score id dialogue matches 401..404 if score # gameplay matches ..13 as @e[type=item_display,tag=erin] run function animated_java:erin/animations/running/play
 
+bossbar set dialoguebars name "\uE090"
 bossbar set dialoguecontrols visible false

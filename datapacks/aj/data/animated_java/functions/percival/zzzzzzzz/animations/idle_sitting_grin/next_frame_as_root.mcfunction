@@ -1,1 +1,0 @@
-function animated_java:percival/zzzzzzzz/animations/idle_sitting_grin/tick_animation

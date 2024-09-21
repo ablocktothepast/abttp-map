@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.bertram.animation.idle] run function animated_java:bertram/zzzzzzzz/animations/idle/tick

@@ -1,1 +1,0 @@
-execute if score @s aj.anim_time matches 0..120 run function animated_java:neal/zzzzzzzz/animations/sleepy/tree/branch_0_120

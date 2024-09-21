@@ -13,6 +13,7 @@ execute if score # gameplay matches 5..11 run scoreboard players set id dialogue
 execute if score # gameplay matches 12 if score firstbatch gameplay matches 1 run scoreboard players set id dialogue 402
 execute if score # gameplay matches 12 if score firstbatch gameplay matches 2..3 run scoreboard players set id dialogue 403
 execute if score # gameplay matches 13.. run scoreboard players set id dialogue 404
-execute if score # gameplay matches 14 if score secondbatch gameplay matches 1 if score 6 quests_2_progress matches 5 run scoreboard players set id dialogue 405
+execute store result score questprog dummy run data get storage minecraft:quests main[{id:6}].progress
+execute if score # gameplay matches 14 if score secondbatch gameplay matches 1 if score questprog dummy matches 5 run scoreboard players set id dialogue 405
 
 execute if score # gameplay matches 5.. run function alttp:dialogue_start

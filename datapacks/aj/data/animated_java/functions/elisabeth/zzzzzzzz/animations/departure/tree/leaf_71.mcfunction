@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:elisabeth/zzzzzzzz/animations/departure/tree/leaf_71_as_bone

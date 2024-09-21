@@ -1,0 +1,1 @@
+function animated_java:villager_link/zzzzzzzz/animations/idle_sitting/tick_animation

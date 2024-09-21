@@ -1,0 +1,6 @@
+function animated_java:villager_link/zzzzzzzz/animations/waking_up/pause_as_root
+function animated_java:villager_link/zzzzzzzz/animations/idle/pause_as_root
+function animated_java:villager_link/zzzzzzzz/animations/walking/pause_as_root
+function animated_java:villager_link/zzzzzzzz/animations/surprised/pause_as_root
+function animated_java:villager_link/zzzzzzzz/animations/idle_sitting/pause_as_root
+function animated_java:villager_link/zzzzzzzz/animations/emote_sitting/pause_as_root

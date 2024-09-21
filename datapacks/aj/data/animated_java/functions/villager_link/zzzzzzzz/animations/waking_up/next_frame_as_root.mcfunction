@@ -1,1 +1,0 @@
-function animated_java:villager_link/zzzzzzzz/animations/waking_up/tick_animation

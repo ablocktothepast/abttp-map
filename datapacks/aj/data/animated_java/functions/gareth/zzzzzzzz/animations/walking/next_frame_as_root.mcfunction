@@ -1,1 +1,0 @@
-function animated_java:gareth/zzzzzzzz/animations/walking/tick_animation

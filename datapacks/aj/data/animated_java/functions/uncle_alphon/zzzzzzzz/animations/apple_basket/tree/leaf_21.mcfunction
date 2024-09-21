@@ -1,2 +1,0 @@
-execute on passengers run function animated_java:uncle_alphon/zzzzzzzz/animations/apple_basket/tree/leaf_21_as_bone
-function animated_java:uncle_alphon/zzzzzzzz/apply_variant/uncle_eyes_closed/as_root

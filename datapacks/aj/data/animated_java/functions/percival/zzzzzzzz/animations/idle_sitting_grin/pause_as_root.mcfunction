@@ -1,1 +1,0 @@
-tag @s remove aj.percival.animation.idle_sitting_grin

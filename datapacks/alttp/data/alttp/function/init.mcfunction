@@ -243,10 +243,6 @@ scoreboard objectives add questlist dummy
 scoreboard objectives add questsulist dummy
 scoreboard objectives add quests_1 dummy
 scoreboard objectives add quests_2 dummy
-scoreboard objectives add quests_1_completed dummy
-scoreboard objectives add quests_2_completed dummy
-scoreboard objectives add quests_1_progress dummy
-scoreboard objectives add quests_2_progress dummy
 scoreboard objectives add dungeondoor dummy
 scoreboard objectives add dungeon_room dummy
 scoreboard objectives add eid dummy

@@ -1,6 +1,0 @@
-function animated_java:elisabeth/zzzzzzzz/animations/idle/pause_as_root
-function animated_java:elisabeth/zzzzzzzz/animations/running/pause_as_root
-function animated_java:elisabeth/zzzzzzzz/animations/emote/pause_as_root
-function animated_java:elisabeth/zzzzzzzz/animations/departure/pause_as_root
-function animated_java:elisabeth/zzzzzzzz/animations/was_found/pause_as_root
-function animated_java:elisabeth/zzzzzzzz/animations/frienship/pause_as_root

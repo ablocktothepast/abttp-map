@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:percival/zzzzzzzz/apply_variant/percival_grin/as_bone

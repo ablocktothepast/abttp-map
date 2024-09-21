@@ -1,0 +1,1 @@
+function animated_java:uncle_alphon/zzzzzzzz/animations/walking/tick_animation

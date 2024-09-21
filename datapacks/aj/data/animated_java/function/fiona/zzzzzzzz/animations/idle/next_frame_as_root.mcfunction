@@ -1,0 +1,1 @@
+function animated_java:fiona/zzzzzzzz/animations/idle/tick_animation

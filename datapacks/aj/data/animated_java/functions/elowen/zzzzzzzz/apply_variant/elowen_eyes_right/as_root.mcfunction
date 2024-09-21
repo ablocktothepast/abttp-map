@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:elowen/zzzzzzzz/apply_variant/elowen_eyes_right/as_bone

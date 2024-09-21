@@ -1,0 +1,2 @@
+execute if entity @s[tag=aj.cedric.animation.idle] run function animated_java:cedric/zzzzzzzz/animations/idle/tick
+execute if entity @s[tag=aj.cedric.animation.walking] run function animated_java:cedric/zzzzzzzz/animations/walking/tick

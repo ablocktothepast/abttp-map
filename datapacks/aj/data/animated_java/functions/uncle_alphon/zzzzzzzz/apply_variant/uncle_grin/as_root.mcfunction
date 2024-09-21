@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:uncle_alphon/zzzzzzzz/apply_variant/uncle_grin/as_bone

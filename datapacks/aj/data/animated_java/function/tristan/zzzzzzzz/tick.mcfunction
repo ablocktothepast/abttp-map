@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.tristan.root] run function animated_java:tristan/zzzzzzzz/tick_as_root

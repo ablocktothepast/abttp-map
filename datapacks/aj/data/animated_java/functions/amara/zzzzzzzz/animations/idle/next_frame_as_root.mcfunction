@@ -1,1 +1,0 @@
-function animated_java:amara/zzzzzzzz/animations/idle/tick_animation

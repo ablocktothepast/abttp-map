@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.fiona.root] run function animated_java:fiona/zzzzzzzz/tick_as_root

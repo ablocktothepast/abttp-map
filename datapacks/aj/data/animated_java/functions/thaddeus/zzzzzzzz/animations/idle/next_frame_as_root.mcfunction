@@ -1,1 +1,0 @@
-function animated_java:thaddeus/zzzzzzzz/animations/idle/tick_animation

@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:elisabeth/zzzzzzzz/apply_variant/elisabeth_face_normal/as_bone

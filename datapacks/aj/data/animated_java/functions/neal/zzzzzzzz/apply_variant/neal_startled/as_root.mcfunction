@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:neal/zzzzzzzz/apply_variant/neal_startled/as_bone

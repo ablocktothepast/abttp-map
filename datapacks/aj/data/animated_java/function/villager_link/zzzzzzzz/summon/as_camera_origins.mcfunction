@@ -1,0 +1,2 @@
+execute if entity @s[tag=aj.villager_link.camera_origin.camera] run function animated_java:villager_link/zzzzzzzz/summon/camera_camera/as_origin
+function #animated_java:villager_link/on_summon/as_camera_origins

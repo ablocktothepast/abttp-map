@@ -1,1 +1,0 @@
-function animated_java:cedric/zzzzzzzz/animations/idle/tick_animation

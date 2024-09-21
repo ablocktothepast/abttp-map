@@ -1,1 +1,0 @@
-function animated_java:melissa/zzzzzzzz/animations/sweeping/tick_animation

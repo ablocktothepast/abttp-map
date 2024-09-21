@@ -1,1 +1,0 @@
-execute if score @s aj.anim_time matches 0..130 run function animated_java:villager_link/zzzzzzzz/animations/idle_sitting/tree/branch_0_130

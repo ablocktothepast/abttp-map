@@ -1,2 +1,0 @@
-scoreboard players set @s aj.elisabeth.rig_loaded 1
-execute unless score @s aj.elisabeth.export_version = aj.elisabeth.export_version aj.i at @s run function animated_java:elisabeth/zzzzzzzz/mark_outdated_rig

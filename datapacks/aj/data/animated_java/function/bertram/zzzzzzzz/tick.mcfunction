@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.bertram.root] run function animated_java:bertram/zzzzzzzz/tick_as_root

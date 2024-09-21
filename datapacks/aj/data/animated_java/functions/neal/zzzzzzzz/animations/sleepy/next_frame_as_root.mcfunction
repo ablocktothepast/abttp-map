@@ -1,1 +1,0 @@
-function animated_java:neal/zzzzzzzz/animations/sleepy/tick_animation

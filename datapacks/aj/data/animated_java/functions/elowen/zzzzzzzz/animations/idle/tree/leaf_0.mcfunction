@@ -1,2 +1,0 @@
-execute on passengers run function animated_java:elowen/zzzzzzzz/animations/idle/tree/leaf_0_as_bone
-function animated_java:elowen/zzzzzzzz/apply_variant/elowen_normal_face/as_root

@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:bernard/zzzzzzzz/animations/emote/tree/leaf_66_as_bone

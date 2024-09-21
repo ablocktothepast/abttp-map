@@ -1,0 +1,19 @@
+
+execute if entity @s[tag=aj.background_picture_with_camera.bone.rightleg2] run data modify entity @s item.tag.CustomModelData set value 311
+execute if entity @s[tag=aj.background_picture_with_camera.bone.leftleg2] run data modify entity @s item.tag.CustomModelData set value 312
+execute if entity @s[tag=aj.background_picture_with_camera.bone.head4] run data modify entity @s item.tag.CustomModelData set value 313
+execute if entity @s[tag=aj.background_picture_with_camera.bone.rightarm] run data modify entity @s item.tag.CustomModelData set value 314
+execute if entity @s[tag=aj.background_picture_with_camera.bone.leftarm2] run data modify entity @s item.tag.CustomModelData set value 315
+execute if entity @s[tag=aj.background_picture_with_camera.bone.torso3] run data modify entity @s item.tag.CustomModelData set value 316
+execute if entity @s[tag=aj.background_picture_with_camera.bone.head3] run data modify entity @s item.tag.CustomModelData set value 317
+execute if entity @s[tag=aj.background_picture_with_camera.bone.leftarm] run data modify entity @s item.tag.CustomModelData set value 318
+execute if entity @s[tag=aj.background_picture_with_camera.bone.righarm] run data modify entity @s item.tag.CustomModelData set value 319
+execute if entity @s[tag=aj.background_picture_with_camera.bone.torso2] run data modify entity @s item.tag.CustomModelData set value 320
+execute if entity @s[tag=aj.background_picture_with_camera.bone.leftleg] run data modify entity @s item.tag.CustomModelData set value 321
+execute if entity @s[tag=aj.background_picture_with_camera.bone.rightleg] run data modify entity @s item.tag.CustomModelData set value 322
+execute if entity @s[tag=aj.background_picture_with_camera.bone.torso] run data modify entity @s item.tag.CustomModelData set value 323
+execute if entity @s[tag=aj.background_picture_with_camera.bone.right_arm] run data modify entity @s item.tag.CustomModelData set value 324
+execute if entity @s[tag=aj.background_picture_with_camera.bone.left_arm] run data modify entity @s item.tag.CustomModelData set value 325
+execute if entity @s[tag=aj.background_picture_with_camera.bone.head] run data modify entity @s item.tag.CustomModelData set value 326
+execute if entity @s[tag=aj.background_picture_with_camera.bone.left_leg] run data modify entity @s item.tag.CustomModelData set value 327
+execute if entity @s[tag=aj.background_picture_with_camera.bone.right_leg] run data modify entity @s item.tag.CustomModelData set value 328

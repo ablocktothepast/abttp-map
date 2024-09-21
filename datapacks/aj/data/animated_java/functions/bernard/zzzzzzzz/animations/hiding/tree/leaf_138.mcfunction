@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:bernard/zzzzzzzz/animations/hiding/tree/leaf_138_as_bone

@@ -1,1 +1,0 @@
-function animated_java:bernard/zzzzzzzz/animations/hiding/tick_animation

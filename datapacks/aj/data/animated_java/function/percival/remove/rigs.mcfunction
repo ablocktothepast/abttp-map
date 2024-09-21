@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item_display,tag=aj.percival.root] run function animated_java:percival/zzzzzzzz/remove/as_root

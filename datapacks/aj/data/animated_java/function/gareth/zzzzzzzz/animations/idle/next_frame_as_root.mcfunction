@@ -1,0 +1,1 @@
+function animated_java:gareth/zzzzzzzz/animations/idle/tick_animation

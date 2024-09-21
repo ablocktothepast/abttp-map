@@ -1,0 +1,1 @@
+tag @s remove aj.background_picture_with_camera.animation.animation

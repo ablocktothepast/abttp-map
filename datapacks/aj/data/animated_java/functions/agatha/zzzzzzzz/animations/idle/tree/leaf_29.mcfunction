@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:agatha/zzzzzzzz/animations/idle/tree/leaf_29_as_bone

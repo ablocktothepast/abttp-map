@@ -1,1 +1,0 @@
-execute if score @s aj.anim_time matches 0..64 run function animated_java:uncle_alphon/zzzzzzzz/animations/apple_basket/tree/branch_0_64

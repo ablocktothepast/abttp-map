@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.melissa.root] run function animated_java:melissa/zzzzzzzz/tick_as_root

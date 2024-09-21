@@ -9,4 +9,4 @@ clear @s filled_map
 # scoreboard players set @s map_sneak 0
 # scoreboard players set . intercool 10
 
-tellraw @p "The map has been temporarily disabled and is under construction."
+#tellraw @p "The map has been temporarily disabled and is under construction."

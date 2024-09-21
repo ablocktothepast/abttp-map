@@ -1,0 +1,1 @@
+function animated_java:amara/zzzzzzzz/animations/emote/tick_animation

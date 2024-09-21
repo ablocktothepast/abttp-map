@@ -1,1 +1,0 @@
-function animated_java:amara/zzzzzzzz/animations/shrug/tick_animation

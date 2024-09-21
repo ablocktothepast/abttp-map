@@ -1,3 +1,5 @@
+execute store result score questprog dummy run data get storage minecraft:quests main[{id:6}].progress
+
 execute if score # gameplay matches 5..14 positioned -309 -2 609 run tp @e[tag=unclestart] -309 -2 609 37 0
 execute if score # gameplay matches 5..14 run tag @e[tag=unclestart] add npcfocus
 
@@ -13,8 +15,8 @@ execute if score # gameplay matches 12 run scoreboard players set id dialogue 23
 execute if score # gameplay matches 13 run scoreboard players set id dialogue 236
 execute if score # gameplay matches 14 if score secondbatch gameplay matches 2 positioned -309 -2 609 if entity @e[tag=muckyspider,distance=..10] run scoreboard players set id dialogue 259
 execute if score # gameplay matches 14 if score secondbatch gameplay matches 2 positioned -309 -2 609 unless entity @e[tag=muckyspider,distance=..10] run scoreboard players set id dialogue 260
-execute if score # gameplay matches 14 if score secondbatch gameplay matches 1 if score 6 quests_2_progress matches 1..4 run scoreboard players set id dialogue 266
-execute if score # gameplay matches 14 if score secondbatch gameplay matches 1 if score 6 quests_2_progress matches 5 run scoreboard players set id dialogue 267
+execute if score # gameplay matches 14 if score secondbatch gameplay matches 1 if score questprog dummy matches 1..4 run scoreboard players set id dialogue 266
+execute if score # gameplay matches 14 if score secondbatch gameplay matches 1 if score questprog dummy matches 5 run scoreboard players set id dialogue 267
 
 execute if score # gameplay matches 5..14 run function alttp:dialogue_start
 

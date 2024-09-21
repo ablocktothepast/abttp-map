@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:thaddeus/zzzzzzzz/animations/standing_up/tree/leaf_16_as_bone

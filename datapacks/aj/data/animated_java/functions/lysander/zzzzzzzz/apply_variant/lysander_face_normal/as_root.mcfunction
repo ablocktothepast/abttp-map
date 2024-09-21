@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:lysander/zzzzzzzz/apply_variant/lysander_face_normal/as_bone

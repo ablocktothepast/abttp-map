@@ -1,1 +1,0 @@
-function animated_java:neal/zzzzzzzz/animations/running/tick_animation

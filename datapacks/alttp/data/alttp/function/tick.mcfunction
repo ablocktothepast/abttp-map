@@ -215,7 +215,7 @@ execute as @a unless entity @s[scores={set_damage=0}] run function alttp:set_dam
 
 #DIALOGUE SYSTEM
 execute if score active dialogue matches 1 run function alttp:dialoguetick
-execute if score active dialogue matches 0 run function alttp:dialogue_untick
+execute if score active dialogue matches 0 if score dialoguetransition dummy matches 0 run function alttp:dialogue_untick
 
 #ITEM AND MAP INTERACTION COOLDOWN SYSTEM
 execute if score . intercool matches 1.. run scoreboard players remove . intercool 1

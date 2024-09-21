@@ -1,1 +1,0 @@
-tag @s remove aj.bernard.animation.was_found

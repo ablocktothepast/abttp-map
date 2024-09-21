@@ -1,1 +1,0 @@
-function animated_java:amara/zzzzzzzz/animations/clap/tick_animation

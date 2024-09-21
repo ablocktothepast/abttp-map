@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.lysander.bone.head] run data modify entity @s {} merge value {transformation:[-1f,0f,1.2246467991473532e-16f,3.827021247335479e-18f,0f,1f,0f,0.875f,-1.2246467991473532e-16f,0f,-1f,-0.03125f,0f,0f,0f,1f],start_interpolation:0}

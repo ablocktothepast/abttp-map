@@ -1,1 +1,0 @@
-function animated_java:bernard/zzzzzzzz/animations/frienship/tick_animation

@@ -1,0 +1,1 @@
+tag @s remove aj.thaddeus.animation.idle

@@ -1,0 +1,2 @@
+function animated_java:elowen/zzzzzzzz/animations/idle/pause_as_root
+function animated_java:elowen/zzzzzzzz/animations/walking/pause_as_root

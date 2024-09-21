@@ -1,2 +1,0 @@
-scoreboard players set @s aj.seraphina.rig_loaded 1
-execute unless score @s aj.seraphina.export_version = aj.seraphina.export_version aj.i at @s run function animated_java:seraphina/zzzzzzzz/mark_outdated_rig

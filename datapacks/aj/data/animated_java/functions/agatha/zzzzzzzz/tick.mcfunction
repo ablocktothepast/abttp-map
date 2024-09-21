@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.agatha.root] run function animated_java:agatha/zzzzzzzz/tick_as_root

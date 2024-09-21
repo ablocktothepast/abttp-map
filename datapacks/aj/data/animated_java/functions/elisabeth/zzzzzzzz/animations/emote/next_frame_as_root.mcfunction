@@ -1,1 +1,0 @@
-function animated_java:elisabeth/zzzzzzzz/animations/emote/tick_animation

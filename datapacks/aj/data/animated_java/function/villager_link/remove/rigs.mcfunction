@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item_display,tag=aj.villager_link.root] run function animated_java:villager_link/zzzzzzzz/remove/as_root

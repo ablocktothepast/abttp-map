@@ -1,5 +1,0 @@
-function animated_java:melissa/zzzzzzzz/animations/idle/pause_as_root
-function animated_java:melissa/zzzzzzzz/animations/sweeping/pause_as_root
-function animated_java:melissa/zzzzzzzz/animations/blush/pause_as_root
-function animated_java:melissa/zzzzzzzz/animations/offended/pause_as_root
-function animated_java:melissa/zzzzzzzz/animations/walking/pause_as_root

@@ -1,0 +1,1 @@
+tag @s remove aj.lysander.animation.emote_sitting

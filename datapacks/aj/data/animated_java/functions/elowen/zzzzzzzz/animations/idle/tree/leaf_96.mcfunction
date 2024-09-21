@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:elowen/zzzzzzzz/animations/idle/tree/leaf_96_as_bone

@@ -1,1 +1,0 @@
-execute if score @s aj.anim_time matches 0..170 run function animated_java:villager_link/zzzzzzzz/animations/waking_up/tree/branch_0_170

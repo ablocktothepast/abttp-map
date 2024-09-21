@@ -1,1 +1,0 @@
-function animated_java:fiona/zzzzzzzz/animations/emote/tick_animation

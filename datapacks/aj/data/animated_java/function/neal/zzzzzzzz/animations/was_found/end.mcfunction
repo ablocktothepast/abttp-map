@@ -1,0 +1,3 @@
+execute if score @s aj.neal.animation.was_found.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:neal/zzzzzzzz/animations/was_found/end_loop
+execute if score @s aj.neal.animation.was_found.loop_mode = $aj.loop_mode.once aj.i run function animated_java:neal/animations/was_found/stop
+execute if score @s aj.neal.animation.was_found.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:neal/animations/was_found/pause

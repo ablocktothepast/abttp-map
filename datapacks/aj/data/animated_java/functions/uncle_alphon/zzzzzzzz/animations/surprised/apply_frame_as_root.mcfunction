@@ -1,1 +1,0 @@
-execute if score @s aj.anim_time matches 0..50 run function animated_java:uncle_alphon/zzzzzzzz/animations/surprised/tree/branch_0_50

@@ -1,0 +1,3 @@
+execute if score @s aj.amara.animation.clap.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:amara/zzzzzzzz/animations/clap/end_loop
+execute if score @s aj.amara.animation.clap.loop_mode = $aj.loop_mode.once aj.i run function animated_java:amara/animations/clap/stop
+execute if score @s aj.amara.animation.clap.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:amara/animations/clap/pause

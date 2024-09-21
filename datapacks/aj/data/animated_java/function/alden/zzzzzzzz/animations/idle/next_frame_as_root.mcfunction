@@ -1,0 +1,1 @@
+function animated_java:alden/zzzzzzzz/animations/idle/tick_animation

@@ -1,1 +1,0 @@
-function animated_java:bertram/zzzzzzzz/animations/idle/pause_as_root

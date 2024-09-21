@@ -1,1 +1,0 @@
-tag @s remove aj.thaddeus.animation.standing_up

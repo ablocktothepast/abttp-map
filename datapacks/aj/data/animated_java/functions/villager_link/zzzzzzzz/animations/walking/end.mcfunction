@@ -1,3 +1,0 @@
-execute if score @s aj.villager_link.animation.walking.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:villager_link/zzzzzzzz/animations/walking/end_loop
-execute if score @s aj.villager_link.animation.walking.loop_mode = $aj.loop_mode.once aj.i run function animated_java:villager_link/animations/walking/stop
-execute if score @s aj.villager_link.animation.walking.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:villager_link/animations/walking/pause

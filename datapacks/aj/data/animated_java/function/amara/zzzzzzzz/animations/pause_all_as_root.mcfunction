@@ -1,0 +1,6 @@
+function animated_java:amara/zzzzzzzz/animations/idle/pause_as_root
+function animated_java:amara/zzzzzzzz/animations/running/pause_as_root
+function animated_java:amara/zzzzzzzz/animations/shrug/pause_as_root
+function animated_java:amara/zzzzzzzz/animations/idle_sitting/pause_as_root
+function animated_java:amara/zzzzzzzz/animations/emote/pause_as_root
+function animated_java:amara/zzzzzzzz/animations/clap/pause_as_root

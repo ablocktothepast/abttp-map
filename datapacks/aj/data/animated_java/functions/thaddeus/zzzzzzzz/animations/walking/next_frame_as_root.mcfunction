@@ -1,1 +1,0 @@
-function animated_java:thaddeus/zzzzzzzz/animations/walking/tick_animation

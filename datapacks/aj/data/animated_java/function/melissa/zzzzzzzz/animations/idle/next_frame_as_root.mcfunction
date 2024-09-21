@@ -1,0 +1,1 @@
+function animated_java:melissa/zzzzzzzz/animations/idle/tick_animation

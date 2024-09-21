@@ -29,7 +29,8 @@ execute if score # gameplay matches 15.. run summon armor_stand -295 -14 635 {Ha
 execute as @e[type=item_display,tag=aj.thaddeus.root] run function animated_java:thaddeus/remove/this
 kill @e[type=armor_stand,tag=npc,tag=thaddeus]
 summon armor_stand -410 -8 680 {HandItems:[{components:{"minecraft:custom_model_data":291},count:1,id:"minecraft:carrot_on_a_stick"},{}],Invisible:1b,Marker:1b,Pose:{RightArm:[0.0f,0.0f,0.0f]},Rotation:[-90.0f,0.0f],Tags:["npc","thaddeus"]}
-execute if score # gameplay matches 12 if score firstbatch gameplay matches 2 if score 4 quests_2_progress matches 2.. unless score 4 quests_2_completed matches 1 run tp @e[type=armor_stand,tag=thaddeus] -401 -11 711 42 0
+execute store result score questprog dummy run data get storage minecraft:quests main[{id:4}].progress
+execute if score # gameplay matches 12 if score firstbatch gameplay matches 2 if score questprog dummy matches 2.. unless score 4 quests_2_completed matches 1 run tp @e[type=armor_stand,tag=thaddeus] -401 -11 711 42 0
 
 execute as @e[type=item_display,tag=aj.percival.root] run function animated_java:percival/remove/this
 kill @e[type=armor_stand,tag=npc,tag=percival]

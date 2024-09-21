@@ -1,1 +1,0 @@
-function animated_java:uncle_alphon/zzzzzzzz/animations/surprised/tick_animation

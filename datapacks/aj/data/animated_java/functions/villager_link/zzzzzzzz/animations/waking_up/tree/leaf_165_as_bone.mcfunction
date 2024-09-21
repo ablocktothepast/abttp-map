@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.villager_link.camera_origin.camera] at @s on origin run tp @s ^0 ^-0.0575 ^1.875 ~-180 ~0

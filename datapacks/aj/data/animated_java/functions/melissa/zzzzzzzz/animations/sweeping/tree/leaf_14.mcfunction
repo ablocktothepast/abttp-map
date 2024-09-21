@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:melissa/zzzzzzzz/animations/sweeping/tree/leaf_14_as_bone

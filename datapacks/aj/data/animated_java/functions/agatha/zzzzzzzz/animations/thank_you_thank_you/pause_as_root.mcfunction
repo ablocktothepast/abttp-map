@@ -1,1 +1,0 @@
-tag @s remove aj.agatha.animation.thank_you_thank_you

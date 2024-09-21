@@ -1,3 +1,0 @@
-execute if score @s aj.thaddeus.animation.running.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:thaddeus/zzzzzzzz/animations/running/end_loop
-execute if score @s aj.thaddeus.animation.running.loop_mode = $aj.loop_mode.once aj.i run function animated_java:thaddeus/animations/running/stop
-execute if score @s aj.thaddeus.animation.running.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:thaddeus/animations/running/pause

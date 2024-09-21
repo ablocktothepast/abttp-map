@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..50 run function animated_java:elisabeth/zzzzzzzz/animations/was_found/tree/branch_0_50

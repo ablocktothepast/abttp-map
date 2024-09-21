@@ -1,0 +1,1 @@
+function animated_java:lysander/zzzzzzzz/animations/quiz_result/tick_animation

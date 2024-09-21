@@ -1,0 +1,2 @@
+scoreboard players set @s aj.background_picture_with_camera.rig_loaded 1
+execute unless score @s aj.background_picture_with_camera.export_version = aj.background_picture_with_camera.export_version aj.i at @s run function animated_java:background_picture_with_camera/zzzzzzzz/mark_outdated_rig

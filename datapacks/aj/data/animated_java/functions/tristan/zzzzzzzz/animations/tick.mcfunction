@@ -1,2 +1,0 @@
-execute if entity @s[tag=aj.tristan.animation.walking] run function animated_java:tristan/zzzzzzzz/animations/walking/tick
-execute if entity @s[tag=aj.tristan.animation.idle] run function animated_java:tristan/zzzzzzzz/animations/idle/tick

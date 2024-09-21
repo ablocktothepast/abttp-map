@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..70 run function animated_java:villager_link/zzzzzzzz/animations/surprised/tree/branch_0_70

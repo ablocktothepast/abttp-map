@@ -1,1 +1,0 @@
-execute if score @s aj.anim_time matches 0..28 run function animated_java:erin/zzzzzzzz/animations/running/tree/branch_0_28

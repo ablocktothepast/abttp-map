@@ -1,1 +1,0 @@
-function animated_java:bernard/zzzzzzzz/animations/emote/tick_animation

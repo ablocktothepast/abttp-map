@@ -1,1 +1,0 @@
-tag @s remove aj.fiona.animation.walking

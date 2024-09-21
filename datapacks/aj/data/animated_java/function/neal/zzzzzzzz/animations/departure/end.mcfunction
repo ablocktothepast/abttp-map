@@ -1,0 +1,3 @@
+execute if score @s aj.neal.animation.departure.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:neal/zzzzzzzz/animations/departure/end_loop
+execute if score @s aj.neal.animation.departure.loop_mode = $aj.loop_mode.once aj.i run function animated_java:neal/animations/departure/stop
+execute if score @s aj.neal.animation.departure.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:neal/animations/departure/pause

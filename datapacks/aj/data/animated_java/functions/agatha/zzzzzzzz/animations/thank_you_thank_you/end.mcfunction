@@ -1,3 +1,0 @@
-execute if score @s aj.agatha.animation.thank_you_thank_you.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:agatha/zzzzzzzz/animations/thank_you_thank_you/end_loop
-execute if score @s aj.agatha.animation.thank_you_thank_you.loop_mode = $aj.loop_mode.once aj.i run function animated_java:agatha/animations/thank_you_thank_you/stop
-execute if score @s aj.agatha.animation.thank_you_thank_you.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:agatha/animations/thank_you_thank_you/pause

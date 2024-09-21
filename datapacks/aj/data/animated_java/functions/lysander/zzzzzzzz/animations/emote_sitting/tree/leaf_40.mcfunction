@@ -1,2 +1,0 @@
-execute on passengers run function animated_java:lysander/zzzzzzzz/animations/emote_sitting/tree/leaf_40_as_bone
-function animated_java:lysander/zzzzzzzz/apply_variant/lysander_eyes_left/as_root

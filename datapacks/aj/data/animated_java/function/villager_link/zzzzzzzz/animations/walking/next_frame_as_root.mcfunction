@@ -1,0 +1,1 @@
+function animated_java:villager_link/zzzzzzzz/animations/walking/tick_animation

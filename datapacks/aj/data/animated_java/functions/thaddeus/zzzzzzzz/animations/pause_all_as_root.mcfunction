@@ -1,6 +1,0 @@
-function animated_java:thaddeus/zzzzzzzz/animations/idle/pause_as_root
-function animated_java:thaddeus/zzzzzzzz/animations/walking/pause_as_root
-function animated_java:thaddeus/zzzzzzzz/animations/running/pause_as_root
-function animated_java:thaddeus/zzzzzzzz/animations/surprised/pause_as_root
-function animated_java:thaddeus/zzzzzzzz/animations/hovering/pause_as_root
-function animated_java:thaddeus/zzzzzzzz/animations/standing_up/pause_as_root

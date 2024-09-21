@@ -1,0 +1,1 @@
+function animated_java:percival/zzzzzzzz/animations/running/tick_animation

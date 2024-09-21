@@ -1,1 +1,0 @@
-execute on passengers run function animated_java:fiona/zzzzzzzz/animations/idle/tree/leaf_120_as_bone

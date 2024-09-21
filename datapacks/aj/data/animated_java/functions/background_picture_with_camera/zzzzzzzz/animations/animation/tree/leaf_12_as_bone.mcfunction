@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.background_picture_with_camera.camera_origin.camera] at @s on origin run tp @s ^0.09375 ^-0.3075 ^3.3125 ~178 ~0

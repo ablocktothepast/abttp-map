@@ -1,1 +1,0 @@
-execute if entity @s[tag=aj.background_picture_with_camera.animation.animation] run function animated_java:background_picture_with_camera/zzzzzzzz/animations/animation/tick

@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item_display,tag=aj.background_picture_with_camera.root] run function animated_java:background_picture_with_camera/zzzzzzzz/remove/as_root

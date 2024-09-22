@@ -1,7 +1,7 @@
 #RUN COMMANDS
 #HOTBAR TEXT
-execute if entity @p[gamemode=adventure] if score drowning dummy matches 1 run function alttp:hotbar_water
-execute if entity @p[gamemode=adventure] unless score drowning dummy matches 1 run function alttp:hotbar
+execute if entity @p[gamemode=adventure] if score drowning dummy matches 1 if score active dialogue matches 0 run function alttp:hotbar_water
+execute if entity @p[gamemode=adventure] unless score drowning dummy matches 1 if score active dialogue matches 0 run function alttp:hotbar
 
 #APPLY MAXMAGIC
 execute as @a at @s if score @s magic > @s magicmax store result score @s magic run scoreboard players get @s magicmax

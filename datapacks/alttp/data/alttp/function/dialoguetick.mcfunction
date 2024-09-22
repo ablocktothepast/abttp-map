@@ -87,8 +87,13 @@ execute if score tpair dummy matches 0 run data merge entity @e[type=area_effect
 execute unless score tpair dummy matches 0 run data merge entity @e[type=area_effect_cloud,tag=dialogue_lock_aec,limit=1] {Air:0}
 
 ##Controls
-execute if score choicedialogue dialogue matches 1 run bossbar set minecraft:dialoguecontrols name [{"text":"\uF80D\uF80C"},{"keybind":"key.attack"},{"text":" to continue"},{"text":" | ","color":"gray"},{"text":"Scroll to select choices"}]
-execute if score choicedialogue dialogue matches 0 run bossbar set minecraft:dialoguecontrols name [{"text":"\uF80E"},{"keybind":"key.attack"},{"text":" to continue"}]
-execute if score choicedialogue dialogue matches 1 run bossbar set minecraft:dialoguebars name "\uE089"
-execute if score choicedialogue dialogue matches 0 run bossbar set minecraft:dialoguebars name "\uE017"
-execute if score active dialogue matches 0 run bossbar set dialoguebars name "\uE090"
+#Scale 2
+execute if score dlscale options matches 2 if score choicedialogue dialogue matches 1 run bossbar set minecraft:dialoguecontrols name [{"text":"\uF803\uF808\uF80A\uF80B\uF80C\uF80D\uF80D"},{"text":"\uE091 to continue"},{"text":"\uF838 \uE093 to select choices"}]
+execute if score dlscale options matches 2 if score choicedialogue dialogue matches 0 run bossbar set minecraft:dialoguecontrols name [{"text":"\uF80A\uF80B\uF80D\uF80E"},{"text":"\uE091 to continue"}]
+execute if score dlscale options matches 2 run bossbar set minecraft:dialoguebars name "\uE017"
+
+#Scale 3
+execute if score dlscale options matches 3 if score choicedialogue dialogue matches 1 run bossbar set minecraft:dialoguecontrols name [{"text":"\uF803\uF807\uF80A\uF80C\uF80D"},{"text":"\uE091 to continue"},{"text":"\uF838 \uE093 to select choices"}]
+execute if score dlscale options matches 3 if score choicedialogue dialogue matches 0 run bossbar set minecraft:dialoguecontrols name [{"text":"\uF80A\uF80E"},{"text":"\uE091 to continue"}]
+execute if score dlscale options matches 3 if score choicedialogue dialogue matches 1 run bossbar set minecraft:dialoguebars name "\uE089"
+execute if score dlscale options matches 3 if score choicedialogue dialogue matches 0 run bossbar set minecraft:dialoguebars name "\uE092"

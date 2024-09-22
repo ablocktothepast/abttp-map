@@ -34,6 +34,11 @@ execute at @p run summon item_display ~ ~ ~ {Tags:["dialogue_na"],billboard:"cen
 
 execute at @p run summon interaction ~ ~ ~ {Tags:["dialogue_in"],height:4,width:4}
 
+bossbar remove dialoguespace
+bossbar add dialoguespace ""
+bossbar set dialoguespace players @p
+bossbar set dialoguespace visible true
+
 bossbar remove dialoguecontrols
 bossbar add dialoguecontrols ""
 bossbar set dialoguecontrols players @p

@@ -9,7 +9,7 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",count:1
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_model_data":9}}}] unless score @s magic matches 1.. run tellraw @s {"text":"You're out of magic!","color":"dark_red"}
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_model_data":9}}}] if score @s magic matches 1.. run function alttp:usemagicpowder
 
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_model_data":284,"minecraft:custom_data":{active:0}}}}] run function alttp:bombuse
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_model_data":284,"minecraft:custom_data":{active:0}}}}] run function alttp:bombuse
 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_model_data":284,"minecraft:custom_data":{active:1}}}}] run function alttp:activebombuse
 

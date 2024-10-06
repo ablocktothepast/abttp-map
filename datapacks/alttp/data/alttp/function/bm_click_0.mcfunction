@@ -15,7 +15,7 @@ execute if score slot bm matches 5 if score @p bottle_1 matches 0.. run function
 execute if score slot bm matches 7 if score @p spw_u_18 matches 1 run function alttp:bm_iclick/7
 execute if score slot bm matches 8 if score @p spw_u_20 matches 1 run function alttp:bm_iclick/8
 execute if score slot bm matches 9 if score @p spw_u_5 matches 1 run function alttp:bm_iclick/9
-execute if score slot bm matches 10 if score @p spw_u_13 matches 1 run function alttp:bm_iclick/10
+#execute if score slot bm matches 10 if score @p spw_u_13 matches 1 run function alttp:bm_iclick/10
 execute if score slot bm matches 11 if score @p spw_u_10 matches 1 run function alttp:bm_iclick/11
 execute if score slot bm matches 12 if score @p bottle_2 matches 0.. run function alttp:bm_iclick/12
 

@@ -42,9 +42,9 @@ execute if score dlspeed options matches 3 run scoreboard players add letterInde
 execute if score dlspeed options matches 4 run scoreboard players add letterIndex dialogue 4
 execute unless score letterIndex dialogue < length dialogue if score stillless dialogue matches 1 run function alttp:dialogue_ids
 execute if score letterIndex dialogue < length dialogue run function alttp:dialogue_ids
-execute if score letterIndex dialogue >= length dialogue run data merge entity @e[type=item_display,tag=dialogue_na,limit=1] {transformation:{scale:[0.04f,0.04f,0f]}}
-execute if score letterIndex dialogue < length dialogue run data merge entity @e[type=item_display,tag=dialogue_na,limit=1] {transformation:{scale:[0f,0f,0f]}}
-execute if score choicedialogue dialogue matches 1 run data merge entity @e[type=item_display,tag=dialogue_na,limit=1] {transformation:{scale:[0f,0f,0f]}}
+execute if score letterIndex dialogue >= length dialogue run data merge entity @e[type=text_display,tag=dialogue_na,limit=1] {transformation:{scale:[0.07f,0.07f,0f]}}
+execute if score letterIndex dialogue < length dialogue run data merge entity @e[type=text_display,tag=dialogue_na,limit=1] {transformation:{scale:[0f,0f,0f]}}
+execute if score choicedialogue dialogue matches 1 run data merge entity @e[type=text_display,tag=dialogue_na,limit=1] {transformation:{scale:[0f,0f,0f]}}
 scoreboard players add na_float dialogue 1
 execute if score na_float dialogue matches 20.. run scoreboard players set na_float dialogue 0
 

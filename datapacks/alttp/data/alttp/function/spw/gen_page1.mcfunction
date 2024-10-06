@@ -14,9 +14,9 @@ execute if score @s boomerangtier matches 3 if score @s spw_u_2 matches 1 run it
 #3 - hookshot
 execute if score @s spw_u_3 matches 1 run item replace entity @s inventory.2 with carrot_on_a_stick{display:{Name:'{"text":"Hookshot","color":"gray","italic":false}',Lore:['{"text":"Right-click to shoot!","color":"white","italic":false}']},CustomModelData:7} 1
 execute if score @s spw_e_3 matches 1 if score @s spw_u_3 matches 1 run item replace entity @s inventory.2 with carrot_on_a_stick{Enchantments:[{}],display:{Name:'{"text":"Hookshot","color":"gray","italic":false}',Lore:['{"text":"Right-click to shoot!","color":"white","italic":false}']},CustomModelData:7} 1
-#18 - magic hammer
-execute unless score @s spw_e_18 matches 1 if score @s spw_u_18 matches 1 run item replace entity @s inventory.3 with carrot_on_a_stick{display:{Name:'{"text":"Magic Hammer","color":"red","italic":false}',Lore:['{"text":"Right-click to smash!","color":"white","italic":false}']},CustomModelData:62} 1
-execute if score @s spw_e_18 matches 1 if score @s spw_u_18 matches 1 run item replace entity @s inventory.3 with carrot_on_a_stick{Enchantments:[{}],display:{Name:'{"text":"Magic Hammer","color":"red","italic":false}',Lore:['{"text":"Right-click to smash!","color":"white","italic":false}']},CustomModelData:62} 1
+#18 - Megaton Hammer
+execute unless score @s spw_e_18 matches 1 if score @s spw_u_18 matches 1 run item replace entity @s inventory.3 with carrot_on_a_stick{display:{Name:'{"text":"Megaton Hammer","color":"red","italic":false}',Lore:['{"text":"Right-click to smash!","color":"white","italic":false}']},CustomModelData:62} 1
+execute if score @s spw_e_18 matches 1 if score @s spw_u_18 matches 1 run item replace entity @s inventory.3 with carrot_on_a_stick{Enchantments:[{}],display:{Name:'{"text":"Megaton Hammer","color":"red","italic":false}',Lore:['{"text":"Right-click to smash!","color":"white","italic":false}']},CustomModelData:62} 1
 #5 - magic powder
 execute if score @s spw_u_5 matches 1 run item replace entity @s inventory.4 with carrot_on_a_stick{display:{Name:'{"text":"Magic Powder","color":"aqua","italic":false}',Lore:['{"text":"Sprinkle it on your foes!","color":"white","italic":false}']},CustomModelData:9} 1
 execute if score @s spw_e_5 matches 1 if score @s spw_u_5 matches 1 run item replace entity @s inventory.4 with carrot_on_a_stick{Enchantments:[{}],display:{Name:'{"text":"Magic Powder","color":"aqua","italic":false}',Lore:['{"text":"Sprinkle it on your foes!","color":"white","italic":false}']},CustomModelData:9} 1

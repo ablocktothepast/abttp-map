@@ -1,5 +1,3 @@
-say e
-
 execute if score @p bombs matches 0 run item replace entity @p hotbar.2 with minecraft:barrier[minecraft:custom_model_data=2,minecraft:lore=['{"text":"You\'re all out of bombs to throw!","color":"white","italic":false}'],minecraft:custom_name='{"text":"Out of bombs!","color":"dark_red","italic":false}'] 1
 execute if score @p bombs matches 0 run return 0
 
